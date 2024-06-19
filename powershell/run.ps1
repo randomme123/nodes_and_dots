@@ -1,7 +1,7 @@
 # Define variables
-$buildDir = "C:\Users\desto\Scripts\projects\nodes_and_dots\game\build"
+$buildDir = "C:\Users\desto\Scripts\projects\nodes_and_dots\cpp\build"
 $exeFile = "$buildDir\Debug\nodes_and_dots.exe"
-$projectDir = "C:\Users\desto\Scripts\projects\nodes_and_dots\game"
+$projectDir = "C:\Users\desto\Scripts\projects\nodes_and_dots\cpp"
 
 # Execute the built application
 if (Test-Path $exeFile) {

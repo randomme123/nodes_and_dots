@@ -1,5 +1,5 @@
 # Define variables
-$buildDir = "C:\Users\desto\Scripts\projects\nodes_and_dots\game\build"
+$buildDir = "C:\Users\desto\Scripts\projects\nodes_and_dots\cpp\build"
 
 # Function to check if a directory is in use
 function Test-DirectoryInUse {

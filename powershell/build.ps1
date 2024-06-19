@@ -1,5 +1,5 @@
 # Define variables
-$projectDir = "C:\Users\desto\Scripts\projects\nodes_and_dots\game"
+$projectDir = "C:\Users\desto\Scripts\projects\nodes_and_dots\cpp"
 $buildDir = "$projectDir\build"
 $vcpkgToolchainFile = "C:/Tools/vcpkg/scripts/buildsystems/vcpkg.cmake"
 $sfmlBinDir = "C:\Tools\vcpkg\installed\x64-windows\bin"
