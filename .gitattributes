@@ -1,0 +1,12 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Explicitly declare text files you want to always normalize line endings
+*.c text
+*.cpp text
+*.h text
+*.hpp text
+*.json text
+*.md text
+*.sh text
+*.ps1 text
