@@ -4,11 +4,11 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/game",
-                "${workspaceFolder}/game/src",
-                "${workspaceFolder}/game/src/rendering",
-                "${workspaceFolder}/game/src/utils",
-                "${workspaceFolder}/game/src/objects",
+                "${workspaceFolder}/cpp",
+                "${workspaceFolder}/cpp/src",
+                "${workspaceFolder}/cpp/src/rendering",
+                "${workspaceFolder}/cpp/src/utils",
+                "${workspaceFolder}/cpp/src/objects",
                 "${vcpkgRoot}/x64-windows/include"
             ],
             "defines": [

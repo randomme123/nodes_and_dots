@@ -1,4 +1,12 @@
 {
+    "files.exclude": {
+        "**/.git": true,
+        "**/.gitignore": true,
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/*.log": true,
+        "**/*.gitattributes": true
+    },
     "files.associations": {
         "cmath": "cpp",
         "compare": "cpp",
@@ -100,5 +108,5 @@
         "xstring": "cpp",
         "xtree": "cpp"
     },
-    "cmake.sourceDirectory": "C:/Users/desto/Scripts/projects/nodes_and_dots/game"
+    "cmake.sourceDirectory": "C:/Users/desto/Scripts/projects/nodes_and_dots/cpp"
 }
