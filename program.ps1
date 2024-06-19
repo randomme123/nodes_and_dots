@@ -7,6 +7,9 @@
 # Clean up the build directory
 & "C:\Users\desto\Scripts\projects\nodes_and_dots\powershell\clean.ps1"
 
+# start ssh service
+& "C:\Users\desto\Scripts\projects\nodes_and_dots\powershell\sshagent.ps1"
+
 # Commit everything to github
 & "C:\Users\desto\Scripts\projects\nodes_and_dots\powershell\commit.ps1"
 
