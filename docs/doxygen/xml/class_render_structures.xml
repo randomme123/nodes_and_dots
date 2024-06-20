@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_render_structures" kind="class" language="C++" prot="public">
+    <compoundname>RenderStructures</compoundname>
+    <includes refid="_render_structures_8hpp" local="no">RenderStructures.hpp</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_render_structures_1a619936d5e33839cdbeee68d6d68ac01f" prot="private" static="no" mutable="no">
+        <type>const std::vector&lt; std::unique_ptr&lt; <ref refid="class_structure" kindref="compound">Structure</ref> &gt; &gt; &amp;</type>
+        <definition>const std::vector&lt;std::unique_ptr&lt;Structure&gt; &gt;&amp; RenderStructures::structures</definition>
+        <argsstring></argsstring>
+        <name>structures</name>
+        <qualifiedname>RenderStructures::structures</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/RenderStructures.hpp" line="13" column="23" bodyfile="cpp/src/rendering/RenderStructures.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_render_structures_1a5eae11740e87e18b886db093d3170ed7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RenderStructures::draw</definition>
+        <argsstring>(sf::RenderWindow &amp;window) const</argsstring>
+        <name>draw</name>
+        <qualifiedname>RenderStructures::draw</qualifiedname>
+        <param>
+          <type>sf::RenderWindow &amp;</type>
+          <declname>window</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/RenderStructures.hpp" line="10" column="10" bodyfile="cpp/src/rendering/RenderStructures.cpp" bodystart="5" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_render_structures_1aad0e2c8aee73acdc300c766d3d0f7864" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>RenderStructures::RenderStructures</definition>
+        <argsstring>(const std::vector&lt; std::unique_ptr&lt; Structure &gt; &gt; &amp;structures)</argsstring>
+        <name>RenderStructures</name>
+        <qualifiedname>RenderStructures::RenderStructures</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::unique_ptr&lt; <ref refid="class_structure" kindref="compound">Structure</ref> &gt; &gt; &amp;</type>
+          <declname>structures</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/RenderStructures.hpp" line="9" column="5" bodyfile="cpp/src/rendering/RenderStructures.cpp" bodystart="3" bodyend="3"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cpp/src/rendering/RenderStructures.hpp" line="7" column="1" bodyfile="cpp/src/rendering/RenderStructures.hpp" bodystart="7" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_render_structures_1a5eae11740e87e18b886db093d3170ed7" prot="public" virt="non-virtual"><scope>RenderStructures</scope><name>draw</name></member>
+      <member refid="class_render_structures_1aad0e2c8aee73acdc300c766d3d0f7864" prot="public" virt="non-virtual"><scope>RenderStructures</scope><name>RenderStructures</name></member>
+      <member refid="class_render_structures_1a619936d5e33839cdbeee68d6d68ac01f" prot="private" virt="non-virtual"><scope>RenderStructures</scope><name>structures</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

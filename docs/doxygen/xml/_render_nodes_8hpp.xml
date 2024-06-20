@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="_render_nodes_8hpp" kind="file" language="C++">
+    <compoundname>RenderNodes.hpp</compoundname>
+    <includes local="no">SFML/Graphics.hpp</includes>
+    <includedby refid="_render_8hpp" local="yes">cpp/src/rendering/Render.hpp</includedby>
+    <includedby refid="_render_nodes_8cpp" local="yes">cpp/src/rendering/RenderNodes.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>cpp/src/rendering/RenderNodes.hpp</label>
+        <link refid="_render_nodes_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SFML/Graphics.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>cpp/src/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="4">
+        <label>cpp/src/rendering/Render.cpp</label>
+        <link refid="_render_8cpp"/>
+      </node>
+      <node id="2">
+        <label>cpp/src/rendering/Render.hpp</label>
+        <link refid="_render_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>cpp/src/rendering/RenderNodes.cpp</label>
+        <link refid="_render_nodes_8cpp"/>
+      </node>
+      <node id="1">
+        <label>cpp/src/rendering/RenderNodes.hpp</label>
+        <link refid="_render_nodes_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_render_nodes" prot="public">RenderNodes</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>RENDER_NODES_HPP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RENDER_NODES_HPP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;SFML/Graphics.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_render_nodes" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_render_nodes" kindref="compound">RenderNodes</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_render_nodes_1a84b0d48cf22f24f7d85950f287e2b3eb" kindref="member">RenderNodes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::pair&lt;float,<sp/>float&gt;&gt;&amp;<sp/><ref refid="class_render_nodes_1aa0d419951d99790eb61911995fbdf3d2" kindref="member">coords</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;bool&gt;&amp;<sp/><ref refid="class_render_nodes_1aa4ab9bc88ac29c6f7b51e44bb7bad56c" kindref="member">keep_node</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;bool&gt;&amp;<sp/><ref refid="class_render_nodes_1a14c27ad14ccfddfa6fcafe16ab5c9837" kindref="member">selected</ref>);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_render_nodes_1af1d4b87e86e67ce80f20207a812581f2" kindref="member">draw</ref>(sf::RenderWindow&amp;<sp/>window)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="12" refid="class_render_nodes_1aa0d419951d99790eb61911995fbdf3d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::pair&lt;float,<sp/>float&gt;&gt;&amp;<sp/><ref refid="class_render_nodes_1aa0d419951d99790eb61911995fbdf3d2" kindref="member">coords</ref>;</highlight></codeline>
+<codeline lineno="13" refid="class_render_nodes_1aa4ab9bc88ac29c6f7b51e44bb7bad56c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;bool&gt;&amp;<sp/><ref refid="class_render_nodes_1aa4ab9bc88ac29c6f7b51e44bb7bad56c" kindref="member">keep_node</ref>;</highlight></codeline>
+<codeline lineno="14" refid="class_render_nodes_1a14c27ad14ccfddfa6fcafe16ab5c9837" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;bool&gt;&amp;<sp/><ref refid="class_render_nodes_1a14c27ad14ccfddfa6fcafe16ab5c9837" kindref="member">selected</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>RENDER_NODES_HPP</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="cpp/src/rendering/RenderNodes.hpp"/>
+  </compounddef>
+</doxygen>

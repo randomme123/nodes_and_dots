@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="_render_structures_8cpp" kind="file" language="C++">
+    <compoundname>RenderStructures.cpp</compoundname>
+    <includes refid="_render_structures_8hpp" local="yes">RenderStructures.hpp</includes>
+    <incdepgraph>
+      <node id="12">
+        <label>Graph.hpp</label>
+        <link refid="_graph_8hpp"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>StructureConfig.hpp</label>
+        <link refid="_structure_config_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Structures.hpp</label>
+        <link refid="_structures_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>cpp/src/rendering/RenderStructures.cpp</label>
+        <link refid="_render_structures_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RenderStructures.hpp</label>
+        <link refid="_render_structures_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>SFML/Graphics.hpp</label>
+      </node>
+      <node id="14">
+        <label>boost/graph/adjacency_list.hpp</label>
+      </node>
+      <node id="9">
+        <label>chrono</label>
+      </node>
+      <node id="11">
+        <label>iostream</label>
+      </node>
+      <node id="6">
+        <label>map</label>
+      </node>
+      <node id="7">
+        <label>memory</label>
+      </node>
+      <node id="10">
+        <label>random</label>
+      </node>
+      <node id="5">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>utility</label>
+      </node>
+      <node id="13">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_render_structures_8hpp" kindref="compound">RenderStructures.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="class_render_structures_1aad0e2c8aee73acdc300c766d3d0f7864" kindref="member">RenderStructures::RenderStructures</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::unique_ptr&lt;Structure&gt;&gt;&amp;<sp/>structures)<sp/>:<sp/>structures(structures)<sp/>{}</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_render_structures_1a5eae11740e87e18b886db093d3170ed7" kindref="member">RenderStructures::draw</ref>(sf::RenderWindow&amp;<sp/>window)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>structure<sp/>:<sp/><ref refid="class_render_structures_1a619936d5e33839cdbeee68d6d68ac01f" kindref="member">structures</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sf::RectangleShape<sp/>structure_shape(sf::Vector2f(10,<sp/>10));</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>structure_shape.setFillColor(structure-&gt;getColor());</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sf::Vector2f<sp/>position<sp/>=<sp/>structure-&gt;getPosition();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>structure_shape.setPosition(position.x<sp/>-<sp/>structure_shape.getSize().x<sp/>/<sp/>2,<sp/>position.y<sp/>-<sp/>structure_shape.getSize().y<sp/>/<sp/>2);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>window.draw(structure_shape);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="cpp/src/rendering/RenderStructures.cpp"/>
+  </compounddef>
+</doxygen>

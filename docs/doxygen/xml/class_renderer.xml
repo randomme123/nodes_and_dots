@@ -1,0 +1,495 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_renderer" kind="class" language="C++" prot="public">
+    <compoundname>Renderer</compoundname>
+    <includes refid="_render_8hpp" local="no">Render.hpp</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_renderer_1aa09fb3162679f71daed1421dfee7d04a" prot="private" static="no" mutable="no">
+        <type>const std::vector&lt; std::pair&lt; float, float &gt; &gt; &amp;</type>
+        <definition>const std::vector&lt;std::pair&lt;float, float&gt; &gt;&amp; Renderer::coords</definition>
+        <argsstring></argsstring>
+        <name>coords</name>
+        <qualifiedname>Renderer::coords</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="35" column="23" bodyfile="cpp/src/rendering/Render.hpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_renderer_1a1380c3068cf99b99cf91e2e2cd0f7c60" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Renderer::field_size</definition>
+        <argsstring></argsstring>
+        <name>field_size</name>
+        <qualifiedname>Renderer::field_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="34" column="11" bodyfile="cpp/src/rendering/Render.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_renderer_1a87128150aae7435ab1241f6f1aa097b2" prot="private" static="no" mutable="no">
+        <type>const <ref refid="_graph_8hpp_1a4158a12566a53ab55345e02a783fe275" kindref="member">Graph</ref> &amp;</type>
+        <definition>const Graph&amp; Renderer::graph</definition>
+        <argsstring></argsstring>
+        <name>graph</name>
+        <qualifiedname>Renderer::graph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="36" column="17" bodyfile="cpp/src/rendering/Render.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_renderer_1a34d547c29197b1ddea2c36a1ffebdf55" prot="private" static="no" mutable="no">
+        <type><ref refid="class_graph_manager" kindref="compound">GraphManager</ref> &amp;</type>
+        <definition>GraphManager&amp; Renderer::graphManager</definition>
+        <argsstring></argsstring>
+        <name>graphManager</name>
+        <qualifiedname>Renderer::graphManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="38" column="18" bodyfile="cpp/src/rendering/Render.hpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_renderer_1aed177cd201a10b5685c28fa0bda6f6fa" prot="private" static="no" mutable="no">
+        <type>const std::vector&lt; bool &gt; &amp;</type>
+        <definition>const std::vector&lt;bool&gt;&amp; Renderer::keep_node</definition>
+        <argsstring></argsstring>
+        <name>keep_node</name>
+        <qualifiedname>Renderer::keep_node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="37" column="23" bodyfile="cpp/src/rendering/Render.hpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_renderer_1a6b6b2a16a4a53338daaa8036c4e77e37" prot="private" static="no" mutable="no">
+        <type><ref refid="class_render_edges" kindref="compound">RenderEdges</ref></type>
+        <definition>RenderEdges Renderer::renderEdges</definition>
+        <argsstring></argsstring>
+        <name>renderEdges</name>
+        <qualifiedname>Renderer::renderEdges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="47" column="17" bodyfile="cpp/src/rendering/Render.hpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_renderer_1aca9c0bbd11948e7d4dd2f2cd40ea9691" prot="private" static="no" mutable="no">
+        <type><ref refid="class_render_nodes" kindref="compound">RenderNodes</ref></type>
+        <definition>RenderNodes Renderer::renderNodes</definition>
+        <argsstring></argsstring>
+        <name>renderNodes</name>
+        <qualifiedname>Renderer::renderNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="48" column="17" bodyfile="cpp/src/rendering/Render.hpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_renderer_1a0ddea53515bc1d7540ebf2589c3279f3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_render_ships" kindref="compound">RenderShips</ref></type>
+        <definition>RenderShips Renderer::renderShips</definition>
+        <argsstring></argsstring>
+        <name>renderShips</name>
+        <qualifiedname>Renderer::renderShips</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="49" column="17" bodyfile="cpp/src/rendering/Render.hpp" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_renderer_1adaf1df2abef2669b08c66da2c8b96243" prot="private" static="no" mutable="no">
+        <type><ref refid="class_render_structures" kindref="compound">RenderStructures</ref></type>
+        <definition>RenderStructures Renderer::renderStructures</definition>
+        <argsstring></argsstring>
+        <name>renderStructures</name>
+        <qualifiedname>Renderer::renderStructures</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="50" column="22" bodyfile="cpp/src/rendering/Render.hpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_renderer_1a973dfffd5b2c8bbf755a6e3c55a16cf6" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; bool &gt;</type>
+        <definition>std::vector&lt;bool&gt; Renderer::selected</definition>
+        <argsstring></argsstring>
+        <name>selected</name>
+        <qualifiedname>Renderer::selected</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="43" column="17" bodyfile="cpp/src/rendering/Render.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_renderer_1a1449cd3e19a0df2329ba28b047902e2d" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; Renderer::selected_nodes</definition>
+        <argsstring></argsstring>
+        <name>selected_nodes</name>
+        <qualifiedname>Renderer::selected_nodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="44" column="17" bodyfile="cpp/src/rendering/Render.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_renderer_1a49bde59d9c6f01479bf0850736278fcc" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ship" kindref="compound">Ship</ref> *</type>
+        <definition>Ship* Renderer::selected_ship</definition>
+        <argsstring></argsstring>
+        <name>selected_ship</name>
+        <qualifiedname>Renderer::selected_ship</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="45" column="10" bodyfile="cpp/src/rendering/Render.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_renderer_1ac4da751407105538c7effe0c10b31197" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_ship" kindref="compound">Ship</ref> &gt; &amp;</type>
+        <definition>std::vector&lt;Ship&gt;&amp; Renderer::ships</definition>
+        <argsstring></argsstring>
+        <name>ships</name>
+        <qualifiedname>Renderer::ships</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="39" column="17" bodyfile="cpp/src/rendering/Render.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_renderer_1a9bdeae50aed2aba3ded8fca26c9bd3a7" prot="private" static="no" mutable="no">
+        <type>const std::vector&lt; std::unique_ptr&lt; <ref refid="class_structure" kindref="compound">Structure</ref> &gt; &gt; &amp;</type>
+        <definition>const std::vector&lt;std::unique_ptr&lt;Structure&gt; &gt;&amp; Renderer::structures</definition>
+        <argsstring></argsstring>
+        <name>structures</name>
+        <qualifiedname>Renderer::structures</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="40" column="23" bodyfile="cpp/src/rendering/Render.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_renderer_1a98d1e247438153ac29206239cbdb5991" prot="private" static="no" mutable="no">
+        <type>sf::View</type>
+        <definition>sf::View Renderer::view</definition>
+        <argsstring></argsstring>
+        <name>view</name>
+        <qualifiedname>Renderer::view</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="42" column="14" bodyfile="cpp/src/rendering/Render.hpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_renderer_1ae1305d9f61946b39c7bd62105aa56a7b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Renderer::viewport_height</definition>
+        <argsstring></argsstring>
+        <name>viewport_height</name>
+        <qualifiedname>Renderer::viewport_height</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="33" column="11" bodyfile="cpp/src/rendering/Render.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_renderer_1a8d97659892a9b7f37026d6e9cca4d4c0" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Renderer::viewport_width</definition>
+        <argsstring></argsstring>
+        <name>viewport_width</name>
+        <qualifiedname>Renderer::viewport_width</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="32" column="11" bodyfile="cpp/src/rendering/Render.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_renderer_1a9bc2d445720d565550dc200ba1f47564" prot="private" static="no" mutable="no">
+        <type>sf::RenderWindow</type>
+        <definition>sf::RenderWindow Renderer::window</definition>
+        <argsstring></argsstring>
+        <name>window</name>
+        <qualifiedname>Renderer::window</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="41" column="22" bodyfile="cpp/src/rendering/Render.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_renderer_1a4bce39d51fd4adace367d4c482051d13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Renderer::Renderer</definition>
+        <argsstring>(float viewport_width, float viewport_height, float field_size, const std::vector&lt; std::pair&lt; float, float &gt; &gt; &amp;coords, const Graph &amp;graph, const std::vector&lt; bool &gt; &amp;keep_node, GraphManager &amp;graphManager, std::vector&lt; Ship &gt; &amp;ships, const std::vector&lt; std::unique_ptr&lt; Structure &gt; &gt; &amp;structures)</argsstring>
+        <name>Renderer</name>
+        <qualifiedname>Renderer::Renderer</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>viewport_width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>viewport_height</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>field_size</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::pair&lt; float, float &gt; &gt; &amp;</type>
+          <declname>coords</declname>
+        </param>
+        <param>
+          <type>const <ref refid="_graph_8hpp_1a4158a12566a53ab55345e02a783fe275" kindref="member">Graph</ref> &amp;</type>
+          <declname>graph</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; bool &gt; &amp;</type>
+          <declname>keep_node</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_manager" kindref="compound">GraphManager</ref> &amp;</type>
+          <declname>graphManager</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="class_ship" kindref="compound">Ship</ref> &gt; &amp;</type>
+          <declname>ships</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::unique_ptr&lt; <ref refid="class_structure" kindref="compound">Structure</ref> &gt; &gt; &amp;</type>
+          <declname>structures</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="17" column="5" bodyfile="cpp/src/rendering/Render.cpp" bodystart="6" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_renderer_1a6a56b439b37f0aa6e8a797308c935aa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Renderer::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <qualifiedname>Renderer::run</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="23" column="10" bodyfile="cpp/src/rendering/Render.cpp" bodystart="20" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_renderer_1abf20300005183ea20b1d1a716a198bce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Renderer::handleKeyPress</definition>
+        <argsstring>(sf::Event::KeyEvent &amp;key)</argsstring>
+        <name>handleKeyPress</name>
+        <qualifiedname>Renderer::handleKeyPress</qualifiedname>
+        <param>
+          <type>sf::Event::KeyEvent &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="29" column="10" bodyfile="cpp/src/rendering/Render.cpp" bodystart="101" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_renderer_1a9686c71dcd97fa91c650b23e6018cbe5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Renderer::handleMousePress</definition>
+        <argsstring>(sf::Event::MouseButtonEvent &amp;mouseButton)</argsstring>
+        <name>handleMousePress</name>
+        <qualifiedname>Renderer::handleMousePress</qualifiedname>
+        <param>
+          <type>sf::Event::MouseButtonEvent &amp;</type>
+          <declname>mouseButton</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="27" column="10" bodyfile="cpp/src/rendering/Render.cpp" bodystart="51" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_renderer_1a918a985bd212f1c37be3fbeb7473c973" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Renderer::handleMouseWheelScroll</definition>
+        <argsstring>(sf::Event::MouseWheelScrollEvent &amp;mouseWheel)</argsstring>
+        <name>handleMouseWheelScroll</name>
+        <qualifiedname>Renderer::handleMouseWheelScroll</qualifiedname>
+        <param>
+          <type>sf::Event::MouseWheelScrollEvent &amp;</type>
+          <declname>mouseWheel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="28" column="10" bodyfile="cpp/src/rendering/Render.cpp" bodystart="92" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_renderer_1a241e9686356da684493ce75ba8567c7f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Renderer::processEvents</definition>
+        <argsstring>()</argsstring>
+        <name>processEvents</name>
+        <qualifiedname>Renderer::processEvents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="26" column="10" bodyfile="cpp/src/rendering/Render.cpp" bodystart="36" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_renderer_1af7e5f8f68742f198e315fb4683a605a4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Renderer::render</definition>
+        <argsstring>()</argsstring>
+        <name>render</name>
+        <qualifiedname>Renderer::render</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/Render.hpp" line="30" column="10" bodyfile="cpp/src/rendering/Render.cpp" bodystart="114" bodyend="136"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>GraphManager</label>
+        <link refid="class_graph_manager"/>
+      </node>
+      <node id="4">
+        <label>RenderEdges</label>
+        <link refid="class_render_edges"/>
+      </node>
+      <node id="5">
+        <label>RenderNodes</label>
+        <link refid="class_render_nodes"/>
+      </node>
+      <node id="6">
+        <label>RenderShips</label>
+        <link refid="class_render_ships"/>
+      </node>
+      <node id="7">
+        <label>RenderStructures</label>
+        <link refid="class_render_structures"/>
+      </node>
+      <node id="1">
+        <label>Renderer</label>
+        <link refid="class_renderer"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>graphManager</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>selected_ship</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>renderEdges</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>renderNodes</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>renderShips</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>renderStructures</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ship</label>
+        <link refid="class_ship"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>graphManager</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cpp/src/rendering/Render.hpp" line="15" column="1" bodyfile="cpp/src/rendering/Render.hpp" bodystart="15" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_renderer_1aa09fb3162679f71daed1421dfee7d04a" prot="private" virt="non-virtual"><scope>Renderer</scope><name>coords</name></member>
+      <member refid="class_renderer_1a1380c3068cf99b99cf91e2e2cd0f7c60" prot="private" virt="non-virtual"><scope>Renderer</scope><name>field_size</name></member>
+      <member refid="class_renderer_1a87128150aae7435ab1241f6f1aa097b2" prot="private" virt="non-virtual"><scope>Renderer</scope><name>graph</name></member>
+      <member refid="class_renderer_1a34d547c29197b1ddea2c36a1ffebdf55" prot="private" virt="non-virtual"><scope>Renderer</scope><name>graphManager</name></member>
+      <member refid="class_renderer_1abf20300005183ea20b1d1a716a198bce" prot="private" virt="non-virtual"><scope>Renderer</scope><name>handleKeyPress</name></member>
+      <member refid="class_renderer_1a9686c71dcd97fa91c650b23e6018cbe5" prot="private" virt="non-virtual"><scope>Renderer</scope><name>handleMousePress</name></member>
+      <member refid="class_renderer_1a918a985bd212f1c37be3fbeb7473c973" prot="private" virt="non-virtual"><scope>Renderer</scope><name>handleMouseWheelScroll</name></member>
+      <member refid="class_renderer_1aed177cd201a10b5685c28fa0bda6f6fa" prot="private" virt="non-virtual"><scope>Renderer</scope><name>keep_node</name></member>
+      <member refid="class_renderer_1a241e9686356da684493ce75ba8567c7f" prot="private" virt="non-virtual"><scope>Renderer</scope><name>processEvents</name></member>
+      <member refid="class_renderer_1af7e5f8f68742f198e315fb4683a605a4" prot="private" virt="non-virtual"><scope>Renderer</scope><name>render</name></member>
+      <member refid="class_renderer_1a6b6b2a16a4a53338daaa8036c4e77e37" prot="private" virt="non-virtual"><scope>Renderer</scope><name>renderEdges</name></member>
+      <member refid="class_renderer_1a4bce39d51fd4adace367d4c482051d13" prot="public" virt="non-virtual"><scope>Renderer</scope><name>Renderer</name></member>
+      <member refid="class_renderer_1aca9c0bbd11948e7d4dd2f2cd40ea9691" prot="private" virt="non-virtual"><scope>Renderer</scope><name>renderNodes</name></member>
+      <member refid="class_renderer_1a0ddea53515bc1d7540ebf2589c3279f3" prot="private" virt="non-virtual"><scope>Renderer</scope><name>renderShips</name></member>
+      <member refid="class_renderer_1adaf1df2abef2669b08c66da2c8b96243" prot="private" virt="non-virtual"><scope>Renderer</scope><name>renderStructures</name></member>
+      <member refid="class_renderer_1a6a56b439b37f0aa6e8a797308c935aa2" prot="public" virt="non-virtual"><scope>Renderer</scope><name>run</name></member>
+      <member refid="class_renderer_1a973dfffd5b2c8bbf755a6e3c55a16cf6" prot="private" virt="non-virtual"><scope>Renderer</scope><name>selected</name></member>
+      <member refid="class_renderer_1a1449cd3e19a0df2329ba28b047902e2d" prot="private" virt="non-virtual"><scope>Renderer</scope><name>selected_nodes</name></member>
+      <member refid="class_renderer_1a49bde59d9c6f01479bf0850736278fcc" prot="private" virt="non-virtual"><scope>Renderer</scope><name>selected_ship</name></member>
+      <member refid="class_renderer_1ac4da751407105538c7effe0c10b31197" prot="private" virt="non-virtual"><scope>Renderer</scope><name>ships</name></member>
+      <member refid="class_renderer_1a9bdeae50aed2aba3ded8fca26c9bd3a7" prot="private" virt="non-virtual"><scope>Renderer</scope><name>structures</name></member>
+      <member refid="class_renderer_1a98d1e247438153ac29206239cbdb5991" prot="private" virt="non-virtual"><scope>Renderer</scope><name>view</name></member>
+      <member refid="class_renderer_1ae1305d9f61946b39c7bd62105aa56a7b" prot="private" virt="non-virtual"><scope>Renderer</scope><name>viewport_height</name></member>
+      <member refid="class_renderer_1a8d97659892a9b7f37026d6e9cca4d4c0" prot="private" virt="non-virtual"><scope>Renderer</scope><name>viewport_width</name></member>
+      <member refid="class_renderer_1a9bc2d445720d565550dc200ba1f47564" prot="private" virt="non-virtual"><scope>Renderer</scope><name>window</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

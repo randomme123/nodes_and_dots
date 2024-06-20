@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_graph_manager" kind="class" language="C++" prot="public">
+    <compoundname>GraphManager</compoundname>
+    <includes refid="_graph_8hpp" local="no">Graph.hpp</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_graph_manager_1abf032ecc1c4a887e30f51cbbf4583363" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::pair&lt; float, float &gt; &gt;</type>
+        <definition>std::vector&lt;std::pair&lt;float, float&gt; &gt; GraphManager::coords</definition>
+        <argsstring></argsstring>
+        <name>coords</name>
+        <qualifiedname>GraphManager::coords</qualifiedname>
+        <briefdescription>
+<para>Node coordinates. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Graph.hpp" line="46" column="17" bodyfile="cpp/src/objects/Graph.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_manager_1acf06c45f2ccfed463cdd4c1472d9ce99" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float GraphManager::field_size</definition>
+        <argsstring></argsstring>
+        <name>field_size</name>
+        <qualifiedname>GraphManager::field_size</qualifiedname>
+        <briefdescription>
+<para>The size of the field. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Graph.hpp" line="44" column="11" bodyfile="cpp/src/objects/Graph.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_manager_1a8688fd07332bd04e6590e7faa1f58fab" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GraphManager::grid_size</definition>
+        <argsstring></argsstring>
+        <name>grid_size</name>
+        <qualifiedname>GraphManager::grid_size</qualifiedname>
+        <briefdescription>
+<para>The size of the grid. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Graph.hpp" line="42" column="9" bodyfile="cpp/src/objects/Graph.hpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_manager_1a5c3bf0a65058e7a2ded553a556434da1" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; bool &gt;</type>
+        <definition>std::vector&lt;bool&gt; GraphManager::keep_node</definition>
+        <argsstring></argsstring>
+        <name>keep_node</name>
+        <qualifiedname>GraphManager::keep_node</qualifiedname>
+        <briefdescription>
+<para>Nodes to keep. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Graph.hpp" line="45" column="17" bodyfile="cpp/src/objects/Graph.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_manager_1a32aa467ab85704bf79c0d738e179c009" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GraphManager::nodes_per_cell</definition>
+        <argsstring></argsstring>
+        <name>nodes_per_cell</name>
+        <qualifiedname>GraphManager::nodes_per_cell</qualifiedname>
+        <briefdescription>
+<para>The number of nodes per cell. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Graph.hpp" line="43" column="9" bodyfile="cpp/src/objects/Graph.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_manager_1a75bfc6d8a9271dd5c54a9b97beb30f3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt; int &gt; GraphManager::compute_shortest_path</definition>
+        <argsstring>(const Graph &amp;graph, int start, int goal)</argsstring>
+        <name>compute_shortest_path</name>
+        <qualifiedname>GraphManager::compute_shortest_path</qualifiedname>
+        <param>
+          <type>const <ref refid="_graph_8hpp_1a4158a12566a53ab55345e02a783fe275" kindref="member">Graph</ref> &amp;</type>
+          <declname>graph</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>goal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the shortest path in the graph. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Graph.hpp" line="30" column="17" bodyfile="cpp/src/objects/Graph.cpp" bodystart="138" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_manager_1a4ba8ca24136d6a798b8236c178a85462" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_graph_8hpp_1a4158a12566a53ab55345e02a783fe275" kindref="member">Graph</ref></type>
+        <definition>Graph GraphManager::create_graph</definition>
+        <argsstring>(const std::vector&lt; std::pair&lt; float, float &gt; &gt; &amp;coords)</argsstring>
+        <name>create_graph</name>
+        <qualifiedname>GraphManager::create_graph</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::pair&lt; float, float &gt; &gt; &amp;</type>
+          <declname>coords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a graph from the given coordinates. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Graph.hpp" line="24" column="11" bodyfile="cpp/src/objects/Graph.cpp" bodystart="29" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_manager_1a75eb36c23b09537abc7bd9fd878f3f7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_graph_8hpp_1a4158a12566a53ab55345e02a783fe275" kindref="member">Graph</ref></type>
+        <definition>Graph GraphManager::filter_largest_component</definition>
+        <argsstring>(const Graph &amp;g, const std::vector&lt; std::pair&lt; float, float &gt; &gt; &amp;coords)</argsstring>
+        <name>filter_largest_component</name>
+        <qualifiedname>GraphManager::filter_largest_component</qualifiedname>
+        <param>
+          <type>const <ref refid="_graph_8hpp_1a4158a12566a53ab55345e02a783fe275" kindref="member">Graph</ref> &amp;</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::pair&lt; float, float &gt; &gt; &amp;</type>
+          <declname>coords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Filters the largest connected component from the graph. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Graph.hpp" line="27" column="11" bodyfile="cpp/src/objects/Graph.cpp" bodystart="105" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_manager_1a136d62a3b1eb022744a11863422ee2bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::pair&lt; float, float &gt; &gt;</type>
+        <definition>std::vector&lt; std::pair&lt; float, float &gt; &gt; GraphManager::generate_coordinates</definition>
+        <argsstring>()</argsstring>
+        <name>generate_coordinates</name>
+        <qualifiedname>GraphManager::generate_coordinates</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generates coordinates for the nodes in the graph. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Graph.hpp" line="21" column="17" bodyfile="cpp/src/objects/Graph.cpp" bodystart="12" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_manager_1aa7d7a22fedd54e79d4c58e4967e77777" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::vector&lt; std::pair&lt; float, float &gt; &gt; &amp;</type>
+        <definition>const std::vector&lt; std::pair&lt; float, float &gt; &gt; &amp; GraphManager::get_coords</definition>
+        <argsstring>() const</argsstring>
+        <name>get_coords</name>
+        <qualifiedname>GraphManager::get_coords</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the coordinates of the nodes. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Graph.hpp" line="36" column="23" bodyfile="cpp/src/objects/Graph.cpp" bodystart="167" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_manager_1a06716e32eee535a06888a5e3cabbf52b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::vector&lt; bool &gt; &amp;</type>
+        <definition>const std::vector&lt; bool &gt; &amp; GraphManager::get_keep_node</definition>
+        <argsstring>() const</argsstring>
+        <name>get_keep_node</name>
+        <qualifiedname>GraphManager::get_keep_node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the vector of nodes to keep. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Graph.hpp" line="33" column="23" bodyfile="cpp/src/objects/Graph.cpp" bodystart="163" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_manager_1ae8059a7d140ad6d3f34db88a9c54ed82" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::pair&lt; float, float &gt; &gt;</type>
+        <definition>std::vector&lt; std::pair&lt; float, float &gt; &gt; GraphManager::get_valid_coords</definition>
+        <argsstring>() const</argsstring>
+        <name>get_valid_coords</name>
+        <qualifiedname>GraphManager::get_valid_coords</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the valid coordinates of the nodes. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Graph.hpp" line="39" column="17" bodyfile="cpp/src/objects/Graph.cpp" bodystart="171" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_manager_1abc143406877d56e1d38503408098f98e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GraphManager::GraphManager</definition>
+        <argsstring>(int grid_size, int nodes_per_cell, float field_size)</argsstring>
+        <name>GraphManager</name>
+        <qualifiedname>GraphManager::GraphManager</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>grid_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nodes_per_cell</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>field_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a <ref refid="class_graph_manager" kindref="compound">GraphManager</ref> object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Graph.hpp" line="18" column="5" bodyfile="cpp/src/objects/Graph.cpp" bodystart="9" bodyend="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Manages the creation and manipulation of graphs. </para>
+    </detaileddescription>
+    <location file="cpp/src/objects/Graph.hpp" line="15" column="1" bodyfile="cpp/src/objects/Graph.hpp" bodystart="15" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_graph_manager_1a75bfc6d8a9271dd5c54a9b97beb30f3e" prot="public" virt="non-virtual"><scope>GraphManager</scope><name>compute_shortest_path</name></member>
+      <member refid="class_graph_manager_1abf032ecc1c4a887e30f51cbbf4583363" prot="private" virt="non-virtual"><scope>GraphManager</scope><name>coords</name></member>
+      <member refid="class_graph_manager_1a4ba8ca24136d6a798b8236c178a85462" prot="public" virt="non-virtual"><scope>GraphManager</scope><name>create_graph</name></member>
+      <member refid="class_graph_manager_1acf06c45f2ccfed463cdd4c1472d9ce99" prot="private" virt="non-virtual"><scope>GraphManager</scope><name>field_size</name></member>
+      <member refid="class_graph_manager_1a75eb36c23b09537abc7bd9fd878f3f7d" prot="public" virt="non-virtual"><scope>GraphManager</scope><name>filter_largest_component</name></member>
+      <member refid="class_graph_manager_1a136d62a3b1eb022744a11863422ee2bf" prot="public" virt="non-virtual"><scope>GraphManager</scope><name>generate_coordinates</name></member>
+      <member refid="class_graph_manager_1aa7d7a22fedd54e79d4c58e4967e77777" prot="public" virt="non-virtual"><scope>GraphManager</scope><name>get_coords</name></member>
+      <member refid="class_graph_manager_1a06716e32eee535a06888a5e3cabbf52b" prot="public" virt="non-virtual"><scope>GraphManager</scope><name>get_keep_node</name></member>
+      <member refid="class_graph_manager_1ae8059a7d140ad6d3f34db88a9c54ed82" prot="public" virt="non-virtual"><scope>GraphManager</scope><name>get_valid_coords</name></member>
+      <member refid="class_graph_manager_1abc143406877d56e1d38503408098f98e" prot="public" virt="non-virtual"><scope>GraphManager</scope><name>GraphManager</name></member>
+      <member refid="class_graph_manager_1a8688fd07332bd04e6590e7faa1f58fab" prot="private" virt="non-virtual"><scope>GraphManager</scope><name>grid_size</name></member>
+      <member refid="class_graph_manager_1a5c3bf0a65058e7a2ded553a556434da1" prot="private" virt="non-virtual"><scope>GraphManager</scope><name>keep_node</name></member>
+      <member refid="class_graph_manager_1a32aa467ab85704bf79c0d738e179c009" prot="private" virt="non-virtual"><scope>GraphManager</scope><name>nodes_per_cell</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

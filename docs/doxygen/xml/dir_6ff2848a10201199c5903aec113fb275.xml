@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_6ff2848a10201199c5903aec113fb275" kind="dir">
+    <compoundname>cpp/src/rendering</compoundname>
+    <innerfile refid="_render_8cpp">Render.cpp</innerfile>
+    <innerfile refid="_render_8hpp">Render.hpp</innerfile>
+    <innerfile refid="_render_edges_8cpp">RenderEdges.cpp</innerfile>
+    <innerfile refid="_render_edges_8hpp">RenderEdges.hpp</innerfile>
+    <innerfile refid="_render_nodes_8cpp">RenderNodes.cpp</innerfile>
+    <innerfile refid="_render_nodes_8hpp">RenderNodes.hpp</innerfile>
+    <innerfile refid="_render_ships_8cpp">RenderShips.cpp</innerfile>
+    <innerfile refid="_render_ships_8hpp">RenderShips.hpp</innerfile>
+    <innerfile refid="_render_structures_8cpp">RenderStructures.cpp</innerfile>
+    <innerfile refid="_render_structures_8hpp">RenderStructures.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cpp/src/rendering/"/>
+  </compounddef>
+</doxygen>

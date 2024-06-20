@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_base_structure" kind="class" language="C++" prot="public">
+    <compoundname>BaseStructure</compoundname>
+    <basecompoundref refid="class_structure" prot="public" virt="non-virtual">Structure</basecompoundref>
+    <derivedcompoundref refid="class_coal_mine" prot="public" virt="non-virtual">CoalMine</derivedcompoundref>
+    <derivedcompoundref refid="class_coal_power_plant" prot="public" virt="non-virtual">CoalPowerPlant</derivedcompoundref>
+    <derivedcompoundref refid="class_iron_mine" prot="public" virt="non-virtual">IronMine</derivedcompoundref>
+    <derivedcompoundref refid="class_iron_smelter" prot="public" virt="non-virtual">IronSmelter</derivedcompoundref>
+    <derivedcompoundref refid="class_steel_foundry" prot="public" virt="non-virtual">SteelFoundry</derivedcompoundref>
+    <derivedcompoundref refid="class_storage" prot="public" virt="non-virtual">Storage</derivedcompoundref>
+    <includes refid="_structures_8hpp" local="no">Structures.hpp</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_base_structure_1a3c2544f6affd3bd824b235f4812a73c4" prot="protected" static="no" mutable="no">
+        <type>sf::Color</type>
+        <definition>sf::Color BaseStructure::color</definition>
+        <argsstring></argsstring>
+        <name>color</name>
+        <qualifiedname>BaseStructure::color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Structures.hpp" line="56" column="15" bodyfile="cpp/src/objects/Structures.hpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_base_structure_1a8b18641b5f10526a6108cf762190463d" prot="protected" static="no" mutable="no">
+        <type>std::map&lt; <ref refid="_structures_8hpp_1a75e93556f9159ad0b8d623942da5f830" kindref="member">Resource</ref>, int &gt;</type>
+        <definition>std::map&lt;Resource, int&gt; BaseStructure::inputResources</definition>
+        <argsstring></argsstring>
+        <name>inputResources</name>
+        <qualifiedname>BaseStructure::inputResources</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Structures.hpp" line="57" column="14" bodyfile="cpp/src/objects/Structures.hpp" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_base_structure_1ab9f70e5e019bb193ec7565930f8b0a5c" prot="protected" static="no" mutable="no">
+        <type>std::map&lt; <ref refid="_structures_8hpp_1a75e93556f9159ad0b8d623942da5f830" kindref="member">Resource</ref>, int &gt;</type>
+        <definition>std::map&lt;Resource, int&gt; BaseStructure::outputResources</definition>
+        <argsstring></argsstring>
+        <name>outputResources</name>
+        <qualifiedname>BaseStructure::outputResources</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Structures.hpp" line="58" column="14" bodyfile="cpp/src/objects/Structures.hpp" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_base_structure_1a8a9bbbadc2cee71042206e3de8522ea4" prot="protected" static="no" mutable="no">
+        <type>sf::Vector2f</type>
+        <definition>sf::Vector2f BaseStructure::position</definition>
+        <argsstring></argsstring>
+        <name>position</name>
+        <qualifiedname>BaseStructure::position</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Structures.hpp" line="55" column="18" bodyfile="cpp/src/objects/Structures.hpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_base_structure_1aa4d90a6d6a9bd7b30344acf5770501ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BaseStructure::BaseStructure</definition>
+        <argsstring>(const sf::Vector2f &amp;pos, const sf::Color &amp;col, std::map&lt; Resource, int &gt; input, std::map&lt; Resource, int &gt; output)</argsstring>
+        <name>BaseStructure</name>
+        <qualifiedname>BaseStructure::BaseStructure</qualifiedname>
+        <param>
+          <type>const sf::Vector2f &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>const sf::Color &amp;</type>
+          <declname>col</declname>
+        </param>
+        <param>
+          <type>std::map&lt; <ref refid="_structures_8hpp_1a75e93556f9159ad0b8d623942da5f830" kindref="member">Resource</ref>, int &gt;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>std::map&lt; <ref refid="_structures_8hpp_1a75e93556f9159ad0b8d623942da5f830" kindref="member">Resource</ref>, int &gt;</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Structures.hpp" line="48" column="5" bodyfile="cpp/src/objects/Structures.hpp" bodystart="48" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_base_structure_1a0fccfad4d8bc42019f75439a1612b097" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>sf::Color</type>
+        <definition>sf::Color BaseStructure::getColor</definition>
+        <argsstring>() const override</argsstring>
+        <name>getColor</name>
+        <qualifiedname>BaseStructure::getColor</qualifiedname>
+        <reimplements refid="class_structure_1a86495bba06f25498248c804ef4455dd9">getColor</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Structures.hpp" line="52" column="15" bodyfile="cpp/src/objects/Structures.hpp" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_base_structure_1aa9e9545e263d718e6824a6aab3322aa7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>sf::Vector2f</type>
+        <definition>sf::Vector2f BaseStructure::getPosition</definition>
+        <argsstring>() const override</argsstring>
+        <name>getPosition</name>
+        <qualifiedname>BaseStructure::getPosition</qualifiedname>
+        <reimplements refid="class_structure_1aa7e1a01c0ba7957cef6e2cc252cd5a2d">getPosition</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Structures.hpp" line="51" column="18" bodyfile="cpp/src/objects/Structures.hpp" bodystart="51" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_base_structure_1ab3d85807fc975ac56dbcbc7d93ab9c8b" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BaseStructure::printResources</definition>
+        <argsstring>() const</argsstring>
+        <name>printResources</name>
+        <qualifiedname>BaseStructure::printResources</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Structures.hpp" line="81" column="10" bodyfile="cpp/src/objects/Structures.hpp" bodystart="81" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_base_structure_1ad25ec1037bf8af9ec521d441822f6a67" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BaseStructure::processResources</definition>
+        <argsstring>(const std::map&lt; Resource, int &gt; &amp;requiredInput, const std::map&lt; Resource, int &gt; &amp;producedOutput)</argsstring>
+        <name>processResources</name>
+        <qualifiedname>BaseStructure::processResources</qualifiedname>
+        <param>
+          <type>const std::map&lt; <ref refid="_structures_8hpp_1a75e93556f9159ad0b8d623942da5f830" kindref="member">Resource</ref>, int &gt; &amp;</type>
+          <declname>requiredInput</declname>
+        </param>
+        <param>
+          <type>const std::map&lt; <ref refid="_structures_8hpp_1a75e93556f9159ad0b8d623942da5f830" kindref="member">Resource</ref>, int &gt; &amp;</type>
+          <declname>producedOutput</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Structures.hpp" line="60" column="10" bodyfile="cpp/src/objects/Structures.hpp" bodystart="60" bodyend="79"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BaseStructure</label>
+        <link refid="class_base_structure"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CoalMine</label>
+        <link refid="class_coal_mine"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>CoalPowerPlant</label>
+        <link refid="class_coal_power_plant"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IronMine</label>
+        <link refid="class_iron_mine"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>IronSmelter</label>
+        <link refid="class_iron_smelter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>SteelFoundry</label>
+        <link refid="class_steel_foundry"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Storage</label>
+        <link refid="class_storage"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Structure</label>
+        <link refid="class_structure"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BaseStructure</label>
+        <link refid="class_base_structure"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Structure</label>
+        <link refid="class_structure"/>
+      </node>
+    </collaborationgraph>
+    <location file="cpp/src/objects/Structures.hpp" line="46" column="1" bodyfile="cpp/src/objects/Structures.hpp" bodystart="46" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_base_structure_1aa4d90a6d6a9bd7b30344acf5770501ff" prot="public" virt="non-virtual"><scope>BaseStructure</scope><name>BaseStructure</name></member>
+      <member refid="class_base_structure_1a3c2544f6affd3bd824b235f4812a73c4" prot="protected" virt="non-virtual"><scope>BaseStructure</scope><name>color</name></member>
+      <member refid="class_base_structure_1a0fccfad4d8bc42019f75439a1612b097" prot="public" virt="virtual"><scope>BaseStructure</scope><name>getColor</name></member>
+      <member refid="class_base_structure_1aa9e9545e263d718e6824a6aab3322aa7" prot="public" virt="virtual"><scope>BaseStructure</scope><name>getPosition</name></member>
+      <member refid="class_base_structure_1a8b18641b5f10526a6108cf762190463d" prot="protected" virt="non-virtual"><scope>BaseStructure</scope><name>inputResources</name></member>
+      <member refid="class_structure_1a86b734a821c361ef3b5f6bd27c8bee9c" prot="protected" virt="non-virtual"><scope>BaseStructure</scope><name>isTimeToUpdate</name></member>
+      <member refid="class_structure_1a0e56c07d511f3b5b86317289aa1b9f1b" prot="protected" virt="non-virtual"><scope>BaseStructure</scope><name>nextUpdateTime</name></member>
+      <member refid="class_base_structure_1ab9f70e5e019bb193ec7565930f8b0a5c" prot="protected" virt="non-virtual"><scope>BaseStructure</scope><name>outputResources</name></member>
+      <member refid="class_base_structure_1a8a9bbbadc2cee71042206e3de8522ea4" prot="protected" virt="non-virtual"><scope>BaseStructure</scope><name>position</name></member>
+      <member refid="class_base_structure_1ab3d85807fc975ac56dbcbc7d93ab9c8b" prot="protected" virt="non-virtual"><scope>BaseStructure</scope><name>printResources</name></member>
+      <member refid="class_base_structure_1ad25ec1037bf8af9ec521d441822f6a67" prot="protected" virt="non-virtual"><scope>BaseStructure</scope><name>processResources</name></member>
+      <member refid="class_structure_1ad9bdf6cc1a36bf6cd447b60d13a60d8d" prot="protected" virt="non-virtual"><scope>BaseStructure</scope><name>rng</name></member>
+      <member refid="class_structure_1a73b9ac82fbbd00ddac90b4f01e0e7195" prot="protected" virt="non-virtual"><scope>BaseStructure</scope><name>setNextUpdateTime</name></member>
+      <member refid="class_structure_1ac6c101b28efea5a150cce3bb8948f8d1" prot="protected" virt="non-virtual"><scope>BaseStructure</scope><name>Structure</name></member>
+      <member refid="class_structure_1ae456fd97031335dd8ba8b7d4720638c2" prot="public" virt="pure-virtual"><scope>BaseStructure</scope><name>type</name></member>
+      <member refid="class_structure_1af7dccdfe29886b57808b09d6d50238bd" prot="public" virt="pure-virtual"><scope>BaseStructure</scope><name>update</name></member>
+      <member refid="class_structure_1a9b0688285fa394f7b93b1b4edd6a5fbf" prot="public" virt="virtual"><scope>BaseStructure</scope><name>~Structure</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

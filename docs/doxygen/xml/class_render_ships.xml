@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_render_ships" kind="class" language="C++" prot="public">
+    <compoundname>RenderShips</compoundname>
+    <includes refid="_render_ships_8hpp" local="no">RenderShips.hpp</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_render_ships_1a6fc55c922c6f9694df0fbbfa4058292a" prot="private" static="no" mutable="no">
+        <type>const std::vector&lt; std::pair&lt; float, float &gt; &gt; &amp;</type>
+        <definition>const std::vector&lt;std::pair&lt;float, float&gt; &gt;&amp; RenderShips::coords</definition>
+        <argsstring></argsstring>
+        <name>coords</name>
+        <qualifiedname>RenderShips::coords</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/RenderShips.hpp" line="14" column="23" bodyfile="cpp/src/rendering/RenderShips.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_render_ships_1a7a167bc7a11691592eb51489338b2717" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_ship" kindref="compound">Ship</ref> &gt; &amp;</type>
+        <definition>std::vector&lt;Ship&gt;&amp; RenderShips::ships</definition>
+        <argsstring></argsstring>
+        <name>ships</name>
+        <qualifiedname>RenderShips::ships</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/RenderShips.hpp" line="13" column="17" bodyfile="cpp/src/rendering/RenderShips.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_render_ships_1ae13ae0262bde3962d78966b6240dfb50" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RenderShips::draw</definition>
+        <argsstring>(sf::RenderWindow &amp;window, const sf::Vector2f &amp;worldPos, Ship *selected_ship) const</argsstring>
+        <name>draw</name>
+        <qualifiedname>RenderShips::draw</qualifiedname>
+        <param>
+          <type>sf::RenderWindow &amp;</type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type>const sf::Vector2f &amp;</type>
+          <declname>worldPos</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ship" kindref="compound">Ship</ref> *</type>
+          <declname>selected_ship</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/RenderShips.hpp" line="10" column="10" bodyfile="cpp/src/rendering/RenderShips.cpp" bodystart="7" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_render_ships_1adb12939ad8731c235c44d64a975f301b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>RenderShips::RenderShips</definition>
+        <argsstring>(std::vector&lt; Ship &gt; &amp;ships, const std::vector&lt; std::pair&lt; float, float &gt; &gt; &amp;coords)</argsstring>
+        <name>RenderShips</name>
+        <qualifiedname>RenderShips::RenderShips</qualifiedname>
+        <param>
+          <type>std::vector&lt; <ref refid="class_ship" kindref="compound">Ship</ref> &gt; &amp;</type>
+          <declname>ships</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::pair&lt; float, float &gt; &gt; &amp;</type>
+          <declname>coords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/RenderShips.hpp" line="9" column="5" bodyfile="cpp/src/rendering/RenderShips.cpp" bodystart="4" bodyend="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cpp/src/rendering/RenderShips.hpp" line="7" column="1" bodyfile="cpp/src/rendering/RenderShips.hpp" bodystart="7" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_render_ships_1a6fc55c922c6f9694df0fbbfa4058292a" prot="private" virt="non-virtual"><scope>RenderShips</scope><name>coords</name></member>
+      <member refid="class_render_ships_1ae13ae0262bde3962d78966b6240dfb50" prot="public" virt="non-virtual"><scope>RenderShips</scope><name>draw</name></member>
+      <member refid="class_render_ships_1adb12939ad8731c235c44d64a975f301b" prot="public" virt="non-virtual"><scope>RenderShips</scope><name>RenderShips</name></member>
+      <member refid="class_render_ships_1a7a167bc7a11691592eb51489338b2717" prot="private" virt="non-virtual"><scope>RenderShips</scope><name>ships</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

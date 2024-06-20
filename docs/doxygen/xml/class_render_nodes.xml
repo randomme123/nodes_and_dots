@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_render_nodes" kind="class" language="C++" prot="public">
+    <compoundname>RenderNodes</compoundname>
+    <includes refid="_render_nodes_8hpp" local="no">RenderNodes.hpp</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_render_nodes_1aa0d419951d99790eb61911995fbdf3d2" prot="private" static="no" mutable="no">
+        <type>const std::vector&lt; std::pair&lt; float, float &gt; &gt; &amp;</type>
+        <definition>const std::vector&lt;std::pair&lt;float, float&gt; &gt;&amp; RenderNodes::coords</definition>
+        <argsstring></argsstring>
+        <name>coords</name>
+        <qualifiedname>RenderNodes::coords</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/RenderNodes.hpp" line="12" column="23" bodyfile="cpp/src/rendering/RenderNodes.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_render_nodes_1aa4ab9bc88ac29c6f7b51e44bb7bad56c" prot="private" static="no" mutable="no">
+        <type>const std::vector&lt; bool &gt; &amp;</type>
+        <definition>const std::vector&lt;bool&gt;&amp; RenderNodes::keep_node</definition>
+        <argsstring></argsstring>
+        <name>keep_node</name>
+        <qualifiedname>RenderNodes::keep_node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/RenderNodes.hpp" line="13" column="23" bodyfile="cpp/src/rendering/RenderNodes.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_render_nodes_1a14c27ad14ccfddfa6fcafe16ab5c9837" prot="private" static="no" mutable="no">
+        <type>const std::vector&lt; bool &gt; &amp;</type>
+        <definition>const std::vector&lt;bool&gt;&amp; RenderNodes::selected</definition>
+        <argsstring></argsstring>
+        <name>selected</name>
+        <qualifiedname>RenderNodes::selected</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/RenderNodes.hpp" line="14" column="23" bodyfile="cpp/src/rendering/RenderNodes.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_render_nodes_1af1d4b87e86e67ce80f20207a812581f2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RenderNodes::draw</definition>
+        <argsstring>(sf::RenderWindow &amp;window) const</argsstring>
+        <name>draw</name>
+        <qualifiedname>RenderNodes::draw</qualifiedname>
+        <param>
+          <type>sf::RenderWindow &amp;</type>
+          <declname>window</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/RenderNodes.hpp" line="9" column="10" bodyfile="cpp/src/rendering/RenderNodes.cpp" bodystart="6" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_render_nodes_1a84b0d48cf22f24f7d85950f287e2b3eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>RenderNodes::RenderNodes</definition>
+        <argsstring>(const std::vector&lt; std::pair&lt; float, float &gt; &gt; &amp;coords, const std::vector&lt; bool &gt; &amp;keep_node, const std::vector&lt; bool &gt; &amp;selected)</argsstring>
+        <name>RenderNodes</name>
+        <qualifiedname>RenderNodes::RenderNodes</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::pair&lt; float, float &gt; &gt; &amp;</type>
+          <declname>coords</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; bool &gt; &amp;</type>
+          <declname>keep_node</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; bool &gt; &amp;</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/rendering/RenderNodes.hpp" line="8" column="5" bodyfile="cpp/src/rendering/RenderNodes.cpp" bodystart="3" bodyend="4"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cpp/src/rendering/RenderNodes.hpp" line="6" column="1" bodyfile="cpp/src/rendering/RenderNodes.hpp" bodystart="6" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_render_nodes_1aa0d419951d99790eb61911995fbdf3d2" prot="private" virt="non-virtual"><scope>RenderNodes</scope><name>coords</name></member>
+      <member refid="class_render_nodes_1af1d4b87e86e67ce80f20207a812581f2" prot="public" virt="non-virtual"><scope>RenderNodes</scope><name>draw</name></member>
+      <member refid="class_render_nodes_1aa4ab9bc88ac29c6f7b51e44bb7bad56c" prot="private" virt="non-virtual"><scope>RenderNodes</scope><name>keep_node</name></member>
+      <member refid="class_render_nodes_1a84b0d48cf22f24f7d85950f287e2b3eb" prot="public" virt="non-virtual"><scope>RenderNodes</scope><name>RenderNodes</name></member>
+      <member refid="class_render_nodes_1a14c27ad14ccfddfa6fcafe16ab5c9837" prot="private" virt="non-virtual"><scope>RenderNodes</scope><name>selected</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

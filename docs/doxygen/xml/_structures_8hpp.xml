@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="_structures_8hpp" kind="file" language="C++">
+    <compoundname>Structures.hpp</compoundname>
+    <includes local="no">string</includes>
+    <includes local="no">map</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">utility</includes>
+    <includes local="no">chrono</includes>
+    <includes local="no">random</includes>
+    <includes local="no">iostream</includes>
+    <includes refid="_graph_8hpp" local="yes">Graph.hpp</includes>
+    <includes refid="_structure_config_8hpp" local="yes">StructureConfig.hpp</includes>
+    <includes local="no">SFML/Graphics.hpp</includes>
+    <includedby refid="main_8cpp" local="yes">cpp/src/main.cpp</includedby>
+    <includedby refid="_structures_8cpp" local="yes">cpp/src/objects/Structures.cpp</includedby>
+    <includedby refid="_render_8hpp" local="yes">cpp/src/rendering/Render.hpp</includedby>
+    <includedby refid="_render_structures_8hpp" local="yes">cpp/src/rendering/RenderStructures.hpp</includedby>
+    <incdepgraph>
+      <node id="9">
+        <label>Graph.hpp</label>
+        <link refid="_graph_8hpp"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>StructureConfig.hpp</label>
+        <link refid="_structure_config_8hpp"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>cpp/src/objects/Structures.hpp</label>
+        <link refid="_structures_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>SFML/Graphics.hpp</label>
+      </node>
+      <node id="11">
+        <label>boost/graph/adjacency_list.hpp</label>
+      </node>
+      <node id="6">
+        <label>chrono</label>
+      </node>
+      <node id="8">
+        <label>iostream</label>
+      </node>
+      <node id="3">
+        <label>map</label>
+      </node>
+      <node id="4">
+        <label>memory</label>
+      </node>
+      <node id="7">
+        <label>random</label>
+      </node>
+      <node id="2">
+        <label>string</label>
+      </node>
+      <node id="5">
+        <label>utility</label>
+      </node>
+      <node id="10">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>cpp/src/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="3">
+        <label>cpp/src/objects/Structures.cpp</label>
+        <link refid="_structures_8cpp"/>
+      </node>
+      <node id="1">
+        <label>cpp/src/objects/Structures.hpp</label>
+        <link refid="_structures_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>cpp/src/rendering/Render.cpp</label>
+        <link refid="_render_8cpp"/>
+      </node>
+      <node id="4">
+        <label>cpp/src/rendering/Render.hpp</label>
+        <link refid="_render_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>cpp/src/rendering/RenderStructures.cpp</label>
+        <link refid="_render_structures_8cpp"/>
+      </node>
+      <node id="6">
+        <label>cpp/src/rendering/RenderStructures.hpp</label>
+        <link refid="_render_structures_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_base_structure" prot="public">BaseStructure</innerclass>
+    <innerclass refid="class_coal_mine" prot="public">CoalMine</innerclass>
+    <innerclass refid="class_coal_power_plant" prot="public">CoalPowerPlant</innerclass>
+    <innerclass refid="class_iron_mine" prot="public">IronMine</innerclass>
+    <innerclass refid="class_iron_smelter" prot="public">IronSmelter</innerclass>
+    <innerclass refid="class_steel_foundry" prot="public">SteelFoundry</innerclass>
+    <innerclass refid="class_storage" prot="public">Storage</innerclass>
+    <innerclass refid="class_structure" prot="public">Structure</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_structures_8hpp_1a75e93556f9159ad0b8d623942da5f830" prot="public" static="no">
+        <type>std::string</type>
+        <definition>using Resource =  std::string</definition>
+        <argsstring></argsstring>
+        <name>Resource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Structures.hpp" line="16" column="1" bodyfile="cpp/src/objects/Structures.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_structures_8hpp_1a2c22d9df2c14da5c5c0c59ba9ba1784d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="class_structure" kindref="compound">Structure</ref> &gt;</type>
+        <definition>std::unique_ptr&lt; Structure &gt; createStructure</definition>
+        <argsstring>(const std::string &amp;type, const sf::Vector2f &amp;position, const sf::Color &amp;color)</argsstring>
+        <name>createStructure</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const sf::Vector2f &amp;</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const sf::Color &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Structures.hpp" line="178" column="17" bodyfile="cpp/src/objects/Structures.cpp" bodystart="7" bodyend="23" declfile="cpp/src/objects/Structures.hpp" declline="178" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="_structures_8hpp_1a3ba15ca84658069d6ed883d8c3872bed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::unique_ptr&lt; <ref refid="class_structure" kindref="compound">Structure</ref> &gt; &gt;</type>
+        <definition>std::vector&lt; std::unique_ptr&lt; Structure &gt; &gt; createStructures</definition>
+        <argsstring>(const std::vector&lt; StructureConfig &gt; &amp;configs, const GraphManager &amp;graphManager)</argsstring>
+        <name>createStructures</name>
+        <param>
+          <type>const std::vector&lt; <ref refid="struct_structure_config" kindref="compound">StructureConfig</ref> &gt; &amp;</type>
+          <declname>configs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_graph_manager" kindref="compound">GraphManager</ref> &amp;</type>
+          <declname>graphManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Structures.hpp" line="179" column="13" bodyfile="cpp/src/objects/Structures.cpp" bodystart="25" bodyend="45" declfile="cpp/src/objects/Structures.hpp" declline="179" declcolumn="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>STRUCTURES_HPP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STRUCTURES_HPP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;utility&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;chrono&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;random&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_graph_8hpp" kindref="compound">Graph.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_structure_config_8hpp" kindref="compound">StructureConfig.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;SFML/Graphics.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Resource<sp/>type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="_structures_8hpp_1a75e93556f9159ad0b8d623942da5f830" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="_structures_8hpp_1a75e93556f9159ad0b8d623942da5f830" kindref="member">Resource</ref><sp/>=<sp/>std::string;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_structure" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_structure" kindref="compound">Structure</ref><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20" refid="class_structure_1a9b0688285fa394f7b93b1b4edd6a5fbf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_structure_1a9b0688285fa394f7b93b1b4edd6a5fbf" kindref="member">~Structure</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="21" refid="class_structure_1af7dccdfe29886b57808b09d6d50238bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_structure_1af7dccdfe29886b57808b09d6d50238bd" kindref="member">update</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="22" refid="class_structure_1ae456fd97031335dd8ba8b7d4720638c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="class_structure_1ae456fd97031335dd8ba8b7d4720638c2" kindref="member">type</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="23" refid="class_structure_1aa7e1a01c0ba7957cef6e2cc252cd5a2d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>sf::Vector2f<sp/><ref refid="class_structure_1aa7e1a01c0ba7957cef6e2cc252cd5a2d" kindref="member">getPosition</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="24" refid="class_structure_1a86495bba06f25498248c804ef4455dd9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>sf::Color<sp/><ref refid="class_structure_1a86495bba06f25498248c804ef4455dd9" kindref="member">getColor</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="27" refid="class_structure_1a0e56c07d511f3b5b86317289aa1b9f1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::chrono::time_point&lt;std::chrono::steady_clock&gt;<sp/><ref refid="class_structure_1a0e56c07d511f3b5b86317289aa1b9f1b" kindref="member">nextUpdateTime</ref>;</highlight></codeline>
+<codeline lineno="28" refid="class_structure_1ad9bdf6cc1a36bf6cd447b60d13a60d8d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::mt19937<sp/><ref refid="class_structure_1ad9bdf6cc1a36bf6cd447b60d13a60d8d" kindref="member">rng</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class_structure_1a86b734a821c361ef3b5f6bd27c8bee9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_structure_1a86b734a821c361ef3b5f6bd27c8bee9c" kindref="member">isTimeToUpdate</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::chrono::steady_clock::now()<sp/>&gt;=<sp/><ref refid="class_structure_1a0e56c07d511f3b5b86317289aa1b9f1b" kindref="member">nextUpdateTime</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="class_structure_1a73b9ac82fbbd00ddac90b4f01e0e7195" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_structure_1a73b9ac82fbbd00ddac90b4f01e0e7195" kindref="member">setNextUpdateTime</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::uniform_int_distribution&lt;int&gt;<sp/>dist(0,<sp/>12);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>seconds<sp/>=<sp/>dist(<ref refid="class_structure_1ad9bdf6cc1a36bf6cd447b60d13a60d8d" kindref="member">rng</ref>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_structure_1a0e56c07d511f3b5b86317289aa1b9f1b" kindref="member">nextUpdateTime</ref><sp/>=<sp/>std::chrono::steady_clock::now()<sp/>+<sp/>std::chrono::seconds(seconds);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="class_structure_1ac6c101b28efea5a150cce3bb8948f8d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_structure_1ac6c101b28efea5a150cce3bb8948f8d1" kindref="member">Structure</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_structure_1ad9bdf6cc1a36bf6cd447b60d13a60d8d" kindref="member">rng</ref>.seed(std::random_device{}());</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_structure_1a73b9ac82fbbd00ddac90b4f01e0e7195" kindref="member">setNextUpdateTime</ref>();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="class_base_structure" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_base_structure" kindref="compound">BaseStructure</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_structure" kindref="compound">Structure</ref><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="48" refid="class_base_structure_1aa4d90a6d6a9bd7b30344acf5770501ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_base_structure_1aa4d90a6d6a9bd7b30344acf5770501ff" kindref="member">BaseStructure</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sf::Vector2f&amp;<sp/>pos,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sf::Color&amp;<sp/>col,<sp/>std::map&lt;Resource,<sp/>int&gt;<sp/>input,<sp/>std::map&lt;Resource,<sp/>int&gt;<sp/>output)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_base_structure_1a8a9bbbadc2cee71042206e3de8522ea4" kindref="member">position</ref>(pos),<sp/><ref refid="class_base_structure_1a3c2544f6affd3bd824b235f4812a73c4" kindref="member">color</ref>(col),<sp/><ref refid="class_base_structure_1a8b18641b5f10526a6108cf762190463d" kindref="member">inputResources</ref>(input),<sp/><ref refid="class_base_structure_1ab9f70e5e019bb193ec7565930f8b0a5c" kindref="member">outputResources</ref>(output)<sp/>{}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="class_base_structure_1aa9e9545e263d718e6824a6aab3322aa7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>sf::Vector2f<sp/><ref refid="class_base_structure_1aa9e9545e263d718e6824a6aab3322aa7" kindref="member">getPosition</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_base_structure_1a8a9bbbadc2cee71042206e3de8522ea4" kindref="member">position</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="52" refid="class_base_structure_1a0fccfad4d8bc42019f75439a1612b097" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>sf::Color<sp/><ref refid="class_base_structure_1a0fccfad4d8bc42019f75439a1612b097" kindref="member">getColor</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_base_structure_1a3c2544f6affd3bd824b235f4812a73c4" kindref="member">color</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="55" refid="class_base_structure_1a8a9bbbadc2cee71042206e3de8522ea4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>sf::Vector2f<sp/><ref refid="class_base_structure_1a8a9bbbadc2cee71042206e3de8522ea4" kindref="member">position</ref>;</highlight></codeline>
+<codeline lineno="56" refid="class_base_structure_1a3c2544f6affd3bd824b235f4812a73c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>sf::Color<sp/><ref refid="class_base_structure_1a3c2544f6affd3bd824b235f4812a73c4" kindref="member">color</ref>;</highlight></codeline>
+<codeline lineno="57" refid="class_base_structure_1a8b18641b5f10526a6108cf762190463d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::map&lt;Resource,<sp/>int&gt;<sp/><ref refid="class_base_structure_1a8b18641b5f10526a6108cf762190463d" kindref="member">inputResources</ref>;</highlight></codeline>
+<codeline lineno="58" refid="class_base_structure_1ab9f70e5e019bb193ec7565930f8b0a5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::map&lt;Resource,<sp/>int&gt;<sp/><ref refid="class_base_structure_1ab9f70e5e019bb193ec7565930f8b0a5c" kindref="member">outputResources</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="class_base_structure_1ad25ec1037bf8af9ec521d441822f6a67" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_base_structure_1ad25ec1037bf8af9ec521d441822f6a67" kindref="member">processResources</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::map&lt;Resource,<sp/>int&gt;&amp;<sp/>requiredInput,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::map&lt;Resource,<sp/>int&gt;&amp;<sp/>producedOutput)<sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>canProduce<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>[resource,<sp/>amount]<sp/>:<sp/>requiredInput)<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_base_structure_1a8b18641b5f10526a6108cf762190463d" kindref="member">inputResources</ref>[resource]<sp/>&lt;<sp/>amount)<sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>canProduce<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(canProduce)<sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>[resource,<sp/>amount]<sp/>:<sp/>requiredInput)<sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_base_structure_1a8b18641b5f10526a6108cf762190463d" kindref="member">inputResources</ref>[resource]<sp/>-=<sp/>amount;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>[resource,<sp/>amount]<sp/>:<sp/>producedOutput)<sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_base_structure_1ab9f70e5e019bb193ec7565930f8b0a5c" kindref="member">outputResources</ref>[resource]<sp/>+=<sp/>amount;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="class_base_structure_1ab3d85807fc975ac56dbcbc7d93ab9c8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_base_structure_1ab3d85807fc975ac56dbcbc7d93ab9c8b" kindref="member">printResources</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Input<sp/>Resources:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>[resource,<sp/>amount]<sp/>:<sp/><ref refid="class_base_structure_1a8b18641b5f10526a6108cf762190463d" kindref="member">inputResources</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>resource<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>amount<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;|<sp/>Output<sp/>Resources:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>[resource,<sp/>amount]<sp/>:<sp/><ref refid="class_base_structure_1ab9f70e5e019bb193ec7565930f8b0a5c" kindref="member">outputResources</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>resource<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>amount<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Derived<sp/>structure<sp/>implementations...</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="class_coal_mine" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_coal_mine" kindref="compound">CoalMine</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_base_structure" kindref="compound">BaseStructure</ref><sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="97" refid="class_coal_mine_1af554ff4cb49eef6922bc31f31392fc1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_coal_mine_1af554ff4cb49eef6922bc31f31392fc1b" kindref="member">CoalMine</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sf::Vector2f&amp;<sp/>pos,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sf::Color&amp;<sp/>col)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_base_structure" kindref="compound">BaseStructure</ref>(pos,<sp/>col,<sp/>{},<sp/>{{</highlight><highlight class="stringliteral">&quot;coal&quot;</highlight><highlight class="normal">,<sp/>0}})<sp/>{}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="class_coal_mine_1a25ca6c2c7c8010ac837e67fe5b848ae6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_coal_mine_1a25ca6c2c7c8010ac837e67fe5b848ae6" kindref="member">update</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_structure_1a86b734a821c361ef3b5f6bd27c8bee9c" kindref="member">isTimeToUpdate</ref>())<sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_base_structure_1ab9f70e5e019bb193ec7565930f8b0a5c" kindref="member">outputResources</ref>[</highlight><highlight class="stringliteral">&quot;coal&quot;</highlight><highlight class="normal">]<sp/>+=<sp/>100;<sp/><sp/></highlight><highlight class="comment">//<sp/>Producing<sp/>coal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_base_structure_1ab3d85807fc975ac56dbcbc7d93ab9c8b" kindref="member">printResources</ref>();</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_structure_1a73b9ac82fbbd00ddac90b4f01e0e7195" kindref="member">setNextUpdateTime</ref>();</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="107" refid="class_coal_mine_1a9017cdb1e9aa1e6f6bffa8fca1a50bd0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_coal_mine_1a9017cdb1e9aa1e6f6bffa8fca1a50bd0" kindref="member">type</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CoalMine&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="class_iron_mine" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_iron_mine" kindref="compound">IronMine</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_base_structure" kindref="compound">BaseStructure</ref><sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="112" refid="class_iron_mine_1ad9d4dffeb6e1058aa00fd74353aba229" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_iron_mine_1ad9d4dffeb6e1058aa00fd74353aba229" kindref="member">IronMine</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sf::Vector2f&amp;<sp/>pos,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sf::Color&amp;<sp/>col)</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_base_structure" kindref="compound">BaseStructure</ref>(pos,<sp/>col,<sp/>{},<sp/>{{</highlight><highlight class="stringliteral">&quot;iron<sp/>ore&quot;</highlight><highlight class="normal">,<sp/>0}})<sp/>{}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="class_iron_mine_1ae56d3a9a508f3e3a4d5ba8073195a999" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_iron_mine_1ae56d3a9a508f3e3a4d5ba8073195a999" kindref="member">update</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_structure_1a86b734a821c361ef3b5f6bd27c8bee9c" kindref="member">isTimeToUpdate</ref>())<sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_base_structure_1ab9f70e5e019bb193ec7565930f8b0a5c" kindref="member">outputResources</ref>[</highlight><highlight class="stringliteral">&quot;iron<sp/>ore&quot;</highlight><highlight class="normal">]<sp/>+=<sp/>100;<sp/><sp/></highlight><highlight class="comment">//<sp/>Producing<sp/>iron<sp/>ore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_base_structure_1ab3d85807fc975ac56dbcbc7d93ab9c8b" kindref="member">printResources</ref>();</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_structure_1a73b9ac82fbbd00ddac90b4f01e0e7195" kindref="member">setNextUpdateTime</ref>();</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="122" refid="class_iron_mine_1a6a5d4f920d44a9139cee7bb1356ffe6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_iron_mine_1a6a5d4f920d44a9139cee7bb1356ffe6c" kindref="member">type</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;IronMine&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="class_coal_power_plant" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_coal_power_plant" kindref="compound">CoalPowerPlant</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_base_structure" kindref="compound">BaseStructure</ref><sp/>{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="127" refid="class_coal_power_plant_1a7c775f26febd784b21c7a3e5e19849a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_coal_power_plant_1a7c775f26febd784b21c7a3e5e19849a7" kindref="member">CoalPowerPlant</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sf::Vector2f&amp;<sp/>pos,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sf::Color&amp;<sp/>col)</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_base_structure" kindref="compound">BaseStructure</ref>(pos,<sp/>col,<sp/>{{</highlight><highlight class="stringliteral">&quot;coal&quot;</highlight><highlight class="normal">,<sp/>0}},<sp/>{{</highlight><highlight class="stringliteral">&quot;energy&quot;</highlight><highlight class="normal">,<sp/>0}})<sp/>{}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="class_coal_power_plant_1ad8b71472fec7c0cf62d33ada35a96c14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_coal_power_plant_1ad8b71472fec7c0cf62d33ada35a96c14" kindref="member">update</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_structure_1a86b734a821c361ef3b5f6bd27c8bee9c" kindref="member">isTimeToUpdate</ref>()<sp/>&amp;&amp;<sp/><ref refid="class_base_structure_1ad25ec1037bf8af9ec521d441822f6a67" kindref="member">processResources</ref>({{</highlight><highlight class="stringliteral">&quot;coal&quot;</highlight><highlight class="normal">,<sp/>100}},<sp/>{{</highlight><highlight class="stringliteral">&quot;energy&quot;</highlight><highlight class="normal">,<sp/>100}}))<sp/>{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_base_structure_1ab3d85807fc975ac56dbcbc7d93ab9c8b" kindref="member">printResources</ref>();</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_structure_1a73b9ac82fbbd00ddac90b4f01e0e7195" kindref="member">setNextUpdateTime</ref>();</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="136" refid="class_coal_power_plant_1aef79f6004df0bbdaba6cb97a13d5d409" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_coal_power_plant_1aef79f6004df0bbdaba6cb97a13d5d409" kindref="member">type</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CoalPowerPlant&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="class_iron_smelter" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_iron_smelter" kindref="compound">IronSmelter</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_base_structure" kindref="compound">BaseStructure</ref><sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="141" refid="class_iron_smelter_1aea168683fa55ea0898e5cf3488f33c90" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_iron_smelter_1aea168683fa55ea0898e5cf3488f33c90" kindref="member">IronSmelter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sf::Vector2f&amp;<sp/>pos,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sf::Color&amp;<sp/>col)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_base_structure" kindref="compound">BaseStructure</ref>(pos,<sp/>col,<sp/>{{</highlight><highlight class="stringliteral">&quot;iron<sp/>ore&quot;</highlight><highlight class="normal">,<sp/>0}},<sp/>{{</highlight><highlight class="stringliteral">&quot;iron&quot;</highlight><highlight class="normal">,<sp/>0}})<sp/>{}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="class_iron_smelter_1ac4dc38165291ad78e87399db20528cdc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_iron_smelter_1ac4dc38165291ad78e87399db20528cdc" kindref="member">update</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_structure_1a86b734a821c361ef3b5f6bd27c8bee9c" kindref="member">isTimeToUpdate</ref>()<sp/>&amp;&amp;<sp/><ref refid="class_base_structure_1ad25ec1037bf8af9ec521d441822f6a67" kindref="member">processResources</ref>({{</highlight><highlight class="stringliteral">&quot;iron<sp/>ore&quot;</highlight><highlight class="normal">,<sp/>100}},<sp/>{{</highlight><highlight class="stringliteral">&quot;iron&quot;</highlight><highlight class="normal">,<sp/>100}}))<sp/>{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_base_structure_1ab3d85807fc975ac56dbcbc7d93ab9c8b" kindref="member">printResources</ref>();</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_structure_1a73b9ac82fbbd00ddac90b4f01e0e7195" kindref="member">setNextUpdateTime</ref>();</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="150" refid="class_iron_smelter_1a2e34b20e669f82f6d8ec3d61846dfda1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_iron_smelter_1a2e34b20e669f82f6d8ec3d61846dfda1" kindref="member">type</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;IronSmelter&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="class_steel_foundry" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_steel_foundry" kindref="compound">SteelFoundry</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_base_structure" kindref="compound">BaseStructure</ref><sp/>{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="155" refid="class_steel_foundry_1a75cc95199216f1e3dbaf0eee6f4b7b1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_steel_foundry_1a75cc95199216f1e3dbaf0eee6f4b7b1f" kindref="member">SteelFoundry</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sf::Vector2f&amp;<sp/>pos,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sf::Color&amp;<sp/>col)</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_base_structure" kindref="compound">BaseStructure</ref>(pos,<sp/>col,<sp/>{{</highlight><highlight class="stringliteral">&quot;coal&quot;</highlight><highlight class="normal">,<sp/>0},<sp/>{</highlight><highlight class="stringliteral">&quot;iron&quot;</highlight><highlight class="normal">,<sp/>0}},<sp/>{{</highlight><highlight class="stringliteral">&quot;steel&quot;</highlight><highlight class="normal">,<sp/>0}})<sp/>{}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="class_steel_foundry_1aa5a2d041293e635e48d82c3b3d231715" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_steel_foundry_1aa5a2d041293e635e48d82c3b3d231715" kindref="member">update</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_structure_1a86b734a821c361ef3b5f6bd27c8bee9c" kindref="member">isTimeToUpdate</ref>()<sp/>&amp;&amp;<sp/><ref refid="class_base_structure_1ad25ec1037bf8af9ec521d441822f6a67" kindref="member">processResources</ref>({{</highlight><highlight class="stringliteral">&quot;coal&quot;</highlight><highlight class="normal">,<sp/>100},<sp/>{</highlight><highlight class="stringliteral">&quot;iron&quot;</highlight><highlight class="normal">,<sp/>100}},<sp/>{{</highlight><highlight class="stringliteral">&quot;steel&quot;</highlight><highlight class="normal">,<sp/>100}}))<sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_base_structure_1ab3d85807fc975ac56dbcbc7d93ab9c8b" kindref="member">printResources</ref>();</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_structure_1a73b9ac82fbbd00ddac90b4f01e0e7195" kindref="member">setNextUpdateTime</ref>();</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="164" refid="class_steel_foundry_1a96bc0a3a2364787172571ec383eef122" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_steel_foundry_1a96bc0a3a2364787172571ec383eef122" kindref="member">type</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;SteelFoundry&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="class_storage" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_storage" kindref="compound">Storage</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_base_structure" kindref="compound">BaseStructure</ref><sp/>{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="169" refid="class_storage_1a7ec925602013a312b74135c6a0aa5f71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_storage_1a7ec925602013a312b74135c6a0aa5f71" kindref="member">Storage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sf::Vector2f&amp;<sp/>pos,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sf::Color&amp;<sp/>col)</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_base_structure" kindref="compound">BaseStructure</ref>(pos,<sp/>col,<sp/>{},<sp/>{{</highlight><highlight class="stringliteral">&quot;coal&quot;</highlight><highlight class="normal">,<sp/>0},<sp/>{</highlight><highlight class="stringliteral">&quot;iron<sp/>ore&quot;</highlight><highlight class="normal">,<sp/>0},<sp/>{</highlight><highlight class="stringliteral">&quot;iron&quot;</highlight><highlight class="normal">,<sp/>0},<sp/>{</highlight><highlight class="stringliteral">&quot;energy&quot;</highlight><highlight class="normal">,<sp/>0},<sp/>{</highlight><highlight class="stringliteral">&quot;steel&quot;</highlight><highlight class="normal">,<sp/>0}})<sp/>{}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="class_storage_1a7640a8a2fadbd060e29fbb2ff8a1f85c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_storage_1a7640a8a2fadbd060e29fbb2ff8a1f85c" kindref="member">update</ref>()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>No<sp/>operation<sp/>for<sp/>storage</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="175" refid="class_storage_1a53580bf8879f23c1637cdf158a942b58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_storage_1a53580bf8879f23c1637cdf158a942b58" kindref="member">type</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;Storage&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal">std::unique_ptr&lt;Structure&gt;<sp/><ref refid="_structures_8hpp_1a2c22d9df2c14da5c5c0c59ba9ba1784d" kindref="member">createStructure</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>type,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sf::Vector2f&amp;<sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sf::Color&amp;<sp/>color);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal">std::vector&lt;std::unique_ptr&lt;Structure&gt;&gt;<sp/><ref refid="_structures_8hpp_1a3ba15ca84658069d6ed883d8c3872bed" kindref="member">createStructures</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;StructureConfig&gt;&amp;<sp/>configs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_graph_manager" kindref="compound">GraphManager</ref>&amp;<sp/>graphManager);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>STRUCTURES_HPP</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="cpp/src/objects/Structures.hpp"/>
+  </compounddef>
+</doxygen>

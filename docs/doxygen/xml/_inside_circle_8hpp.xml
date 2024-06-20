@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="_inside_circle_8hpp" kind="file" language="C++">
+    <compoundname>InsideCircle.hpp</compoundname>
+    <includedby refid="_render_8cpp" local="yes">cpp/src/rendering/Render.cpp</includedby>
+    <includedby refid="_render_ships_8cpp" local="yes">cpp/src/rendering/RenderShips.cpp</includedby>
+    <includedby refid="_inside_circle_8cpp" local="yes">cpp/src/utils/InsideCircle.cpp</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>cpp/src/rendering/Render.cpp</label>
+        <link refid="_render_8cpp"/>
+      </node>
+      <node id="3">
+        <label>cpp/src/rendering/RenderShips.cpp</label>
+        <link refid="_render_ships_8cpp"/>
+      </node>
+      <node id="4">
+        <label>cpp/src/utils/InsideCircle.cpp</label>
+        <link refid="_inside_circle_8cpp"/>
+      </node>
+      <node id="1">
+        <label>cpp/src/utils/InsideCircle.hpp</label>
+        <link refid="_inside_circle_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_inside_circle_8hpp_1ad928178b07c719c77ed48329a2d04cb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool is_inside_circle</definition>
+        <argsstring>(float px, float py, float cx, float cy, float radius)</argsstring>
+        <name>is_inside_circle</name>
+        <param>
+          <type>float</type>
+          <declname>px</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>py</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cy</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/utils/InsideCircle.hpp" line="6" column="6" bodyfile="cpp/src/utils/InsideCircle.cpp" bodystart="6" bodyend="8" declfile="cpp/src/utils/InsideCircle.hpp" declline="6" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>InsideCircle.hpp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INSIDE_CIRCLE_HPP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INSIDE_CIRCLE_HPP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="_inside_circle_8hpp_1ad928178b07c719c77ed48329a2d04cb9" kindref="member">is_inside_circle</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>px,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>py,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cx,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cy,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>INSIDE_CIRCLE_HPP</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="cpp/src/utils/InsideCircle.hpp"/>
+  </compounddef>
+</doxygen>

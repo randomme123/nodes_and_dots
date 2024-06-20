@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="class_storage" kind="class" language="C++" prot="public">
+    <compoundname>Storage</compoundname>
+    <basecompoundref refid="class_base_structure" prot="public" virt="non-virtual">BaseStructure</basecompoundref>
+    <includes refid="_structures_8hpp" local="no">Structures.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_storage_1a7ec925602013a312b74135c6a0aa5f71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Storage::Storage</definition>
+        <argsstring>(const sf::Vector2f &amp;pos, const sf::Color &amp;col)</argsstring>
+        <name>Storage</name>
+        <qualifiedname>Storage::Storage</qualifiedname>
+        <param>
+          <type>const sf::Vector2f &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>const sf::Color &amp;</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Structures.hpp" line="169" column="5" bodyfile="cpp/src/objects/Structures.hpp" bodystart="169" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1a53580bf8879f23c1637cdf158a942b58" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string Storage::type</definition>
+        <argsstring>() const override</argsstring>
+        <name>type</name>
+        <qualifiedname>Storage::type</qualifiedname>
+        <reimplements refid="class_structure_1ae456fd97031335dd8ba8b7d4720638c2">type</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Structures.hpp" line="175" column="17" bodyfile="cpp/src/objects/Structures.hpp" bodystart="175" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_storage_1a7640a8a2fadbd060e29fbb2ff8a1f85c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void Storage::update</definition>
+        <argsstring>() override</argsstring>
+        <name>update</name>
+        <qualifiedname>Storage::update</qualifiedname>
+        <reimplements refid="class_structure_1af7dccdfe29886b57808b09d6d50238bd">update</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cpp/src/objects/Structures.hpp" line="172" column="10" bodyfile="cpp/src/objects/Structures.hpp" bodystart="172" bodyend="174"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseStructure</label>
+        <link refid="class_base_structure"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Storage</label>
+        <link refid="class_storage"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Structure</label>
+        <link refid="class_structure"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseStructure</label>
+        <link refid="class_base_structure"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Storage</label>
+        <link refid="class_storage"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Structure</label>
+        <link refid="class_structure"/>
+      </node>
+    </collaborationgraph>
+    <location file="cpp/src/objects/Structures.hpp" line="167" column="1" bodyfile="cpp/src/objects/Structures.hpp" bodystart="167" bodyend="176"/>
+    <listofallmembers>
+      <member refid="class_base_structure_1aa4d90a6d6a9bd7b30344acf5770501ff" prot="public" virt="non-virtual"><scope>Storage</scope><name>BaseStructure</name></member>
+      <member refid="class_base_structure_1a3c2544f6affd3bd824b235f4812a73c4" prot="protected" virt="non-virtual"><scope>Storage</scope><name>color</name></member>
+      <member refid="class_base_structure_1a0fccfad4d8bc42019f75439a1612b097" prot="public" virt="virtual"><scope>Storage</scope><name>getColor</name></member>
+      <member refid="class_base_structure_1aa9e9545e263d718e6824a6aab3322aa7" prot="public" virt="virtual"><scope>Storage</scope><name>getPosition</name></member>
+      <member refid="class_base_structure_1a8b18641b5f10526a6108cf762190463d" prot="protected" virt="non-virtual"><scope>Storage</scope><name>inputResources</name></member>
+      <member refid="class_structure_1a86b734a821c361ef3b5f6bd27c8bee9c" prot="protected" virt="non-virtual"><scope>Storage</scope><name>isTimeToUpdate</name></member>
+      <member refid="class_structure_1a0e56c07d511f3b5b86317289aa1b9f1b" prot="protected" virt="non-virtual"><scope>Storage</scope><name>nextUpdateTime</name></member>
+      <member refid="class_base_structure_1ab9f70e5e019bb193ec7565930f8b0a5c" prot="protected" virt="non-virtual"><scope>Storage</scope><name>outputResources</name></member>
+      <member refid="class_base_structure_1a8a9bbbadc2cee71042206e3de8522ea4" prot="protected" virt="non-virtual"><scope>Storage</scope><name>position</name></member>
+      <member refid="class_base_structure_1ab3d85807fc975ac56dbcbc7d93ab9c8b" prot="protected" virt="non-virtual"><scope>Storage</scope><name>printResources</name></member>
+      <member refid="class_base_structure_1ad25ec1037bf8af9ec521d441822f6a67" prot="protected" virt="non-virtual"><scope>Storage</scope><name>processResources</name></member>
+      <member refid="class_structure_1ad9bdf6cc1a36bf6cd447b60d13a60d8d" prot="protected" virt="non-virtual"><scope>Storage</scope><name>rng</name></member>
+      <member refid="class_structure_1a73b9ac82fbbd00ddac90b4f01e0e7195" prot="protected" virt="non-virtual"><scope>Storage</scope><name>setNextUpdateTime</name></member>
+      <member refid="class_storage_1a7ec925602013a312b74135c6a0aa5f71" prot="public" virt="non-virtual"><scope>Storage</scope><name>Storage</name></member>
+      <member refid="class_structure_1ac6c101b28efea5a150cce3bb8948f8d1" prot="protected" virt="non-virtual"><scope>Storage</scope><name>Structure</name></member>
+      <member refid="class_storage_1a53580bf8879f23c1637cdf158a942b58" prot="public" virt="virtual"><scope>Storage</scope><name>type</name></member>
+      <member refid="class_storage_1a7640a8a2fadbd060e29fbb2ff8a1f85c" prot="public" virt="virtual"><scope>Storage</scope><name>update</name></member>
+      <member refid="class_structure_1a9b0688285fa394f7b93b1b4edd6a5fbf" prot="public" virt="virtual"><scope>Storage</scope><name>~Structure</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

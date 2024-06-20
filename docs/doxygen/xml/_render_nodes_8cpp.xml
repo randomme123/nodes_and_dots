@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="_render_nodes_8cpp" kind="file" language="C++">
+    <compoundname>RenderNodes.cpp</compoundname>
+    <includes refid="_render_nodes_8hpp" local="yes">RenderNodes.hpp</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>cpp/src/rendering/RenderNodes.cpp</label>
+        <link refid="_render_nodes_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RenderNodes.hpp</label>
+        <link refid="_render_nodes_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>SFML/Graphics.hpp</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_render_nodes_8hpp" kindref="compound">RenderNodes.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="class_render_nodes_1a84b0d48cf22f24f7d85950f287e2b3eb" kindref="member">RenderNodes::RenderNodes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;std::pair&lt;float,<sp/>float&gt;&gt;&amp;<sp/>coords,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;bool&gt;&amp;<sp/>keep_node,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;bool&gt;&amp;<sp/>selected)</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>coords(coords),<sp/>keep_node(keep_node),<sp/>selected(selected)<sp/>{}</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_render_nodes_1af1d4b87e86e67ce80f20207a812581f2" kindref="member">RenderNodes::draw</ref>(sf::RenderWindow&amp;<sp/>window)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="class_render_nodes_1aa0d419951d99790eb61911995fbdf3d2" kindref="member">coords</ref>.size();<sp/>++i)<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_render_nodes_1aa4ab9bc88ac29c6f7b51e44bb7bad56c" kindref="member">keep_node</ref>[i])<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sf::CircleShape<sp/>circle(1);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>circle.setPosition(<ref refid="class_render_nodes_1aa0d419951d99790eb61911995fbdf3d2" kindref="member">coords</ref>[i].first<sp/>-<sp/>circle.getRadius(),<sp/><ref refid="class_render_nodes_1aa0d419951d99790eb61911995fbdf3d2" kindref="member">coords</ref>[i].second<sp/>-<sp/>circle.getRadius());</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_render_nodes_1a14c27ad14ccfddfa6fcafe16ab5c9837" kindref="member">selected</ref>[i])<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>circle.setFillColor(sf::Color::Red);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>circle.setFillColor(sf::Color::Red);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>window.draw(circle);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="cpp/src/rendering/RenderNodes.cpp"/>
+  </compounddef>
+</doxygen>

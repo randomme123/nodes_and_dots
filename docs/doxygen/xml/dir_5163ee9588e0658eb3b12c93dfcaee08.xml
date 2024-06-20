@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_5163ee9588e0658eb3b12c93dfcaee08" kind="dir">
+    <compoundname>cpp/src/objects</compoundname>
+    <innerfile refid="_graph_8cpp">Graph.cpp</innerfile>
+    <innerfile refid="_graph_8hpp">Graph.hpp</innerfile>
+    <innerfile refid="_ships_8cpp">Ships.cpp</innerfile>
+    <innerfile refid="_ships_8hpp">Ships.hpp</innerfile>
+    <innerfile refid="_structure_config_8hpp">StructureConfig.hpp</innerfile>
+    <innerfile refid="_structures_8cpp">Structures.cpp</innerfile>
+    <innerfile refid="_structures_8hpp">Structures.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cpp/src/objects/"/>
+  </compounddef>
+</doxygen>

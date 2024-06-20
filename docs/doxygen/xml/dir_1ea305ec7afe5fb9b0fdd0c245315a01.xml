@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_1ea305ec7afe5fb9b0fdd0c245315a01" kind="dir">
+    <compoundname>cpp/src/utils</compoundname>
+    <innerfile refid="_distance_8cpp">Distance.cpp</innerfile>
+    <innerfile refid="_distance_8hpp">Distance.hpp</innerfile>
+    <innerfile refid="_inside_circle_8cpp">InsideCircle.cpp</innerfile>
+    <innerfile refid="_inside_circle_8hpp">InsideCircle.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cpp/src/utils/"/>
+  </compounddef>
+</doxygen>

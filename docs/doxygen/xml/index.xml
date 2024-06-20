@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.11.0" xml:lang="en-US">
+  <compound refid="class_base_structure" kind="class"><name>BaseStructure</name>
+    <member refid="class_base_structure_1a3c2544f6affd3bd824b235f4812a73c4" kind="variable"><name>color</name></member>
+    <member refid="class_base_structure_1a8b18641b5f10526a6108cf762190463d" kind="variable"><name>inputResources</name></member>
+    <member refid="class_base_structure_1ab9f70e5e019bb193ec7565930f8b0a5c" kind="variable"><name>outputResources</name></member>
+    <member refid="class_base_structure_1a8a9bbbadc2cee71042206e3de8522ea4" kind="variable"><name>position</name></member>
+    <member refid="class_base_structure_1aa4d90a6d6a9bd7b30344acf5770501ff" kind="function"><name>BaseStructure</name></member>
+    <member refid="class_base_structure_1a0fccfad4d8bc42019f75439a1612b097" kind="function"><name>getColor</name></member>
+    <member refid="class_base_structure_1aa9e9545e263d718e6824a6aab3322aa7" kind="function"><name>getPosition</name></member>
+    <member refid="class_base_structure_1ab3d85807fc975ac56dbcbc7d93ab9c8b" kind="function"><name>printResources</name></member>
+    <member refid="class_base_structure_1ad25ec1037bf8af9ec521d441822f6a67" kind="function"><name>processResources</name></member>
+  </compound>
+  <compound refid="class_coal_mine" kind="class"><name>CoalMine</name>
+    <member refid="class_coal_mine_1af554ff4cb49eef6922bc31f31392fc1b" kind="function"><name>CoalMine</name></member>
+    <member refid="class_coal_mine_1a9017cdb1e9aa1e6f6bffa8fca1a50bd0" kind="function"><name>type</name></member>
+    <member refid="class_coal_mine_1a25ca6c2c7c8010ac837e67fe5b848ae6" kind="function"><name>update</name></member>
+  </compound>
+  <compound refid="class_coal_power_plant" kind="class"><name>CoalPowerPlant</name>
+    <member refid="class_coal_power_plant_1a7c775f26febd784b21c7a3e5e19849a7" kind="function"><name>CoalPowerPlant</name></member>
+    <member refid="class_coal_power_plant_1aef79f6004df0bbdaba6cb97a13d5d409" kind="function"><name>type</name></member>
+    <member refid="class_coal_power_plant_1ad8b71472fec7c0cf62d33ada35a96c14" kind="function"><name>update</name></member>
+  </compound>
+  <compound refid="class_graph_manager" kind="class"><name>GraphManager</name>
+    <member refid="class_graph_manager_1abf032ecc1c4a887e30f51cbbf4583363" kind="variable"><name>coords</name></member>
+    <member refid="class_graph_manager_1acf06c45f2ccfed463cdd4c1472d9ce99" kind="variable"><name>field_size</name></member>
+    <member refid="class_graph_manager_1a8688fd07332bd04e6590e7faa1f58fab" kind="variable"><name>grid_size</name></member>
+    <member refid="class_graph_manager_1a5c3bf0a65058e7a2ded553a556434da1" kind="variable"><name>keep_node</name></member>
+    <member refid="class_graph_manager_1a32aa467ab85704bf79c0d738e179c009" kind="variable"><name>nodes_per_cell</name></member>
+    <member refid="class_graph_manager_1a75bfc6d8a9271dd5c54a9b97beb30f3e" kind="function"><name>compute_shortest_path</name></member>
+    <member refid="class_graph_manager_1a4ba8ca24136d6a798b8236c178a85462" kind="function"><name>create_graph</name></member>
+    <member refid="class_graph_manager_1a75eb36c23b09537abc7bd9fd878f3f7d" kind="function"><name>filter_largest_component</name></member>
+    <member refid="class_graph_manager_1a136d62a3b1eb022744a11863422ee2bf" kind="function"><name>generate_coordinates</name></member>
+    <member refid="class_graph_manager_1aa7d7a22fedd54e79d4c58e4967e77777" kind="function"><name>get_coords</name></member>
+    <member refid="class_graph_manager_1a06716e32eee535a06888a5e3cabbf52b" kind="function"><name>get_keep_node</name></member>
+    <member refid="class_graph_manager_1ae8059a7d140ad6d3f34db88a9c54ed82" kind="function"><name>get_valid_coords</name></member>
+    <member refid="class_graph_manager_1abc143406877d56e1d38503408098f98e" kind="function"><name>GraphManager</name></member>
+  </compound>
+  <compound refid="class_iron_mine" kind="class"><name>IronMine</name>
+    <member refid="class_iron_mine_1ad9d4dffeb6e1058aa00fd74353aba229" kind="function"><name>IronMine</name></member>
+    <member refid="class_iron_mine_1a6a5d4f920d44a9139cee7bb1356ffe6c" kind="function"><name>type</name></member>
+    <member refid="class_iron_mine_1ae56d3a9a508f3e3a4d5ba8073195a999" kind="function"><name>update</name></member>
+  </compound>
+  <compound refid="class_iron_smelter" kind="class"><name>IronSmelter</name>
+    <member refid="class_iron_smelter_1aea168683fa55ea0898e5cf3488f33c90" kind="function"><name>IronSmelter</name></member>
+    <member refid="class_iron_smelter_1a2e34b20e669f82f6d8ec3d61846dfda1" kind="function"><name>type</name></member>
+    <member refid="class_iron_smelter_1ac4dc38165291ad78e87399db20528cdc" kind="function"><name>update</name></member>
+  </compound>
+  <compound refid="class_render_edges" kind="class"><name>RenderEdges</name>
+    <member refid="class_render_edges_1afc0b6a4dc00ebef4d08753a2cfbe910b" kind="variable"><name>coords</name></member>
+    <member refid="class_render_edges_1aa6a20737ed8b341834bd0ae9f5d5eb8c" kind="variable"><name>graph</name></member>
+    <member refid="class_render_edges_1a16273f7a5601499c9c9c1fa091778319" kind="function"><name>draw</name></member>
+    <member refid="class_render_edges_1a41f4d6d703b8d8adc60365a35119c298" kind="function"><name>RenderEdges</name></member>
+  </compound>
+  <compound refid="class_renderer" kind="class"><name>Renderer</name>
+    <member refid="class_renderer_1aa09fb3162679f71daed1421dfee7d04a" kind="variable"><name>coords</name></member>
+    <member refid="class_renderer_1a1380c3068cf99b99cf91e2e2cd0f7c60" kind="variable"><name>field_size</name></member>
+    <member refid="class_renderer_1a87128150aae7435ab1241f6f1aa097b2" kind="variable"><name>graph</name></member>
+    <member refid="class_renderer_1a34d547c29197b1ddea2c36a1ffebdf55" kind="variable"><name>graphManager</name></member>
+    <member refid="class_renderer_1aed177cd201a10b5685c28fa0bda6f6fa" kind="variable"><name>keep_node</name></member>
+    <member refid="class_renderer_1a6b6b2a16a4a53338daaa8036c4e77e37" kind="variable"><name>renderEdges</name></member>
+    <member refid="class_renderer_1aca9c0bbd11948e7d4dd2f2cd40ea9691" kind="variable"><name>renderNodes</name></member>
+    <member refid="class_renderer_1a0ddea53515bc1d7540ebf2589c3279f3" kind="variable"><name>renderShips</name></member>
+    <member refid="class_renderer_1adaf1df2abef2669b08c66da2c8b96243" kind="variable"><name>renderStructures</name></member>
+    <member refid="class_renderer_1a973dfffd5b2c8bbf755a6e3c55a16cf6" kind="variable"><name>selected</name></member>
+    <member refid="class_renderer_1a1449cd3e19a0df2329ba28b047902e2d" kind="variable"><name>selected_nodes</name></member>
+    <member refid="class_renderer_1a49bde59d9c6f01479bf0850736278fcc" kind="variable"><name>selected_ship</name></member>
+    <member refid="class_renderer_1ac4da751407105538c7effe0c10b31197" kind="variable"><name>ships</name></member>
+    <member refid="class_renderer_1a9bdeae50aed2aba3ded8fca26c9bd3a7" kind="variable"><name>structures</name></member>
+    <member refid="class_renderer_1a98d1e247438153ac29206239cbdb5991" kind="variable"><name>view</name></member>
+    <member refid="class_renderer_1ae1305d9f61946b39c7bd62105aa56a7b" kind="variable"><name>viewport_height</name></member>
+    <member refid="class_renderer_1a8d97659892a9b7f37026d6e9cca4d4c0" kind="variable"><name>viewport_width</name></member>
+    <member refid="class_renderer_1a9bc2d445720d565550dc200ba1f47564" kind="variable"><name>window</name></member>
+    <member refid="class_renderer_1a4bce39d51fd4adace367d4c482051d13" kind="function"><name>Renderer</name></member>
+    <member refid="class_renderer_1a6a56b439b37f0aa6e8a797308c935aa2" kind="function"><name>run</name></member>
+    <member refid="class_renderer_1abf20300005183ea20b1d1a716a198bce" kind="function"><name>handleKeyPress</name></member>
+    <member refid="class_renderer_1a9686c71dcd97fa91c650b23e6018cbe5" kind="function"><name>handleMousePress</name></member>
+    <member refid="class_renderer_1a918a985bd212f1c37be3fbeb7473c973" kind="function"><name>handleMouseWheelScroll</name></member>
+    <member refid="class_renderer_1a241e9686356da684493ce75ba8567c7f" kind="function"><name>processEvents</name></member>
+    <member refid="class_renderer_1af7e5f8f68742f198e315fb4683a605a4" kind="function"><name>render</name></member>
+  </compound>
+  <compound refid="class_render_nodes" kind="class"><name>RenderNodes</name>
+    <member refid="class_render_nodes_1aa0d419951d99790eb61911995fbdf3d2" kind="variable"><name>coords</name></member>
+    <member refid="class_render_nodes_1aa4ab9bc88ac29c6f7b51e44bb7bad56c" kind="variable"><name>keep_node</name></member>
+    <member refid="class_render_nodes_1a14c27ad14ccfddfa6fcafe16ab5c9837" kind="variable"><name>selected</name></member>
+    <member refid="class_render_nodes_1af1d4b87e86e67ce80f20207a812581f2" kind="function"><name>draw</name></member>
+    <member refid="class_render_nodes_1a84b0d48cf22f24f7d85950f287e2b3eb" kind="function"><name>RenderNodes</name></member>
+  </compound>
+  <compound refid="class_render_ships" kind="class"><name>RenderShips</name>
+    <member refid="class_render_ships_1a6fc55c922c6f9694df0fbbfa4058292a" kind="variable"><name>coords</name></member>
+    <member refid="class_render_ships_1a7a167bc7a11691592eb51489338b2717" kind="variable"><name>ships</name></member>
+    <member refid="class_render_ships_1ae13ae0262bde3962d78966b6240dfb50" kind="function"><name>draw</name></member>
+    <member refid="class_render_ships_1adb12939ad8731c235c44d64a975f301b" kind="function"><name>RenderShips</name></member>
+  </compound>
+  <compound refid="class_render_structures" kind="class"><name>RenderStructures</name>
+    <member refid="class_render_structures_1a619936d5e33839cdbeee68d6d68ac01f" kind="variable"><name>structures</name></member>
+    <member refid="class_render_structures_1a5eae11740e87e18b886db093d3170ed7" kind="function"><name>draw</name></member>
+    <member refid="class_render_structures_1aad0e2c8aee73acdc300c766d3d0f7864" kind="function"><name>RenderStructures</name></member>
+  </compound>
+  <compound refid="class_ship" kind="class"><name>Ship</name>
+    <member refid="class_ship_1a31de9f6396da41ea702ddae73a2e2c80" kind="variable"><name>graph</name></member>
+    <member refid="class_ship_1a588f015bd542bc3b83284b30dec870a5" kind="variable"><name>graphManager</name></member>
+    <member refid="class_ship_1a69f3becacfcebccbf4135ba5d817ec32" kind="variable"><name>orientation</name></member>
+    <member refid="class_ship_1ae417f0fe1c677e41a819294e7f82d711" kind="variable"><name>path</name></member>
+    <member refid="class_ship_1a6146628b2aa51985d6c705014b380226" kind="variable"><name>path_index</name></member>
+    <member refid="class_ship_1aeb648c7396680e0a0a15408f7eb54bce" kind="variable"><name>position</name></member>
+    <member refid="class_ship_1ab21568085374711c2149b8da2f6cabc4" kind="variable"><name>selected</name></member>
+    <member refid="class_ship_1af70610e26865d07d94ee79463b00607f" kind="variable"><name>speed</name></member>
+    <member refid="class_ship_1ae63fa61fb34dc5fa8d37080dfe08fec5" kind="function"><name>findNewDestination</name></member>
+    <member refid="class_ship_1abb52aeade67da06c5d8f2aa41c97ea79" kind="function"><name>getOrientation</name></member>
+    <member refid="class_ship_1a8744ee18d99b1d3b561150b243373bc4" kind="function"><name>getPath</name></member>
+    <member refid="class_ship_1ab649f0a656d76a6293b55651a96c08e0" kind="function"><name>getPathIndex</name></member>
+    <member refid="class_ship_1abbce5b85c9bb3e52adb87557ded51015" kind="function"><name>getPosition</name></member>
+    <member refid="class_ship_1a790f0ffc0b0515643493139ebf8ff1bc" kind="function"><name>isSelected</name></member>
+    <member refid="class_ship_1aa8c6981b9fc9532389cb565b15f8966f" kind="function"><name>setSelected</name></member>
+    <member refid="class_ship_1ac856ebacba1f23276d60610f747f4dd4" kind="function"><name>Ship</name></member>
+    <member refid="class_ship_1a3ee2f77fa9920030dc3ff8268b2f73a4" kind="function"><name>update</name></member>
+  </compound>
+  <compound refid="class_steel_foundry" kind="class"><name>SteelFoundry</name>
+    <member refid="class_steel_foundry_1a75cc95199216f1e3dbaf0eee6f4b7b1f" kind="function"><name>SteelFoundry</name></member>
+    <member refid="class_steel_foundry_1a96bc0a3a2364787172571ec383eef122" kind="function"><name>type</name></member>
+    <member refid="class_steel_foundry_1aa5a2d041293e635e48d82c3b3d231715" kind="function"><name>update</name></member>
+  </compound>
+  <compound refid="class_storage" kind="class"><name>Storage</name>
+    <member refid="class_storage_1a7ec925602013a312b74135c6a0aa5f71" kind="function"><name>Storage</name></member>
+    <member refid="class_storage_1a53580bf8879f23c1637cdf158a942b58" kind="function"><name>type</name></member>
+    <member refid="class_storage_1a7640a8a2fadbd060e29fbb2ff8a1f85c" kind="function"><name>update</name></member>
+  </compound>
+  <compound refid="class_structure" kind="class"><name>Structure</name>
+    <member refid="class_structure_1a0e56c07d511f3b5b86317289aa1b9f1b" kind="variable"><name>nextUpdateTime</name></member>
+    <member refid="class_structure_1ad9bdf6cc1a36bf6cd447b60d13a60d8d" kind="variable"><name>rng</name></member>
+    <member refid="class_structure_1a86495bba06f25498248c804ef4455dd9" kind="function"><name>getColor</name></member>
+    <member refid="class_structure_1aa7e1a01c0ba7957cef6e2cc252cd5a2d" kind="function"><name>getPosition</name></member>
+    <member refid="class_structure_1ae456fd97031335dd8ba8b7d4720638c2" kind="function"><name>type</name></member>
+    <member refid="class_structure_1af7dccdfe29886b57808b09d6d50238bd" kind="function"><name>update</name></member>
+    <member refid="class_structure_1a9b0688285fa394f7b93b1b4edd6a5fbf" kind="function"><name>~Structure</name></member>
+    <member refid="class_structure_1a86b734a821c361ef3b5f6bd27c8bee9c" kind="function"><name>isTimeToUpdate</name></member>
+    <member refid="class_structure_1a73b9ac82fbbd00ddac90b4f01e0e7195" kind="function"><name>setNextUpdateTime</name></member>
+    <member refid="class_structure_1ac6c101b28efea5a150cce3bb8948f8d1" kind="function"><name>Structure</name></member>
+  </compound>
+  <compound refid="struct_structure_config" kind="struct"><name>StructureConfig</name>
+    <member refid="struct_structure_config_1af6df3d4bdc73c92f6a5992faff4a9cb7" kind="variable"><name>color</name></member>
+    <member refid="struct_structure_config_1a273b7ba4bfe0606ea2a3e8474d85bde2" kind="variable"><name>count</name></member>
+    <member refid="struct_structure_config_1ae5f6d6d54846cf778572243a01c92b19" kind="variable"><name>type</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_graph_8cpp" kind="file"><name>Graph.cpp</name>
+  </compound>
+  <compound refid="_graph_8hpp" kind="file"><name>Graph.hpp</name>
+    <member refid="_graph_8hpp_1acac1200ac774ce3fecdc270358e4a6b4" kind="typedef"><name>Edge</name></member>
+    <member refid="_graph_8hpp_1a4158a12566a53ab55345e02a783fe275" kind="typedef"><name>Graph</name></member>
+  </compound>
+  <compound refid="_ships_8cpp" kind="file"><name>Ships.cpp</name>
+    <member refid="_ships_8cpp_1a6afa51a7326b3ca9dcbe6dc7936a6cab" kind="function"><name>createShips</name></member>
+  </compound>
+  <compound refid="_ships_8hpp" kind="file"><name>Ships.hpp</name>
+    <member refid="_ships_8hpp_1a6afa51a7326b3ca9dcbe6dc7936a6cab" kind="function"><name>createShips</name></member>
+  </compound>
+  <compound refid="_structure_config_8hpp" kind="file"><name>StructureConfig.hpp</name>
+  </compound>
+  <compound refid="_structures_8cpp" kind="file"><name>Structures.cpp</name>
+    <member refid="_structures_8cpp_1a2c22d9df2c14da5c5c0c59ba9ba1784d" kind="function"><name>createStructure</name></member>
+    <member refid="_structures_8cpp_1a3ba15ca84658069d6ed883d8c3872bed" kind="function"><name>createStructures</name></member>
+  </compound>
+  <compound refid="_structures_8hpp" kind="file"><name>Structures.hpp</name>
+    <member refid="_structures_8hpp_1a75e93556f9159ad0b8d623942da5f830" kind="typedef"><name>Resource</name></member>
+    <member refid="_structures_8hpp_1a2c22d9df2c14da5c5c0c59ba9ba1784d" kind="function"><name>createStructure</name></member>
+    <member refid="_structures_8hpp_1a3ba15ca84658069d6ed883d8c3872bed" kind="function"><name>createStructures</name></member>
+  </compound>
+  <compound refid="_render_8cpp" kind="file"><name>Render.cpp</name>
+  </compound>
+  <compound refid="_render_8hpp" kind="file"><name>Render.hpp</name>
+  </compound>
+  <compound refid="_render_edges_8cpp" kind="file"><name>RenderEdges.cpp</name>
+  </compound>
+  <compound refid="_render_edges_8hpp" kind="file"><name>RenderEdges.hpp</name>
+  </compound>
+  <compound refid="_render_nodes_8cpp" kind="file"><name>RenderNodes.cpp</name>
+  </compound>
+  <compound refid="_render_nodes_8hpp" kind="file"><name>RenderNodes.hpp</name>
+  </compound>
+  <compound refid="_render_ships_8cpp" kind="file"><name>RenderShips.cpp</name>
+  </compound>
+  <compound refid="_render_ships_8hpp" kind="file"><name>RenderShips.hpp</name>
+  </compound>
+  <compound refid="_render_structures_8cpp" kind="file"><name>RenderStructures.cpp</name>
+  </compound>
+  <compound refid="_render_structures_8hpp" kind="file"><name>RenderStructures.hpp</name>
+  </compound>
+  <compound refid="_distance_8cpp" kind="file"><name>Distance.cpp</name>
+    <member refid="_distance_8cpp_1a9a727e9ea07b2ef614ec101a89b696ba" kind="function"><name>euclidean_distance</name></member>
+  </compound>
+  <compound refid="_distance_8hpp" kind="file"><name>Distance.hpp</name>
+    <member refid="_distance_8hpp_1a9a727e9ea07b2ef614ec101a89b696ba" kind="function"><name>euclidean_distance</name></member>
+  </compound>
+  <compound refid="_inside_circle_8cpp" kind="file"><name>InsideCircle.cpp</name>
+    <member refid="_inside_circle_8cpp_1ad928178b07c719c77ed48329a2d04cb9" kind="function"><name>is_inside_circle</name></member>
+  </compound>
+  <compound refid="_inside_circle_8hpp" kind="file"><name>InsideCircle.hpp</name>
+    <member refid="_inside_circle_8hpp_1ad928178b07c719c77ed48329a2d04cb9" kind="function"><name>is_inside_circle</name></member>
+  </compound>
+  <compound refid="dir_df511e5bd85cec96854b39d5e1c27aa8" kind="dir"><name>cpp</name>
+  </compound>
+  <compound refid="dir_5163ee9588e0658eb3b12c93dfcaee08" kind="dir"><name>cpp/src/objects</name>
+  </compound>
+  <compound refid="dir_6ff2848a10201199c5903aec113fb275" kind="dir"><name>cpp/src/rendering</name>
+  </compound>
+  <compound refid="dir_7e72c7cf48e3493f8206cd364e6bc9f6" kind="dir"><name>cpp/src</name>
+  </compound>
+  <compound refid="dir_1ea305ec7afe5fb9b0fdd0c245315a01" kind="dir"><name>cpp/src/utils</name>
+  </compound>
+</doxygenindex>

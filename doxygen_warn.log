@@ -1,0 +1,253 @@
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_distance_8hpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_distance_8hpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_distance_8hpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_distance_8hpp__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_distance_8hpp__dep__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_distance_8hpp__dep__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_distance_8hpp__dep__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_distance_8hpp__dep__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_distance_8cpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_distance_8cpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_distance_8cpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_distance_8cpp__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_graph_8hpp__dep__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_graph_8hpp__dep__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_graph_8hpp__dep__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_graph_8hpp__dep__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_graph_8cpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_graph_8cpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_graph_8cpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_graph_8cpp__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_8cpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_8cpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_8cpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_8cpp__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_inside_circle_8cpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_inside_circle_8cpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_inside_circle_8cpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_inside_circle_8cpp__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_inside_circle_8hpp__dep__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_inside_circle_8hpp__dep__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_inside_circle_8hpp__dep__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_inside_circle_8hpp__dep__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_graph_8hpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_graph_8hpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_graph_8hpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_graph_8hpp__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_8hpp__dep__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_8hpp__dep__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_8hpp__dep__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_8hpp__dep__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_edges_8cpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_edges_8cpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_edges_8cpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_edges_8cpp__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_edges_8hpp__dep__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_edges_8hpp__dep__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_edges_8hpp__dep__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_edges_8hpp__dep__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_8hpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_8hpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_8hpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_8hpp__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_edges_8hpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_edges_8hpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_edges_8hpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_edges_8hpp__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_nodes_8cpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_nodes_8cpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_nodes_8cpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_nodes_8cpp__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_nodes_8hpp__dep__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_nodes_8hpp__dep__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_nodes_8hpp__dep__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_nodes_8hpp__dep__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_nodes_8hpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_nodes_8hpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_nodes_8hpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_nodes_8hpp__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_ships_8cpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_ships_8cpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_ships_8cpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_ships_8cpp__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_ships_8hpp__dep__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_ships_8hpp__dep__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_ships_8hpp__dep__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_ships_8hpp__dep__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_ships_8hpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_ships_8hpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_ships_8hpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_ships_8hpp__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_structures_8cpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_structures_8cpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_structures_8cpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_structures_8cpp__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_structures_8hpp__dep__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_structures_8hpp__dep__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_structures_8hpp__dep__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_structures_8hpp__dep__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_ships_8cpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_ships_8cpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_ships_8cpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_ships_8cpp__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_ships_8hpp__dep__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_ships_8hpp__dep__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_ships_8hpp__dep__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_ships_8hpp__dep__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_structures_8hpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_structures_8hpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_structures_8hpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_structures_8hpp__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_ships_8hpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_ships_8hpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_ships_8hpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_ships_8hpp__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structure_config_8hpp__dep__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structure_config_8hpp__dep__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structure_config_8hpp__dep__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structure_config_8hpp__dep__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structure_config_8hpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structure_config_8hpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structure_config_8hpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structure_config_8hpp__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structures_8cpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structures_8cpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structures_8cpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structures_8cpp__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structures_8hpp__dep__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structures_8hpp__dep__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structures_8hpp__dep__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structures_8hpp__dep__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structures_8hpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structures_8hpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structures_8hpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structures_8hpp__incl.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_base_structure__coll__graph.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_base_structure__coll__graph.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_base_structure__coll__graph.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_base_structure__coll__graph.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_coal_mine__coll__graph.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_coal_mine__coll__graph.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_coal_mine__coll__graph.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_coal_mine__coll__graph.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_base_structure__inherit__graph.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_base_structure__inherit__graph.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_base_structure__inherit__graph.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_base_structure__inherit__graph.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_coal_mine__inherit__graph.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_coal_mine__inherit__graph.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_coal_mine__inherit__graph.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_coal_mine__inherit__graph.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_coal_power_plant__coll__graph.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_coal_power_plant__coll__graph.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_coal_power_plant__coll__graph.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_coal_power_plant__coll__graph.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_coal_power_plant__inherit__graph.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_coal_power_plant__inherit__graph.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_coal_power_plant__inherit__graph.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_coal_power_plant__inherit__graph.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_iron_mine__coll__graph.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_iron_mine__coll__graph.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_iron_mine__coll__graph.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_iron_mine__coll__graph.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_iron_mine__inherit__graph.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_iron_mine__inherit__graph.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_iron_mine__inherit__graph.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_iron_mine__inherit__graph.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_iron_smelter__coll__graph.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_iron_smelter__coll__graph.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_iron_smelter__coll__graph.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_iron_smelter__coll__graph.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_iron_smelter__inherit__graph.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_iron_smelter__inherit__graph.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_iron_smelter__inherit__graph.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_iron_smelter__inherit__graph.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_renderer__coll__graph.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_renderer__coll__graph.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_renderer__coll__graph.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_renderer__coll__graph.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_ship__coll__graph.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_ship__coll__graph.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_ship__coll__graph.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_ship__coll__graph.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_steel_foundry__coll__graph.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_steel_foundry__coll__graph.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_steel_foundry__coll__graph.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_steel_foundry__coll__graph.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_steel_foundry__inherit__graph.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_steel_foundry__inherit__graph.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_steel_foundry__inherit__graph.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_steel_foundry__inherit__graph.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_storage__coll__graph.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_storage__coll__graph.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_storage__coll__graph.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_storage__coll__graph.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_storage__inherit__graph.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_storage__inherit__graph.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_storage__inherit__graph.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_storage__inherit__graph.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_structure__inherit__graph.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_structure__inherit__graph.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_structure__inherit__graph.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_structure__inherit__graph.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_1ea305ec7afe5fb9b0fdd0c245315a01_dep.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_1ea305ec7afe5fb9b0fdd0c245315a01_dep.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_1ea305ec7afe5fb9b0fdd0c245315a01_dep.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_1ea305ec7afe5fb9b0fdd0c245315a01_dep.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_5163ee9588e0658eb3b12c93dfcaee08_dep.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_5163ee9588e0658eb3b12c93dfcaee08_dep.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_5163ee9588e0658eb3b12c93dfcaee08_dep.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_5163ee9588e0658eb3b12c93dfcaee08_dep.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_6ff2848a10201199c5903aec113fb275_dep.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_6ff2848a10201199c5903aec113fb275_dep.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_6ff2848a10201199c5903aec113fb275_dep.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_6ff2848a10201199c5903aec113fb275_dep.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_7e72c7cf48e3493f8206cd364e6bc9f6_dep.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_7e72c7cf48e3493f8206cd364e6bc9f6_dep.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_7e72c7cf48e3493f8206cd364e6bc9f6_dep.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_7e72c7cf48e3493f8206cd364e6bc9f6_dep.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_df511e5bd85cec96854b39d5e1c27aa8_dep.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_df511e5bd85cec96854b39d5e1c27aa8_dep.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_df511e5bd85cec96854b39d5e1c27aa8_dep.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_df511e5bd85cec96854b39d5e1c27aa8_dep.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/graph_legend.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/graph_legend.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/graph_legend.png"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_0.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_0.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_0.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_0.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_1.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_1.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_1.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_1.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_2.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_2.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_2.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_2.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_3.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_3.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_3.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_3.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_4.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_4.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_4.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_4.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_6.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_6.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_6.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_6.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_8.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_8.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_8.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_8.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_5.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_5.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_5.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_5.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_7.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_7.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_7.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_7.map"'
+C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/main_8cpp__incl.dot:1: error: Problems running dot: exit code=-1, command='dot.exe', arguments='"C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/main_8cpp__incl.dot" -Tpng -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/main_8cpp__incl.png" -Tcmapx -o "C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/main_8cpp__incl.map"'
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_distance_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_distance_8hpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_distance_8hpp__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_graph_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_graph_8hpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_graph_8hpp__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_inside_circle_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_inside_circle_8hpp__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_8hpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_8hpp__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_edges_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_edges_8hpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_edges_8hpp__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_nodes_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_nodes_8hpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_nodes_8hpp__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_ships_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_ships_8hpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_ships_8hpp__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_structures_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_structures_8hpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_render_structures_8hpp__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_ships_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_ships_8hpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_ships_8hpp__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structure_config_8hpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structure_config_8hpp__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structures_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structures_8hpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/_structures_8hpp__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_base_structure__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_base_structure__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_coal_mine__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_coal_mine__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_coal_power_plant__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_coal_power_plant__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_iron_mine__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_iron_mine__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_iron_smelter__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_iron_smelter__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_renderer__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_ship__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_steel_foundry__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_steel_foundry__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_storage__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_storage__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/class_structure__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_1ea305ec7afe5fb9b0fdd0c245315a01_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_5163ee9588e0658eb3b12c93dfcaee08_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_6ff2848a10201199c5903aec113fb275_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_7e72c7cf48e3493f8206cd364e6bc9f6_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/dir_df511e5bd85cec96854b39d5e1c27aa8_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_0.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_1.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_2.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_3.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_4.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_5.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_6.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_7.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/inherit_graph_8.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen/html/main_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
