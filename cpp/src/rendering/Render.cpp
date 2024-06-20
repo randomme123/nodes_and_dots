@@ -92,7 +92,7 @@ void Renderer::handleMousePress(sf::Event::MouseButtonEvent& mouseButton) {
         }
 
         // Structure selection
-        if (!node_selected && !selected_ship) {
+        if (!selected_ship) {
             for (auto& structure : structures) {
                 if (is_inside_circle(mouseX, mouseY, structure->getPosition().x, structure->getPosition().y, 25)) {
                     selected_structure = structure.get();
