@@ -13,7 +13,7 @@ Renderer::Renderer(float viewport_width, float viewport_height, float field_size
       coords(coords), graph(graph), keep_node(keep_node), graphManager(graphManager), ships(ships), structures(structures),
       window(sf::VideoMode(static_cast<int>(viewport_width), static_cast<int>(viewport_height)), "Graph Visualization"),
       view(sf::FloatRect((field_size - viewport_width) / 2, (field_size - viewport_height) / 2, viewport_width, viewport_height)),
-      selected(coords.size(), false), selected_ship(nullptr),
+      selected(coords.size(), false), selected_ship(nullptr), selected_structure(nullptr),
       renderEdges(graph, coords), renderNodes(coords, keep_node, selected), renderShips(ships, coords), renderStructures(structures) {
     window.setView(view);
 }
@@ -61,7 +61,7 @@ void Renderer::handleMousePress(sf::Event::MouseButtonEvent& mouseButton) {
         // Node selection
         bool node_selected = false;
         for (size_t i = 0; i < coords.size(); ++i) {
-            if (is_inside_circle(mouseX, mouseY, coords[i].first, coords[i].second, 5)) {
+            if (is_inside_circle(mouseX, mouseY, coords[i].first, coords[i].second, 25)) {
                 selected[i] = !selected[i];
                 if (selected[i]) {
                     selected_nodes.push_back(static_cast<int>(i));
@@ -80,12 +80,22 @@ void Renderer::handleMousePress(sf::Event::MouseButtonEvent& mouseButton) {
         // Ship selection
         if (!node_selected) {
             for (auto& ship : ships) {
-                if (is_inside_circle(mouseX, mouseY, ship.getPosition().first, ship.getPosition().second, 30)) {
+                if (is_inside_circle(mouseX, mouseY, ship.getPosition().first, ship.getPosition().second, 25)) {
                     if (selected_ship) {
                         selected_ship->setSelected(false);
                     }
                     selected_ship = &ship;
                     selected_ship->setSelected(true);
+                    break;
+                }
+            }
+        }
+
+        // Structure selection
+        if (!node_selected && !selected_ship) {
+            for (auto& structure : structures) {
+                if (is_inside_circle(mouseX, mouseY, structure->getPosition().x, structure->getPosition().y, 25)) {
+                    selected_structure = structure.get();
                     break;
                 }
             }
@@ -132,9 +142,9 @@ void Renderer::render() {
     window.clear(sf::Color::Black);
 
     renderEdges.draw(window, path);
-    renderNodes.draw(window);
-    renderShips.draw(window, selected_ship);
-    renderStructures.draw(window);
+    renderNodes.draw(window, selected_nodes); // Pass selected nodes
+    renderShips.draw(window, selected_ship); 
+    renderStructures.draw(window, selected_structure); // Pass selected structure
 
     window.display();
 }

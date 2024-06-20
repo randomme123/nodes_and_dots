@@ -3,15 +3,14 @@
 
 #include <SFML/Graphics.hpp>
 #include "Graph.hpp"
-#include "Graph.hpp"
 #include "Ships.hpp"
 #include "Structures.hpp"
 #include <vector>
 #include <memory>
 #include "RenderEdges.hpp"
 #include "RenderNodes.hpp"
-#include <RenderShips.hpp>
-#include <RenderStructures.hpp>
+#include "RenderShips.hpp"
+#include "RenderStructures.hpp"
 
 class Renderer {
 public:
@@ -43,8 +42,9 @@ private:
     sf::View view;
     std::vector<bool> selected;
     Ship* selected_ship;
+    Structure* selected_structure; // Added this line to declare 'selected_structure'
     std::vector<int> selected_nodes;
-    std::vector<int> path; // Add this line to declare 'path'
+    std::vector<int> path;
 
     RenderEdges renderEdges;
     RenderNodes renderNodes;
@@ -53,4 +53,3 @@ private:
 };
 
 #endif // RENDER_HPP
-

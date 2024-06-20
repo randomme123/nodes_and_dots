@@ -19,17 +19,12 @@ void RenderShips::draw(sf::RenderWindow& window, Ship* selected_ship) const {
         float halfSize = size / 2.0f;
         float height = std::sqrt(3.0f) / 2.0f * size;
 
+        // define the triangle
         triangle.setPoint(0, sf::Vector2f(0.0f, -2.0f * halfSize / std::sqrt(3.0f)));
         triangle.setPoint(1, sf::Vector2f(-halfSize, halfSize / std::sqrt(3.0f)));
         triangle.setPoint(2, sf::Vector2f(halfSize, halfSize / std::sqrt(3.0f)));
-
-        // Set the fill color
         triangle.setFillColor(sf::Color::Blue);
-
-        // Rotate the triangle according to the ship's orientation
         triangle.setRotation(ship.getOrientation());
-
-        // Move the triangle to the ship's position (centroid alignment)
         triangle.setPosition(ship.getPosition().first, ship.getPosition().second);
 
         // Draw the triangle
@@ -39,7 +34,7 @@ void RenderShips::draw(sf::RenderWindow& window, Ship* selected_ship) const {
         if (is_inside_circle(worldPos.x, worldPos.y, ship.getPosition().first, ship.getPosition().second, 20)) {
             sf::CircleShape proximity_circle(10);
             proximity_circle.setFillColor(sf::Color::Transparent);
-            proximity_circle.setOutlineThickness(1);
+            proximity_circle.setOutlineThickness(3);
             proximity_circle.setOutlineColor(sf::Color::Yellow);
             proximity_circle.setPosition(ship.getPosition().first - proximity_circle.getRadius(), ship.getPosition().second - proximity_circle.getRadius());
             window.draw(proximity_circle);
@@ -47,7 +42,7 @@ void RenderShips::draw(sf::RenderWindow& window, Ship* selected_ship) const {
         if (ship.isSelected()) {
             sf::CircleShape selected_circle(10);
             selected_circle.setFillColor(sf::Color::Transparent);
-            selected_circle.setOutlineThickness(1);
+            selected_circle.setOutlineThickness(3);
             selected_circle.setOutlineColor(sf::Color::Red);
             selected_circle.setPosition(ship.getPosition().first - selected_circle.getRadius(), ship.getPosition().second - selected_circle.getRadius());
             window.draw(selected_circle);
