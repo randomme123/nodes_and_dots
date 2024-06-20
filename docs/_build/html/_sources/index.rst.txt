@@ -13,6 +13,6 @@ Welcome to dots_and_nodes's documentation!
    :toctree: _autosummary
    :recursive:
 
-   print_dir_structure
+   dir_structure
    autodoc
    test

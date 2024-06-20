@@ -37,3 +37,26 @@ if (-not (Test-DirectoryInUse -path $buildDir)) {
 } else {
     Write-Host "Build directory is still in use after multiple attempts."
 }
+
+
+
+
+
+
+
+
+
+
+
+
+Write-Host ""
+Write-Host "Clean Up Documentation."
+
+# Clean up the docs directory
+if (Test-Path "C:\Users\desto\Scripts\projects\nodes_and_dots\docs\_build\doctrees") {
+    Remove-Item -Recurse -Force "C:\Users\desto\Scripts\projects\nodes_and_dots\docs\_build\doctrees"
+}
+Remove-Item -Recurse -Force "C:\Users\desto\Scripts\projects\nodes_and_dots\docs\_build\*.log"
+if (Test-Path "C:\Users\desto\Scripts\projects\nodes_and_dots\docs\_autosummary") {
+    Remove-Item -Recurse -Force "C:\Users\desto\Scripts\projects\nodes_and_dots\docs\_autosummary"
+}

@@ -1,0 +1,29 @@
+﻿dir\_structure
+==============
+
+.. automodule:: dir_structure
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      print_directory_structure
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+

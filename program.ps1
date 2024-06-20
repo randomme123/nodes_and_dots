@@ -16,17 +16,9 @@ Write-Host "Generate Documentation."
 & "C:\Program Files\Python\Python312\python.exe" "C:\Users\desto\Scripts\projects\nodes_and_dots\python\autodoc.py"
 
 Write-Host ""
-Write-Host "Clean Up Documentation."
+Write-Host "Clean Up."
 
-# Clean up the docs directory
-Remove-Item -Recurse -Force "C:\Users\desto\Scripts\projects\nodes_and_dots\docs\_build\doctrees"
-Remove-Item -Recurse -Force "C:\Users\desto\Scripts\projects\nodes_and_dots\docs\_build\*.log"
-Remove-Item -Recurse -Force "C:\Users\desto\Scripts\projects\nodes_and_dots\docs\_autosummary"
-
-Write-Host ""
-Write-Host "Clean Up Build Directory."
-
-# Clean up the build directory
+# Clean up the build directory and documentation
 & "C:\Users\desto\Scripts\projects\nodes_and_dots\powershell\clean.ps1"
 
 Write-Host ""
