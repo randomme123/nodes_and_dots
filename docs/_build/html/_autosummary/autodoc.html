@@ -38,14 +38,28 @@
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="#autodoc.build_docs" title="autodoc.build_docs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_docs</span></code></a>()</p></td>
-<td><p></p></td>
+<td><p>Builds the HTML documentation for the project using Sphinx.</p></td>
 </tr>
 </tbody>
 </table>
 <dl class="py function">
 <dt class="sig sig-object py" id="autodoc.build_docs">
 <span class="sig-prename descclassname"><span class="pre">autodoc.</span></span><span class="sig-name descname"><span class="pre">build_docs</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autodoc.build_docs" title="Link to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Builds the HTML documentation for the project using Sphinx.</p>
+<p>This function performs the following steps:
+1. Defines the paths for the documentation source directory (<cite>docs</cite>) and the build output directory (<cite>_build/html</cite>).
+2. Ensures the configuration file (<cite>conf.py</cite>) exists in the <cite>docs</cite> directory.
+3. Runs the <cite>sphinx-build</cite> command to generate the HTML documentation.
+4. Prints a success message with the location of the generated documentation or an error message if the build fails.</p>
+<dl>
+<dt>Raises:</dt><dd><p>FileNotFoundError: If the <cite>conf.py</cite> file is not found in the <cite>docs</cite> directory.
+subprocess.CalledProcessError: If the <cite>sphinx-build</cite> command fails.</p>
+</dd>
+<dt>Example:</dt><dd><p>To build the documentation, simply run the script:</p>
+<p>&gt; python autodoc.py</p>
+</dd>
+</dl>
+</dd></dl>
 
 </section>
 
