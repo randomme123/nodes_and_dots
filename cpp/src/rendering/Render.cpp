@@ -81,11 +81,16 @@ void Renderer::handleMousePress(sf::Event::MouseButtonEvent& mouseButton) {
         if (!node_selected) {
             for (auto& ship : ships) {
                 if (is_inside_circle(mouseX, mouseY, ship.getPosition().first, ship.getPosition().second, 25)) {
-                    if (selected_ship) {
+                    if (selected_ship == &ship) {
                         selected_ship->setSelected(false);
+                        selected_ship = nullptr; // Deselect if the same ship is clicked again
+                    } else {
+                        if (selected_ship) {
+                            selected_ship->setSelected(false);
+                        }
+                        selected_ship = &ship;
+                        selected_ship->setSelected(true);
                     }
-                    selected_ship = &ship;
-                    selected_ship->setSelected(true);
                     break;
                 }
             }
@@ -93,11 +98,20 @@ void Renderer::handleMousePress(sf::Event::MouseButtonEvent& mouseButton) {
 
         // Structure selection
         if (!selected_ship) {
+            bool structure_selected = false;
             for (auto& structure : structures) {
                 if (is_inside_circle(mouseX, mouseY, structure->getPosition().x, structure->getPosition().y, 25)) {
-                    selected_structure = structure.get();
+                    if (selected_structure == structure.get()) {
+                        selected_structure = nullptr; // Deselect if the same structure is clicked again
+                    } else {
+                        selected_structure = structure.get();
+                    }
+                    structure_selected = true;
                     break;
                 }
+            }
+            if (!structure_selected) {
+                selected_structure = nullptr; // Deselect if no structure is selected
             }
         }
 
