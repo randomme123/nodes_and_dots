@@ -16,3 +16,9 @@
 *.svg text
 *.dot text
 *.html text
+
+# Ensure that binary files are not converted
+*.png binary
+*.jpg binary
+*.gif binary
+*.pdf binary
