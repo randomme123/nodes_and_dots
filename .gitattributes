@@ -16,6 +16,7 @@
 *.svg text
 *.dot text
 *.html text
+*.css text
 
 # Ensure that binary files are not converted
 *.png binary
