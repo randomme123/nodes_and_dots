@@ -13,7 +13,6 @@
 *.xml text
 *.xslt text
 *.js text
-
 *.svg text
 *.dot text
 *.html text
