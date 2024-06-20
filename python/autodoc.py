@@ -22,7 +22,7 @@ def build_docs():
         > python autodoc.py
     """
     # Define the path to the docs directory and the build directory
-    docs_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../docs'))
+    docs_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), 'docs'))
     build_dir = os.path.join(docs_dir, '_build', 'html')
 
     # Ensure the docs directory contains the conf.py file
