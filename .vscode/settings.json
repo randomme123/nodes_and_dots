@@ -5,7 +5,9 @@
         "**/node_modules": true,
         "**/dist": true,
         "**/*.log": true,
-        "**/*.gitattributes": true
+        "**/*.gitattributes": true,
+        "**/__pycache__": true,
+        "**/__init__": true
     },
     "files.associations": {
         "cmath": "cpp",
