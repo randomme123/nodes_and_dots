@@ -3,11 +3,6 @@ Write-Host ""
 Write-Host "Build .exe."
 & "C:\Users\desto\Scripts\projects\nodes_and_dots\powershell\build.ps1"
 
-# Generate docs
-Write-Host ""
-Write-Host "Generate Docs."
-& "python" "C:\Users\desto\Scripts\projects\nodes_and_dots\python\autodoc.py"
-
 # Run exe
 Write-Host ""
 Write-Host "Run .exe."
