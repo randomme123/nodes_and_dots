@@ -1,16 +1,17 @@
-#ifndef Render_HPP
-#define Render_HPP
+#ifndef RENDER_HPP
+#define RENDER_HPP
 
 #include <SFML/Graphics.hpp>
-#include <vector>
-#include <memory>
+#include "Graph.hpp"
 #include "Graph.hpp"
 #include "Ships.hpp"
 #include "Structures.hpp"
+#include <vector>
+#include <memory>
 #include "RenderEdges.hpp"
 #include "RenderNodes.hpp"
-#include "RenderShips.hpp"
-#include "RenderStructures.hpp"
+#include <RenderShips.hpp>
+#include <RenderStructures.hpp>
 
 class Renderer {
 public:
@@ -19,7 +20,7 @@ public:
              const Graph& graph, const std::vector<bool>& keep_node,
              GraphManager& graphManager, std::vector<Ship>& ships,
              const std::vector<std::unique_ptr<Structure>>& structures);
-
+    
     void run();
 
 private:
@@ -41,8 +42,9 @@ private:
     sf::RenderWindow window;
     sf::View view;
     std::vector<bool> selected;
+    Ship* selected_ship;
     std::vector<int> selected_nodes;
-    Ship* selected_ship = nullptr;
+    std::vector<int> path; // Add this line to declare 'path'
 
     RenderEdges renderEdges;
     RenderNodes renderNodes;
@@ -50,6 +52,5 @@ private:
     RenderStructures renderStructures;
 };
 
-#endif // Render_HPP
-
+#endif // RENDER_HPP
 

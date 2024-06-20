@@ -7,13 +7,13 @@ C:\Users\desto\Scripts\projects\nodes_and_dots\cpp\src\objects\StructureConfig.h
 C:\Users\desto\Scripts\projects\nodes_and_dots\cpp\src\objects\Structures.cpp: Structures.hpp iostream cstdlib ctime vector
 C:\Users\desto\Scripts\projects\nodes_and_dots\cpp\src\objects\Structures.hpp: string map memory utility chrono random iostream Graph.hpp StructureConfig.hpp SFML/Graphics.hpp
 C:\Users\desto\Scripts\projects\nodes_and_dots\cpp\src\rendering\Render.cpp: Render.hpp utils/InsideCircle.hpp iostream algorithm
-C:\Users\desto\Scripts\projects\nodes_and_dots\cpp\src\rendering\Render.hpp: SFML/Graphics.hpp vector memory Graph.hpp Ships.hpp Structures.hpp RenderEdges.hpp RenderNodes.hpp RenderShips.hpp RenderStructures.hpp
+C:\Users\desto\Scripts\projects\nodes_and_dots\cpp\src\rendering\Render.hpp: SFML/Graphics.hpp Graph.hpp Graph.hpp Ships.hpp Structures.hpp vector memory RenderEdges.hpp RenderNodes.hpp RenderShips.hpp RenderStructures.hpp
 C:\Users\desto\Scripts\projects\nodes_and_dots\cpp\src\rendering\RenderEdges.cpp: RenderEdges.hpp boost/graph/graph_traits.hpp
 C:\Users\desto\Scripts\projects\nodes_and_dots\cpp\src\rendering\RenderEdges.hpp: SFML/Graphics.hpp Graph.hpp
 C:\Users\desto\Scripts\projects\nodes_and_dots\cpp\src\rendering\RenderNodes.cpp: RenderNodes.hpp
 C:\Users\desto\Scripts\projects\nodes_and_dots\cpp\src\rendering\RenderNodes.hpp: SFML/Graphics.hpp
-C:\Users\desto\Scripts\projects\nodes_and_dots\cpp\src\rendering\RenderShips.cpp: RenderShips.hpp utils/InsideCircle.hpp
-C:\Users\desto\Scripts\projects\nodes_and_dots\cpp\src\rendering\RenderShips.hpp: SFML/Graphics.hpp Ships.hpp
+C:\Users\desto\Scripts\projects\nodes_and_dots\cpp\src\rendering\RenderShips.cpp: RenderShips.hpp utils/InsideCircle.hpp cmath
+C:\Users\desto\Scripts\projects\nodes_and_dots\cpp\src\rendering\RenderShips.hpp: SFML/Graphics.hpp Ships.hpp vector utility
 C:\Users\desto\Scripts\projects\nodes_and_dots\cpp\src\rendering\RenderStructures.cpp: RenderStructures.hpp
 C:\Users\desto\Scripts\projects\nodes_and_dots\cpp\src\rendering\RenderStructures.hpp: SFML/Graphics.hpp Structures.hpp
 C:\Users\desto\Scripts\projects\nodes_and_dots\cpp\src\utils\Distance.cpp: Distance.hpp

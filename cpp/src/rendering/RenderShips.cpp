@@ -1,10 +1,15 @@
 #include "RenderShips.hpp"
 #include "utils/InsideCircle.hpp"
+#include <cmath> // For std::sqrt
 
 RenderShips::RenderShips(std::vector<Ship>& ships, const std::vector<std::pair<float, float>>& coords)
     : ships(ships), coords(coords) {}
 
-void RenderShips::draw(sf::RenderWindow& window, const sf::Vector2f& worldPos, Ship* selected_ship) const {
+void RenderShips::draw(sf::RenderWindow& window, Ship* selected_ship) const {
+    // Get the current mouse position relative to the window
+    sf::Vector2i pixelPos = sf::Mouse::getPosition(window);
+    sf::Vector2f worldPos = window.mapPixelToCoords(pixelPos);
+
     for (auto& ship : ships) {
         sf::ConvexShape triangle;
         triangle.setPointCount(3);

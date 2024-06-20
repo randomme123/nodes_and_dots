@@ -3,6 +3,7 @@
 #include <iostream>
 #include <algorithm>
 
+// Constructor
 Renderer::Renderer(float viewport_width, float viewport_height, float field_size,
                    const std::vector<std::pair<float, float>>& coords,
                    const Graph& graph, const std::vector<bool>& keep_node,
@@ -17,6 +18,7 @@ Renderer::Renderer(float viewport_width, float viewport_height, float field_size
     window.setView(view);
 }
 
+// Run the Renderer
 void Renderer::run() {
     while (window.isOpen()) {
         processEvents();
@@ -33,6 +35,7 @@ void Renderer::run() {
     }
 }
 
+// Process Events
 void Renderer::processEvents() {
     sf::Event event;
     while (window.pollEvent(event)) {
@@ -48,13 +51,14 @@ void Renderer::processEvents() {
     }
 }
 
+// Handle Mouse Press
 void Renderer::handleMousePress(sf::Event::MouseButtonEvent& mouseButton) {
     if (mouseButton.button == sf::Mouse::Left) {
         sf::Vector2f world_pos = window.mapPixelToCoords(sf::Vector2i(mouseButton.x, mouseButton.y));
         float mouseX = world_pos.x;
         float mouseY = world_pos.y;
 
-        // node selection
+        // Node selection
         bool node_selected = false;
         for (size_t i = 0; i < coords.size(); ++i) {
             if (is_inside_circle(mouseX, mouseY, coords[i].first, coords[i].second, 5)) {
@@ -73,7 +77,7 @@ void Renderer::handleMousePress(sf::Event::MouseButtonEvent& mouseButton) {
             }
         }
 
-        // ship selection
+        // Ship selection
         if (!node_selected) {
             for (auto& ship : ships) {
                 if (is_inside_circle(mouseX, mouseY, ship.getPosition().first, ship.getPosition().second, 30)) {
@@ -86,9 +90,20 @@ void Renderer::handleMousePress(sf::Event::MouseButtonEvent& mouseButton) {
                 }
             }
         }
+
+        // Compute shortest path if two nodes are selected
+        if (selected_nodes.size() == 2) {
+            path = graphManager.compute_shortest_path(graph, selected_nodes[0], selected_nodes[1]);
+            if (path.empty()) {
+                std::cout << "No path found between " << selected_nodes[0] << " and " << selected_nodes[1] << std::endl;
+            }
+        } else {
+            path.clear();
+        }
     }
 }
 
+// Handle Mouse Wheel Scroll
 void Renderer::handleMouseWheelScroll(sf::Event::MouseWheelScrollEvent& mouseWheel) {
     if (mouseWheel.delta > 0) {
         view.zoom(0.9f);
@@ -98,6 +113,7 @@ void Renderer::handleMouseWheelScroll(sf::Event::MouseWheelScrollEvent& mouseWhe
     window.setView(view);
 }
 
+// Handle Key Press
 void Renderer::handleKeyPress(sf::Event::KeyEvent& key) {
     if (key.code == sf::Keyboard::Left) {
         view.move(-50, 0);
@@ -111,25 +127,13 @@ void Renderer::handleKeyPress(sf::Event::KeyEvent& key) {
     window.setView(view);
 }
 
+// Render the Scene
 void Renderer::render() {
-    std::vector<int> path;
-    if (selected_nodes.size() == 2) {
-        path = graphManager.compute_shortest_path(graph, selected_nodes[0], selected_nodes[1]);
-        if (path.empty()) {
-            std::cout << "No path found between " << selected_nodes[0] << " and " << selected_nodes[1] << std::endl;
-        }
-    }
-
     window.clear(sf::Color::Black);
 
     renderEdges.draw(window, path);
     renderNodes.draw(window);
-
-    // Get the current mouse position relative to the window
-    sf::Vector2i pixelPos = sf::Mouse::getPosition(window);
-    sf::Vector2f worldPos = window.mapPixelToCoords(pixelPos);
-    renderShips.draw(window, worldPos, selected_ship);
-    
+    renderShips.draw(window, selected_ship);
     renderStructures.draw(window);
 
     window.display();

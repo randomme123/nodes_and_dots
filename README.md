@@ -12,8 +12,8 @@ Players must efficiently manage resources, ships, and structures to expand their
 
 ## The Game World
 - **Graph**: Represents the entire game world, consisting of interconnected nodes and edges.
-- **Node**: Points on the graph representing cities, bases, or resource points.
-- **Edge**: Connections between nodes that ships travel on.
+- **Node**: Points on the graph representing Stars and their Structures.
+- **Edge**: Connections between nodes where-on ships travel.
 - **Structures**: Buildings on nodes that consume and produce resources.
 - **Ships**: Vehicles that transport resources between nodes using pathfinding algorithms.
 - **Resources**: Various commodities that nodes and structures produce and consume.
