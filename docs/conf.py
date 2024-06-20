@@ -1,6 +1,7 @@
 import os
 import sys
 import breathe
+import sphinx_rtd_theme
 
 # Add project root and docs root to sys.path
 sys.path.insert(0, os.path.abspath('..'))
