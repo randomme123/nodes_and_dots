@@ -100,7 +100,7 @@ void Renderer::handleMousePress(sf::Event::MouseButtonEvent& mouseButton) {
         if (!selected_ship) {
             bool structure_selected = false;
             for (auto& structure : structures) {
-                if (is_inside_circle(mouseX, mouseY, structure->getPosition().x, structure->getPosition().y, 10)) {
+                if (is_inside_circle(mouseX, mouseY, structure->getPosition().x, structure->getPosition().y, 20)) {
                     if (selected_structure == structure.get()) {
                         selected_structure = nullptr; // Deselect if the same structure is clicked again
                     } else {
