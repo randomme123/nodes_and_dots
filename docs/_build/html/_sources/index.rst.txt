@@ -7,10 +7,13 @@ Welcome to dots_and_nodes's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-.. autosummary::
-   :toctree: _autosummary
-   :recursive:
+.. automodule:: dir_structure
+   :members:
+   :undoc-members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :show-inheritance:
 
-   dir_structure
-   autodoc
-   test
+.. doxygenindex::
+

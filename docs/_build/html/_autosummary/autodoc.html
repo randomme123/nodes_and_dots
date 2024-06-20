@@ -13,8 +13,6 @@
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="test" href="test.html" />
-    <link rel="prev" title="dir_structure" href="dir_structure.html" />
    
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
   
@@ -35,25 +33,19 @@
   <section id="module-autodoc">
 <span id="autodoc"></span><h1>autodoc<a class="headerlink" href="#module-autodoc" title="Link to this heading">¶</a></h1>
 <p class="rubric">Functions</p>
-<table class="autosummary longtable docutils align-default">
-<tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#autodoc.build_docs" title="autodoc.build_docs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_docs</span></code></a>()</p></td>
-<td><p>Builds the HTML documentation for the project using Sphinx.</p></td>
-</tr>
-</tbody>
-</table>
 <dl class="py function">
 <dt class="sig sig-object py" id="autodoc.build_docs">
 <span class="sig-prename descclassname"><span class="pre">autodoc.</span></span><span class="sig-name descname"><span class="pre">build_docs</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#autodoc.build_docs" title="Link to this definition">¶</a></dt>
-<dd><p>Builds the HTML documentation for the project using Sphinx.</p>
+<dd><p>Builds the HTML documentation for the project using Sphinx and Doxygen.</p>
 <p>This function performs the following steps:
 1. Defines the paths for the documentation source directory (<cite>docs</cite>) and the build output directory (<cite>_build/html</cite>).
-2. Ensures the configuration file (<cite>conf.py</cite>) exists in the <cite>docs</cite> directory.
-3. Runs the <cite>sphinx-build</cite> command to generate the HTML documentation.
-4. Prints a success message with the location of the generated documentation or an error message if the build fails.</p>
+2. Ensures the configuration file (<cite>conf.py</cite>) and <cite>Doxyfile</cite> exist in the <cite>docs</cite> directory.
+3. Runs Doxygen to generate the XML documentation.
+4. Runs the <cite>sphinx-build</cite> command to generate the HTML documentation.
+5. Prints a success message with the location of the generated documentation or an error message if the build fails.</p>
 <dl>
-<dt>Raises:</dt><dd><p>FileNotFoundError: If the <cite>conf.py</cite> file is not found in the <cite>docs</cite> directory.
-subprocess.CalledProcessError: If the <cite>sphinx-build</cite> command fails.</p>
+<dt>Raises:</dt><dd><p>FileNotFoundError: If the <cite>conf.py</cite> or <cite>Doxyfile</cite> file is not found in the <cite>docs</cite> directory.
+subprocess.CalledProcessError: If the <cite>doxygen</cite> or <cite>sphinx-build</cite> command fails.</p>
 </dd>
 <dt>Example:</dt><dd><p>To build the documentation, simply run the script:</p>
 <p>&gt; python autodoc.py</p>
@@ -80,21 +72,11 @@ subprocess.CalledProcessError: If the <cite>sphinx-build</cite> command fails.</
 
 
 <h3>Navigation</h3>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="dir_structure.html">dir_structure</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">autodoc</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#autodoc.build_docs"><code class="docutils literal notranslate"><span class="pre">build_docs()</span></code></a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="test.html">test</a></li>
-</ul>
 
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="../index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="dir_structure.html" title="previous chapter">dir_structure</a></li>
-      <li>Next: <a href="test.html" title="next chapter">test</a></li>
   </ul></li>
 </ul>
 </div>

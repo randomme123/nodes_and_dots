@@ -4,28 +4,32 @@ import sys
 # Add the path to the Python source directory
 sys.path.insert(0, os.path.abspath('../python'))
 
-# -- Project information -----------------------------------------------------
+# Project information
 project = 'dots_and_nodes'
 copyright = '2024, xonnel'
 author = 'xonnel'
 release = '0.01'
 
-# -- General configuration ---------------------------------------------------
+# General configuration
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'breathe',
-    # Add any other Sphinx extensions here
+    'breathe',  # Add Breathe extension
 ]
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = []
 
-# -- Options for HTML output -------------------------------------------------
+# Options for HTML output
 html_theme = 'alabaster'
 html_static_path = ['_static']
 
-# Autodoc settings
+# Breathe configuration
+breathe_projects = {
+    "dots_and_nodes": "./doxygen/xml"
+}
+breathe_default_project = "dots_and_nodes"
+
+# Autodoc default options
 autodoc_default_options = {
     'members': True,
     'undoc-members': True,
@@ -35,11 +39,3 @@ autodoc_default_options = {
     'show-inheritance': True,
 }
 
-# Autosummary settings
-autosummary_generate = True  # Automatically generate stub files
-
-# Breathe configuration
-breathe_projects = {
-    "dots_and_nodes": "doxygen/xml"
-}
-breathe_default_project = "dots_and_nodes"
