@@ -6,7 +6,7 @@ void RenderStructures::draw(sf::RenderWindow& window, Structure* selected_struct
     for (const auto& structure : structures) {
         sf::RectangleShape structure_shape(sf::Vector2f(10, 10));
         if (structure.get() == selected_structure) {
-            structure_shape.setSize(sf::Vector2f(20, 20)); // Render extra large if selected
+            structure_shape.setSize(sf::Vector2f(30, 30)); // Render extra large if selected
             structure_shape.setFillColor(sf::Color::Yellow); // Highlight color
         } else {
             structure_shape.setFillColor(structure->getColor());
