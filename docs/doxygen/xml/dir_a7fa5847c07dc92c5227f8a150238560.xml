@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
-  <compounddef id="dir_5163ee9588e0658eb3b12c93dfcaee08" kind="dir">
-    <compoundname>cpp/src/objects</compoundname>
+  <compounddef id="dir_a7fa5847c07dc92c5227f8a150238560" kind="dir">
+    <compoundname>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects</compoundname>
     <innerfile refid="_graph_8cpp">Graph.cpp</innerfile>
     <innerfile refid="_graph_8hpp">Graph.hpp</innerfile>
     <innerfile refid="_ships_8cpp">Ships.cpp</innerfile>
@@ -13,6 +13,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="cpp/src/objects/"/>
+    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/"/>
   </compounddef>
 </doxygen>

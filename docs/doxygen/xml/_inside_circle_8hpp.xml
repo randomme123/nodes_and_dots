@@ -2,24 +2,24 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
   <compounddef id="_inside_circle_8hpp" kind="file" language="C++">
     <compoundname>InsideCircle.hpp</compoundname>
-    <includedby refid="_render_8cpp" local="yes">cpp/src/rendering/Render.cpp</includedby>
-    <includedby refid="_render_ships_8cpp" local="yes">cpp/src/rendering/RenderShips.cpp</includedby>
-    <includedby refid="_inside_circle_8cpp" local="yes">cpp/src/utils/InsideCircle.cpp</includedby>
+    <includedby refid="_render_8cpp" local="yes">C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.cpp</includedby>
+    <includedby refid="_render_ships_8cpp" local="yes">C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderShips.cpp</includedby>
+    <includedby refid="_inside_circle_8cpp" local="yes">C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/utils/InsideCircle.cpp</includedby>
     <invincdepgraph>
       <node id="2">
-        <label>cpp/src/rendering/Render.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.cpp</label>
         <link refid="_render_8cpp"/>
       </node>
       <node id="3">
-        <label>cpp/src/rendering/RenderShips.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderShips.cpp</label>
         <link refid="_render_ships_8cpp"/>
       </node>
       <node id="4">
-        <label>cpp/src/utils/InsideCircle.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/utils/InsideCircle.cpp</label>
         <link refid="_inside_circle_8cpp"/>
       </node>
       <node id="1">
-        <label>cpp/src/utils/InsideCircle.hpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/utils/InsideCircle.hpp</label>
         <link refid="_inside_circle_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/utils/InsideCircle.hpp" line="6" column="6" bodyfile="cpp/src/utils/InsideCircle.cpp" bodystart="6" bodyend="8" declfile="cpp/src/utils/InsideCircle.hpp" declline="6" declcolumn="6"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/utils/InsideCircle.hpp" line="6" column="6" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/utils/InsideCircle.cpp" bodystart="6" bodyend="8" declfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/utils/InsideCircle.hpp" declline="6" declcolumn="6"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -78,6 +78,6 @@
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>INSIDE_CIRCLE_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="cpp/src/utils/InsideCircle.hpp"/>
+    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/utils/InsideCircle.hpp"/>
   </compounddef>
 </doxygen>

@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['view_0',['view',['../class_renderer.html#a98d1e247438153ac29206239cbdb5991',1,'Renderer']]],
-  ['viewport_5fheight_1',['viewport_height',['../class_renderer.html#ae1305d9f61946b39c7bd62105aa56a7b',1,'Renderer']]],
-  ['viewport_5fwidth_2',['viewport_width',['../class_renderer.html#a8d97659892a9b7f37026d6e9cca4d4c0',1,'Renderer']]]
+  ['type_0',['type',['../struct_structure_config.html#ae5f6d6d54846cf778572243a01c92b19',1,'StructureConfig::type'],['../class_structure.html#ae456fd97031335dd8ba8b7d4720638c2',1,'Structure::type()'],['../class_coal_mine.html#a9017cdb1e9aa1e6f6bffa8fca1a50bd0',1,'CoalMine::type()'],['../class_iron_mine.html#a6a5d4f920d44a9139cee7bb1356ffe6c',1,'IronMine::type()'],['../class_coal_power_plant.html#aef79f6004df0bbdaba6cb97a13d5d409',1,'CoalPowerPlant::type()'],['../class_iron_smelter.html#a2e34b20e669f82f6d8ec3d61846dfda1',1,'IronSmelter::type()'],['../class_steel_foundry.html#a96bc0a3a2364787172571ec383eef122',1,'SteelFoundry::type()'],['../class_storage.html#a53580bf8879f23c1637cdf158a942b58',1,'Storage::type()']]]
 ];

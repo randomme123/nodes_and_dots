@@ -62,7 +62,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>cpp/src/rendering/Render.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.cpp</label>
         <link refid="_render_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -307,6 +307,6 @@
 <codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_renderer_1a9bc2d445720d565550dc200ba1f47564" kindref="member">window</ref>.display();</highlight></codeline>
 <codeline lineno="136"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="cpp/src/rendering/Render.cpp"/>
+    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.cpp"/>
   </compounddef>
 </doxygen>

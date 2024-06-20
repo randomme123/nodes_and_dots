@@ -4,11 +4,11 @@
     <compoundname>StructureConfig.hpp</compoundname>
     <includes local="no">SFML/Graphics.hpp</includes>
     <includes local="no">string</includes>
-    <includedby refid="main_8cpp" local="yes">cpp/src/main.cpp</includedby>
-    <includedby refid="_structures_8hpp" local="yes">cpp/src/objects/Structures.hpp</includedby>
+    <includedby refid="main_8cpp" local="yes">C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/main.cpp</includedby>
+    <includedby refid="_structures_8hpp" local="yes">C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp</includedby>
     <incdepgraph>
       <node id="1">
-        <label>cpp/src/objects/StructureConfig.hpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/StructureConfig.hpp</label>
         <link refid="_structure_config_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -24,11 +24,11 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>cpp/src/main.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/main.cpp</label>
         <link refid="main_8cpp"/>
       </node>
       <node id="1">
-        <label>cpp/src/objects/StructureConfig.hpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/StructureConfig.hpp</label>
         <link refid="_structure_config_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -36,11 +36,11 @@
         </childnode>
       </node>
       <node id="4">
-        <label>cpp/src/objects/Structures.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.cpp</label>
         <link refid="_structures_8cpp"/>
       </node>
       <node id="3">
-        <label>cpp/src/objects/Structures.hpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp</label>
         <link refid="_structures_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -52,11 +52,11 @@
         </childnode>
       </node>
       <node id="6">
-        <label>cpp/src/rendering/Render.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.cpp</label>
         <link refid="_render_8cpp"/>
       </node>
       <node id="5">
-        <label>cpp/src/rendering/Render.hpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp</label>
         <link refid="_render_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -64,11 +64,11 @@
         </childnode>
       </node>
       <node id="8">
-        <label>cpp/src/rendering/RenderStructures.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderStructures.cpp</label>
         <link refid="_render_structures_8cpp"/>
       </node>
       <node id="7">
-        <label>cpp/src/rendering/RenderStructures.hpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderStructures.hpp</label>
         <link refid="_render_structures_8hpp"/>
         <childnode refid="5" relation="include">
         </childnode>
@@ -97,6 +97,6 @@
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>STRUCTURECONFIG_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="cpp/src/objects/StructureConfig.hpp"/>
+    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/StructureConfig.hpp"/>
   </compounddef>
 </doxygen>

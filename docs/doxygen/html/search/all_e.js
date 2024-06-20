@@ -1,21 +1,10 @@
 var searchData=
 [
-  ['selected_0',['selected',['../class_ship.html#ab21568085374711c2149b8da2f6cabc4',1,'Ship::selected'],['../class_renderer.html#a973dfffd5b2c8bbf755a6e3c55a16cf6',1,'Renderer::selected'],['../class_render_nodes.html#a14c27ad14ccfddfa6fcafe16ab5c9837',1,'RenderNodes::selected']]],
-  ['selected_5fnodes_1',['selected_nodes',['../class_renderer.html#a1449cd3e19a0df2329ba28b047902e2d',1,'Renderer']]],
-  ['selected_5fship_2',['selected_ship',['../class_renderer.html#a49bde59d9c6f01479bf0850736278fcc',1,'Renderer']]],
-  ['setnextupdatetime_3',['setNextUpdateTime',['../class_structure.html#a73b9ac82fbbd00ddac90b4f01e0e7195',1,'Structure']]],
-  ['setselected_4',['setSelected',['../class_ship.html#aa8c6981b9fc9532389cb565b15f8966f',1,'Ship']]],
-  ['ship_5',['Ship',['../class_ship.html',1,'Ship'],['../class_ship.html#ac856ebacba1f23276d60610f747f4dd4',1,'Ship::Ship()']]],
-  ['ships_6',['ships',['../class_renderer.html#ac4da751407105538c7effe0c10b31197',1,'Renderer::ships'],['../class_render_ships.html#a7a167bc7a11691592eb51489338b2717',1,'RenderShips::ships']]],
-  ['ships_2ecpp_7',['Ships.cpp',['../_ships_8cpp.html',1,'']]],
-  ['ships_2ehpp_8',['Ships.hpp',['../_ships_8hpp.html',1,'']]],
-  ['speed_9',['speed',['../class_ship.html#af70610e26865d07d94ee79463b00607f',1,'Ship']]],
-  ['steelfoundry_10',['SteelFoundry',['../class_steel_foundry.html',1,'SteelFoundry'],['../class_steel_foundry.html#a75cc95199216f1e3dbaf0eee6f4b7b1f',1,'SteelFoundry::SteelFoundry()']]],
-  ['storage_11',['Storage',['../class_storage.html',1,'Storage'],['../class_storage.html#a7ec925602013a312b74135c6a0aa5f71',1,'Storage::Storage()']]],
-  ['structure_12',['Structure',['../class_structure.html',1,'Structure'],['../class_structure.html#ac6c101b28efea5a150cce3bb8948f8d1',1,'Structure::Structure()']]],
-  ['structureconfig_13',['StructureConfig',['../struct_structure_config.html',1,'']]],
-  ['structureconfig_2ehpp_14',['StructureConfig.hpp',['../_structure_config_8hpp.html',1,'']]],
-  ['structures_15',['structures',['../class_renderer.html#a9bdeae50aed2aba3ded8fca26c9bd3a7',1,'Renderer::structures'],['../class_render_structures.html#a619936d5e33839cdbeee68d6d68ac01f',1,'RenderStructures::structures']]],
-  ['structures_2ecpp_16',['Structures.cpp',['../_structures_8cpp.html',1,'']]],
-  ['structures_2ehpp_17',['Structures.hpp',['../_structures_8hpp.html',1,'']]]
+  ['path_0',['path',['../class_ship.html#ae417f0fe1c677e41a819294e7f82d711',1,'Ship']]],
+  ['path_5findex_1',['path_index',['../class_ship.html#a6146628b2aa51985d6c705014b380226',1,'Ship']]],
+  ['platform_5fid_2',['PLATFORM_ID',['../_c_make_c_x_x_compiler_id_8cpp.html#adbc5372f40838899018fadbc89bd588b',1,'CMakeCXXCompilerId.cpp']]],
+  ['position_3',['position',['../class_ship.html#aeb648c7396680e0a0a15408f7eb54bce',1,'Ship::position'],['../class_base_structure.html#a8a9bbbadc2cee71042206e3de8522ea4',1,'BaseStructure::position']]],
+  ['printresources_4',['printResources',['../class_base_structure.html#ab3d85807fc975ac56dbcbc7d93ab9c8b',1,'BaseStructure']]],
+  ['processevents_5',['processEvents',['../class_renderer.html#a241e9686356da684493ce75ba8567c7f',1,'Renderer']]],
+  ['processresources_6',['processResources',['../class_base_structure.html#ad25ec1037bf8af9ec521d441822f6a67',1,'BaseStructure']]]
 ];

@@ -6,10 +6,10 @@
     <includes local="no">vector</includes>
     <includes local="no">utility</includes>
     <includes refid="_graph_8hpp" local="yes">Graph.hpp</includes>
-    <includedby refid="main_8cpp" local="yes">cpp/src/main.cpp</includedby>
-    <includedby refid="_ships_8cpp" local="yes">cpp/src/objects/Ships.cpp</includedby>
-    <includedby refid="_render_8hpp" local="yes">cpp/src/rendering/Render.hpp</includedby>
-    <includedby refid="_render_ships_8hpp" local="yes">cpp/src/rendering/RenderShips.hpp</includedby>
+    <includedby refid="main_8cpp" local="yes">C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/main.cpp</includedby>
+    <includedby refid="_ships_8cpp" local="yes">C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.cpp</includedby>
+    <includedby refid="_render_8hpp" local="yes">C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp</includedby>
+    <includedby refid="_render_ships_8hpp" local="yes">C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderShips.hpp</includedby>
     <incdepgraph>
       <node id="5">
         <label>Graph.hpp</label>
@@ -22,7 +22,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>cpp/src/objects/Ships.hpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp</label>
         <link refid="_ships_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -48,15 +48,15 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>cpp/src/main.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/main.cpp</label>
         <link refid="main_8cpp"/>
       </node>
       <node id="3">
-        <label>cpp/src/objects/Ships.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.cpp</label>
         <link refid="_ships_8cpp"/>
       </node>
       <node id="1">
-        <label>cpp/src/objects/Ships.hpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp</label>
         <link refid="_ships_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -68,11 +68,11 @@
         </childnode>
       </node>
       <node id="5">
-        <label>cpp/src/rendering/Render.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.cpp</label>
         <link refid="_render_8cpp"/>
       </node>
       <node id="4">
-        <label>cpp/src/rendering/Render.hpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp</label>
         <link refid="_render_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -80,11 +80,11 @@
         </childnode>
       </node>
       <node id="7">
-        <label>cpp/src/rendering/RenderShips.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderShips.cpp</label>
         <link refid="_render_ships_8cpp"/>
       </node>
       <node id="6">
-        <label>cpp/src/rendering/RenderShips.hpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderShips.hpp</label>
         <link refid="_render_ships_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Ships.hpp" line="35" column="13" bodyfile="cpp/src/objects/Ships.cpp" bodystart="101" bodyend="114" declfile="cpp/src/objects/Ships.hpp" declline="35" declcolumn="13"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" line="35" column="13" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.cpp" bodystart="101" bodyend="114" declfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" declline="35" declcolumn="13"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -174,6 +174,6 @@
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="cpp/src/objects/Ships.hpp"/>
+    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp"/>
   </compounddef>
 </doxygen>

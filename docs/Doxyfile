@@ -3,9 +3,9 @@
 # Project related configuration options
 PROJECT_NAME           = "dots_and_nodes"
 PROJECT_BRIEF          = "Project Brief Description"
-OUTPUT_DIRECTORY       = ./doxygen
+OUTPUT_DIRECTORY       = C:/Users/desto/Scripts/projects/nodes_and_dots/docs/doxygen
 OUTPUT_LANGUAGE        = English
-INPUT                  = .../cpp
+INPUT                  = C:/Users/desto/Scripts/projects/nodes_and_dots/cpp
 FILE_PATTERNS          = *.cpp *.hpp
 RECURSIVE              = YES
 

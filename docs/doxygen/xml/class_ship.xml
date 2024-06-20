@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Ships.hpp" line="26" column="17" bodyfile="cpp/src/objects/Ships.hpp" bodystart="26" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" line="26" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_ship_1a588f015bd542bc3b83284b30dec870a5" prot="private" static="no" mutable="no">
         <type><ref refid="class_graph_manager" kindref="compound">GraphManager</ref> &amp;</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Ships.hpp" line="27" column="18" bodyfile="cpp/src/objects/Ships.hpp" bodystart="27" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" line="27" column="18" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_ship_1a69f3becacfcebccbf4135ba5d817ec32" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Ships.hpp" line="31" column="11" bodyfile="cpp/src/objects/Ships.hpp" bodystart="31" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" line="31" column="11" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_ship_1ae417f0fe1c677e41a819294e7f82d711" prot="private" static="no" mutable="no">
         <type>std::vector&lt; size_t &gt;</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Ships.hpp" line="28" column="17" bodyfile="cpp/src/objects/Ships.hpp" bodystart="28" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" line="28" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_ship_1a6146628b2aa51985d6c705014b380226" prot="private" static="no" mutable="no">
         <type>size_t</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Ships.hpp" line="29" column="12" bodyfile="cpp/src/objects/Ships.hpp" bodystart="29" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" line="29" column="12" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_ship_1aeb648c7396680e0a0a15408f7eb54bce" prot="private" static="no" mutable="no">
         <type>std::pair&lt; float, float &gt;</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Ships.hpp" line="25" column="15" bodyfile="cpp/src/objects/Ships.hpp" bodystart="25" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" line="25" column="15" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_ship_1ab21568085374711c2149b8da2f6cabc4" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Ships.hpp" line="32" column="10" bodyfile="cpp/src/objects/Ships.hpp" bodystart="32" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" line="32" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_ship_1af70610e26865d07d94ee79463b00607f" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Ships.hpp" line="30" column="11" bodyfile="cpp/src/objects/Ships.hpp" bodystart="30" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" line="30" column="11" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" bodystart="30" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Ships.hpp" line="14" column="10" bodyfile="cpp/src/objects/Ships.cpp" bodystart="35" bodyend="75"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" line="14" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.cpp" bodystart="35" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="class_ship_1abb52aeade67da06c5d8f2aa41c97ea79" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -144,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Ships.hpp" line="20" column="11" bodyfile="cpp/src/objects/Ships.cpp" bodystart="89" bodyend="91"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" line="20" column="11" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.cpp" bodystart="89" bodyend="91"/>
       </memberdef>
       <memberdef kind="function" id="class_ship_1a8744ee18d99b1d3b561150b243373bc4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const std::vector&lt; size_t &gt; &amp;</type>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Ships.hpp" line="21" column="23" bodyfile="cpp/src/objects/Ships.cpp" bodystart="93" bodyend="95"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" line="21" column="23" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.cpp" bodystart="93" bodyend="95"/>
       </memberdef>
       <memberdef kind="function" id="class_ship_1ab649f0a656d76a6293b55651a96c08e0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Ships.hpp" line="22" column="12" bodyfile="cpp/src/objects/Ships.cpp" bodystart="97" bodyend="99"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" line="22" column="12" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.cpp" bodystart="97" bodyend="99"/>
       </memberdef>
       <memberdef kind="function" id="class_ship_1abbce5b85c9bb3e52adb87557ded51015" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::pair&lt; float, float &gt;</type>
@@ -186,7 +186,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Ships.hpp" line="19" column="15" bodyfile="cpp/src/objects/Ships.cpp" bodystart="85" bodyend="87"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" line="19" column="15" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.cpp" bodystart="85" bodyend="87"/>
       </memberdef>
       <memberdef kind="function" id="class_ship_1a790f0ffc0b0515643493139ebf8ff1bc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -200,7 +200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Ships.hpp" line="17" column="10" bodyfile="cpp/src/objects/Ships.cpp" bodystart="81" bodyend="83"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" line="17" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.cpp" bodystart="81" bodyend="83"/>
       </memberdef>
       <memberdef kind="function" id="class_ship_1aa8c6981b9fc9532389cb565b15f8966f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -218,7 +218,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Ships.hpp" line="16" column="10" bodyfile="cpp/src/objects/Ships.cpp" bodystart="77" bodyend="79"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" line="16" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.cpp" bodystart="77" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="class_ship_1ac856ebacba1f23276d60610f747f4dd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -248,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Ships.hpp" line="11" column="5" bodyfile="cpp/src/objects/Ships.cpp" bodystart="9" bodyend="12"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" line="11" column="5" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.cpp" bodystart="9" bodyend="12"/>
       </memberdef>
       <memberdef kind="function" id="class_ship_1a3ee2f77fa9920030dc3ff8268b2f73a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -262,7 +262,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Ships.hpp" line="13" column="10" bodyfile="cpp/src/objects/Ships.cpp" bodystart="14" bodyend="33"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" line="13" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.cpp" bodystart="14" bodyend="33"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -282,7 +282,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="cpp/src/objects/Ships.hpp" line="9" column="1" bodyfile="cpp/src/objects/Ships.hpp" bodystart="9" bodyend="33"/>
+    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" line="9" column="1" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Ships.hpp" bodystart="9" bodyend="33"/>
     <listofallmembers>
       <member refid="class_ship_1ae63fa61fb34dc5fa8d37080dfe08fec5" prot="public" virt="non-virtual"><scope>Ship</scope><name>findNewDestination</name></member>
       <member refid="class_ship_1abb52aeade67da06c5d8f2aa41c97ea79" prot="public" virt="non-virtual"><scope>Ship</scope><name>getOrientation</name></member>

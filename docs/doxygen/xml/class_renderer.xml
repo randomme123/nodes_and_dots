@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="35" column="23" bodyfile="cpp/src/rendering/Render.hpp" bodystart="35" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="35" column="23" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_renderer_1a1380c3068cf99b99cf91e2e2cd0f7c60" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="34" column="11" bodyfile="cpp/src/rendering/Render.hpp" bodystart="34" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="34" column="11" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_renderer_1a87128150aae7435ab1241f6f1aa097b2" prot="private" static="no" mutable="no">
         <type>const <ref refid="_graph_8hpp_1a4158a12566a53ab55345e02a783fe275" kindref="member">Graph</ref> &amp;</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="36" column="17" bodyfile="cpp/src/rendering/Render.hpp" bodystart="36" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="36" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_renderer_1a34d547c29197b1ddea2c36a1ffebdf55" prot="private" static="no" mutable="no">
         <type><ref refid="class_graph_manager" kindref="compound">GraphManager</ref> &amp;</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="38" column="18" bodyfile="cpp/src/rendering/Render.hpp" bodystart="38" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="38" column="18" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_renderer_1aed177cd201a10b5685c28fa0bda6f6fa" prot="private" static="no" mutable="no">
         <type>const std::vector&lt; bool &gt; &amp;</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="37" column="23" bodyfile="cpp/src/rendering/Render.hpp" bodystart="37" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="37" column="23" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_renderer_1a6b6b2a16a4a53338daaa8036c4e77e37" prot="private" static="no" mutable="no">
         <type><ref refid="class_render_edges" kindref="compound">RenderEdges</ref></type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="47" column="17" bodyfile="cpp/src/rendering/Render.hpp" bodystart="47" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="47" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_renderer_1aca9c0bbd11948e7d4dd2f2cd40ea9691" prot="private" static="no" mutable="no">
         <type><ref refid="class_render_nodes" kindref="compound">RenderNodes</ref></type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="48" column="17" bodyfile="cpp/src/rendering/Render.hpp" bodystart="48" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="48" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_renderer_1a0ddea53515bc1d7540ebf2589c3279f3" prot="private" static="no" mutable="no">
         <type><ref refid="class_render_ships" kindref="compound">RenderShips</ref></type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="49" column="17" bodyfile="cpp/src/rendering/Render.hpp" bodystart="49" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="49" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_renderer_1adaf1df2abef2669b08c66da2c8b96243" prot="private" static="no" mutable="no">
         <type><ref refid="class_render_structures" kindref="compound">RenderStructures</ref></type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="50" column="22" bodyfile="cpp/src/rendering/Render.hpp" bodystart="50" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="50" column="22" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_renderer_1a973dfffd5b2c8bbf755a6e3c55a16cf6" prot="private" static="no" mutable="no">
         <type>std::vector&lt; bool &gt;</type>
@@ -142,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="43" column="17" bodyfile="cpp/src/rendering/Render.hpp" bodystart="43" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="43" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_renderer_1a1449cd3e19a0df2329ba28b047902e2d" prot="private" static="no" mutable="no">
         <type>std::vector&lt; int &gt;</type>
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="44" column="17" bodyfile="cpp/src/rendering/Render.hpp" bodystart="44" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="44" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_renderer_1a49bde59d9c6f01479bf0850736278fcc" prot="private" static="no" mutable="no">
         <type><ref refid="class_ship" kindref="compound">Ship</ref> *</type>
@@ -171,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="45" column="10" bodyfile="cpp/src/rendering/Render.hpp" bodystart="45" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="45" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_renderer_1ac4da751407105538c7effe0c10b31197" prot="private" static="no" mutable="no">
         <type>std::vector&lt; <ref refid="class_ship" kindref="compound">Ship</ref> &gt; &amp;</type>
@@ -185,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="39" column="17" bodyfile="cpp/src/rendering/Render.hpp" bodystart="39" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="39" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_renderer_1a9bdeae50aed2aba3ded8fca26c9bd3a7" prot="private" static="no" mutable="no">
         <type>const std::vector&lt; std::unique_ptr&lt; <ref refid="class_structure" kindref="compound">Structure</ref> &gt; &gt; &amp;</type>
@@ -199,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="40" column="23" bodyfile="cpp/src/rendering/Render.hpp" bodystart="40" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="40" column="23" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_renderer_1a98d1e247438153ac29206239cbdb5991" prot="private" static="no" mutable="no">
         <type>sf::View</type>
@@ -213,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="42" column="14" bodyfile="cpp/src/rendering/Render.hpp" bodystart="42" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="42" column="14" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_renderer_1ae1305d9f61946b39c7bd62105aa56a7b" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -227,7 +227,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="33" column="11" bodyfile="cpp/src/rendering/Render.hpp" bodystart="33" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="33" column="11" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_renderer_1a8d97659892a9b7f37026d6e9cca4d4c0" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -241,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="32" column="11" bodyfile="cpp/src/rendering/Render.hpp" bodystart="32" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="32" column="11" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_renderer_1a9bc2d445720d565550dc200ba1f47564" prot="private" static="no" mutable="no">
         <type>sf::RenderWindow</type>
@@ -255,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="41" column="22" bodyfile="cpp/src/rendering/Render.hpp" bodystart="41" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="41" column="22" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" bodystart="41" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -307,7 +307,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="17" column="5" bodyfile="cpp/src/rendering/Render.cpp" bodystart="6" bodyend="18"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="17" column="5" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.cpp" bodystart="6" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="class_renderer_1a6a56b439b37f0aa6e8a797308c935aa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -321,7 +321,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="23" column="10" bodyfile="cpp/src/rendering/Render.cpp" bodystart="20" bodyend="34"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="23" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.cpp" bodystart="20" bodyend="34"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -341,7 +341,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="29" column="10" bodyfile="cpp/src/rendering/Render.cpp" bodystart="101" bodyend="112"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="29" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.cpp" bodystart="101" bodyend="112"/>
       </memberdef>
       <memberdef kind="function" id="class_renderer_1a9686c71dcd97fa91c650b23e6018cbe5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -359,7 +359,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="27" column="10" bodyfile="cpp/src/rendering/Render.cpp" bodystart="51" bodyend="90"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="27" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.cpp" bodystart="51" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="class_renderer_1a918a985bd212f1c37be3fbeb7473c973" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -377,7 +377,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="28" column="10" bodyfile="cpp/src/rendering/Render.cpp" bodystart="92" bodyend="99"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="28" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.cpp" bodystart="92" bodyend="99"/>
       </memberdef>
       <memberdef kind="function" id="class_renderer_1a241e9686356da684493ce75ba8567c7f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -391,7 +391,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="26" column="10" bodyfile="cpp/src/rendering/Render.cpp" bodystart="36" bodyend="49"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="26" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.cpp" bodystart="36" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="class_renderer_1af7e5f8f68742f198e315fb4683a605a4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -405,7 +405,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/Render.hpp" line="30" column="10" bodyfile="cpp/src/rendering/Render.cpp" bodystart="114" bodyend="136"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="30" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.cpp" bodystart="114" bodyend="136"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -463,7 +463,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="cpp/src/rendering/Render.hpp" line="15" column="1" bodyfile="cpp/src/rendering/Render.hpp" bodystart="15" bodyend="51"/>
+    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" line="15" column="1" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp" bodystart="15" bodyend="51"/>
     <listofallmembers>
       <member refid="class_renderer_1aa09fb3162679f71daed1421dfee7d04a" prot="private" virt="non-virtual"><scope>Renderer</scope><name>coords</name></member>
       <member refid="class_renderer_1a1380c3068cf99b99cf91e2e2cd0f7c60" prot="private" virt="non-virtual"><scope>Renderer</scope><name>field_size</name></member>

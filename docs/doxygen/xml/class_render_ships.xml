@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/RenderShips.hpp" line="14" column="23" bodyfile="cpp/src/rendering/RenderShips.hpp" bodystart="14" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderShips.hpp" line="14" column="23" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderShips.hpp" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_render_ships_1a7a167bc7a11691592eb51489338b2717" prot="private" static="no" mutable="no">
         <type>std::vector&lt; <ref refid="class_ship" kindref="compound">Ship</ref> &gt; &amp;</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/RenderShips.hpp" line="13" column="17" bodyfile="cpp/src/rendering/RenderShips.hpp" bodystart="13" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderShips.hpp" line="13" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderShips.hpp" bodystart="13" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/RenderShips.hpp" line="10" column="10" bodyfile="cpp/src/rendering/RenderShips.cpp" bodystart="7" bodyend="61"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderShips.hpp" line="10" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderShips.cpp" bodystart="7" bodyend="61"/>
       </memberdef>
       <memberdef kind="function" id="class_render_ships_1adb12939ad8731c235c44d64a975f301b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -80,14 +80,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/RenderShips.hpp" line="9" column="5" bodyfile="cpp/src/rendering/RenderShips.cpp" bodystart="4" bodyend="5"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderShips.hpp" line="9" column="5" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderShips.cpp" bodystart="4" bodyend="5"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="cpp/src/rendering/RenderShips.hpp" line="7" column="1" bodyfile="cpp/src/rendering/RenderShips.hpp" bodystart="7" bodyend="15"/>
+    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderShips.hpp" line="7" column="1" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderShips.hpp" bodystart="7" bodyend="15"/>
     <listofallmembers>
       <member refid="class_render_ships_1a6fc55c922c6f9694df0fbbfa4058292a" prot="private" virt="non-virtual"><scope>RenderShips</scope><name>coords</name></member>
       <member refid="class_render_ships_1ae13ae0262bde3962d78966b6240dfb50" prot="public" virt="non-virtual"><scope>RenderShips</scope><name>draw</name></member>

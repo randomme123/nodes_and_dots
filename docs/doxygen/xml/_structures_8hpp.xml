@@ -12,10 +12,10 @@
     <includes refid="_graph_8hpp" local="yes">Graph.hpp</includes>
     <includes refid="_structure_config_8hpp" local="yes">StructureConfig.hpp</includes>
     <includes local="no">SFML/Graphics.hpp</includes>
-    <includedby refid="main_8cpp" local="yes">cpp/src/main.cpp</includedby>
-    <includedby refid="_structures_8cpp" local="yes">cpp/src/objects/Structures.cpp</includedby>
-    <includedby refid="_render_8hpp" local="yes">cpp/src/rendering/Render.hpp</includedby>
-    <includedby refid="_render_structures_8hpp" local="yes">cpp/src/rendering/RenderStructures.hpp</includedby>
+    <includedby refid="main_8cpp" local="yes">C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/main.cpp</includedby>
+    <includedby refid="_structures_8cpp" local="yes">C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.cpp</includedby>
+    <includedby refid="_render_8hpp" local="yes">C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp</includedby>
+    <includedby refid="_render_structures_8hpp" local="yes">C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderStructures.hpp</includedby>
     <incdepgraph>
       <node id="9">
         <label>Graph.hpp</label>
@@ -36,7 +36,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>cpp/src/objects/Structures.hpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp</label>
         <link refid="_structures_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -92,15 +92,15 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>cpp/src/main.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/main.cpp</label>
         <link refid="main_8cpp"/>
       </node>
       <node id="3">
-        <label>cpp/src/objects/Structures.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.cpp</label>
         <link refid="_structures_8cpp"/>
       </node>
       <node id="1">
-        <label>cpp/src/objects/Structures.hpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp</label>
         <link refid="_structures_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -112,11 +112,11 @@
         </childnode>
       </node>
       <node id="5">
-        <label>cpp/src/rendering/Render.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.cpp</label>
         <link refid="_render_8cpp"/>
       </node>
       <node id="4">
-        <label>cpp/src/rendering/Render.hpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp</label>
         <link refid="_render_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -124,11 +124,11 @@
         </childnode>
       </node>
       <node id="7">
-        <label>cpp/src/rendering/RenderStructures.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderStructures.cpp</label>
         <link refid="_render_structures_8cpp"/>
       </node>
       <node id="6">
-        <label>cpp/src/rendering/RenderStructures.hpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderStructures.hpp</label>
         <link refid="_render_structures_8hpp"/>
         <childnode refid="4" relation="include">
         </childnode>
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Structures.hpp" line="16" column="1" bodyfile="cpp/src/objects/Structures.hpp" bodystart="16" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="16" column="1" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="16" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -183,7 +183,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Structures.hpp" line="178" column="17" bodyfile="cpp/src/objects/Structures.cpp" bodystart="7" bodyend="23" declfile="cpp/src/objects/Structures.hpp" declline="178" declcolumn="17"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="178" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.cpp" bodystart="7" bodyend="23" declfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" declline="178" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="_structures_8hpp_1a3ba15ca84658069d6ed883d8c3872bed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; std::unique_ptr&lt; <ref refid="class_structure" kindref="compound">Structure</ref> &gt; &gt;</type>
@@ -204,7 +204,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Structures.hpp" line="179" column="13" bodyfile="cpp/src/objects/Structures.cpp" bodystart="25" bodyend="45" declfile="cpp/src/objects/Structures.hpp" declline="179" declcolumn="13"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="179" column="13" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.cpp" bodystart="25" bodyend="45" declfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" declline="179" declcolumn="13"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -394,6 +394,6 @@
 <codeline lineno="180"><highlight class="normal"></highlight></codeline>
 <codeline lineno="181"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>STRUCTURES_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="cpp/src/objects/Structures.hpp"/>
+    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp"/>
   </compounddef>
 </doxygen>

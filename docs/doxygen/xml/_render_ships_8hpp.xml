@@ -4,8 +4,8 @@
     <compoundname>RenderShips.hpp</compoundname>
     <includes local="no">SFML/Graphics.hpp</includes>
     <includes refid="_ships_8hpp" local="yes">Ships.hpp</includes>
-    <includedby refid="_render_8hpp" local="yes">cpp/src/rendering/Render.hpp</includedby>
-    <includedby refid="_render_ships_8cpp" local="yes">cpp/src/rendering/RenderShips.cpp</includedby>
+    <includedby refid="_render_8hpp" local="yes">C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp</includedby>
+    <includedby refid="_render_ships_8cpp" local="yes">C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderShips.cpp</includedby>
     <incdepgraph>
       <node id="6">
         <label>Graph.hpp</label>
@@ -30,7 +30,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>cpp/src/rendering/RenderShips.hpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderShips.hpp</label>
         <link refid="_render_ships_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -52,15 +52,15 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="3">
-        <label>cpp/src/main.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/main.cpp</label>
         <link refid="main_8cpp"/>
       </node>
       <node id="4">
-        <label>cpp/src/rendering/Render.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.cpp</label>
         <link refid="_render_8cpp"/>
       </node>
       <node id="2">
-        <label>cpp/src/rendering/Render.hpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp</label>
         <link refid="_render_8hpp"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -68,11 +68,11 @@
         </childnode>
       </node>
       <node id="5">
-        <label>cpp/src/rendering/RenderShips.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderShips.cpp</label>
         <link refid="_render_ships_8cpp"/>
       </node>
       <node id="1">
-        <label>cpp/src/rendering/RenderShips.hpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderShips.hpp</label>
         <link refid="_render_ships_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -104,6 +104,6 @@
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>RENDER_SHIPS_HPP</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="cpp/src/rendering/RenderShips.hpp"/>
+    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderShips.hpp"/>
   </compounddef>
 </doxygen>

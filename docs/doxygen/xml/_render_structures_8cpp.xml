@@ -47,7 +47,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>cpp/src/rendering/RenderStructures.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderStructures.cpp</label>
         <link refid="_render_structures_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -110,6 +110,6 @@
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="13"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="cpp/src/rendering/RenderStructures.cpp"/>
+    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderStructures.cpp"/>
   </compounddef>
 </doxygen>

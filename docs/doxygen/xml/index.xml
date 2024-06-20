@@ -145,6 +145,23 @@
   </compound>
   <compound refid="namespacestd" kind="namespace"><name>std</name>
   </compound>
+  <compound refid="_c_make_c_x_x_compiler_id_8cpp" kind="file"><name>CMakeCXXCompilerId.cpp</name>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1ae5510d82e4946f1656f4969911c54736" kind="define"><name>__has_include</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1aba35d0d200deaeb06aee95ca297acb28" kind="define"><name>ARCHITECTURE_ID</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a81dee0709ded976b2e0319239f72d174" kind="define"><name>COMPILER_ID</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a34cc889e576a1ae6c84ae9e0a851ba21" kind="define"><name>CXX_STD</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1ad1280362da42492bbc11aa78cbf776ad" kind="define"><name>DEC</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a46d5d95daa1bef867bd0179594310ed5" kind="define"><name>HEX</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1adbc5372f40838899018fadbc89bd588b" kind="define"><name>PLATFORM_ID</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a43e1cad902b6477bec893cb6430bd6c8" kind="define"><name>STRINGIFY</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a2ae9b72bb13abaabfcf2ee0ba7d3fa1d" kind="define"><name>STRINGIFY_HELPER</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a59647e99d304ed33b15cb284c27ed391" kind="variable"><name>info_arch</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a4b0efeb7a5d59313986b3a0390f050f6" kind="variable"><name>info_compiler</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a0f46a8a39e09d9b803c4766904fd7e99" kind="variable"><name>info_language_extensions_default</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a4607cccf070750927b458473ca82c090" kind="variable"><name>info_language_standard_default</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a2321403dee54ee23f0c2fa849c60f7d4" kind="variable"><name>info_platform</name></member>
+    <member refid="_c_make_c_x_x_compiler_id_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
   <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
     <member refid="main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
   </compound>
@@ -203,14 +220,18 @@
   <compound refid="_inside_circle_8hpp" kind="file"><name>InsideCircle.hpp</name>
     <member refid="_inside_circle_8hpp_1ad928178b07c719c77ed48329a2d04cb9" kind="function"><name>is_inside_circle</name></member>
   </compound>
-  <compound refid="dir_df511e5bd85cec96854b39d5e1c27aa8" kind="dir"><name>cpp</name>
+  <compound refid="dir_499eeb5329ce87b3ddbbbbee98ce8a18" kind="dir"><name>CMakeFiles/3.29.5</name>
   </compound>
-  <compound refid="dir_5163ee9588e0658eb3b12c93dfcaee08" kind="dir"><name>cpp/src/objects</name>
+  <compound refid="dir_63772b626f2709090f0bdca0f40827b4" kind="dir"><name>CMakeFiles</name>
   </compound>
-  <compound refid="dir_6ff2848a10201199c5903aec113fb275" kind="dir"><name>cpp/src/rendering</name>
+  <compound refid="dir_8ec260dc779414c28b27533129e63d71" kind="dir"><name>CMakeFiles/3.29.5/CompilerIdCXX</name>
   </compound>
-  <compound refid="dir_7e72c7cf48e3493f8206cd364e6bc9f6" kind="dir"><name>cpp/src</name>
+  <compound refid="dir_a7fa5847c07dc92c5227f8a150238560" kind="dir"><name>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects</name>
   </compound>
-  <compound refid="dir_1ea305ec7afe5fb9b0fdd0c245315a01" kind="dir"><name>cpp/src/utils</name>
+  <compound refid="dir_1243271318b2b38807a3b1d2ca08dd72" kind="dir"><name>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src</name>
+  </compound>
+  <compound refid="dir_313caf1132e152dd9b58bea13a4052ca" kind="dir"><name>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/utils</name>
   </compound>
 </doxygenindex>

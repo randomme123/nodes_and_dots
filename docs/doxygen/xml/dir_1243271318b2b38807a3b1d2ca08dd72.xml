@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
-  <compounddef id="dir_6ff2848a10201199c5903aec113fb275" kind="dir">
-    <compoundname>cpp/src/rendering</compoundname>
+  <compounddef id="dir_1243271318b2b38807a3b1d2ca08dd72" kind="dir">
+    <compoundname>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering</compoundname>
     <innerfile refid="_render_8cpp">Render.cpp</innerfile>
     <innerfile refid="_render_8hpp">Render.hpp</innerfile>
     <innerfile refid="_render_edges_8cpp">RenderEdges.cpp</innerfile>
@@ -16,6 +16,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="cpp/src/rendering/"/>
+    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/"/>
   </compounddef>
 </doxygen>

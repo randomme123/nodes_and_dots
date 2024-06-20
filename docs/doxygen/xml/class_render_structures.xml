@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/RenderStructures.hpp" line="13" column="23" bodyfile="cpp/src/rendering/RenderStructures.hpp" bodystart="13" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderStructures.hpp" line="13" column="23" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderStructures.hpp" bodystart="13" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/RenderStructures.hpp" line="10" column="10" bodyfile="cpp/src/rendering/RenderStructures.cpp" bodystart="5" bodyend="13"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderStructures.hpp" line="10" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderStructures.cpp" bodystart="5" bodyend="13"/>
       </memberdef>
       <memberdef kind="function" id="class_render_structures_1aad0e2c8aee73acdc300c766d3d0f7864" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -54,14 +54,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/rendering/RenderStructures.hpp" line="9" column="5" bodyfile="cpp/src/rendering/RenderStructures.cpp" bodystart="3" bodyend="3"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderStructures.hpp" line="9" column="5" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderStructures.cpp" bodystart="3" bodyend="3"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="cpp/src/rendering/RenderStructures.hpp" line="7" column="1" bodyfile="cpp/src/rendering/RenderStructures.hpp" bodystart="7" bodyend="14"/>
+    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderStructures.hpp" line="7" column="1" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/RenderStructures.hpp" bodystart="7" bodyend="14"/>
     <listofallmembers>
       <member refid="class_render_structures_1a5eae11740e87e18b886db093d3170ed7" prot="public" virt="non-virtual"><scope>RenderStructures</scope><name>draw</name></member>
       <member refid="class_render_structures_1aad0e2c8aee73acdc300c766d3d0f7864" prot="public" virt="non-virtual"><scope>RenderStructures</scope><name>RenderStructures</name></member>

@@ -12,8 +12,8 @@
     <includes refid="_render_nodes_8hpp" local="yes">RenderNodes.hpp</includes>
     <includes refid="_render_ships_8hpp" local="yes">RenderShips.hpp</includes>
     <includes refid="_render_structures_8hpp" local="yes">RenderStructures.hpp</includes>
-    <includedby refid="main_8cpp" local="yes">cpp/src/main.cpp</includedby>
-    <includedby refid="_render_8cpp" local="yes">cpp/src/rendering/Render.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/main.cpp</includedby>
+    <includedby refid="_render_8cpp" local="yes">C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.cpp</includedby>
     <incdepgraph>
       <node id="5">
         <label>Graph.hpp</label>
@@ -70,7 +70,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>cpp/src/rendering/Render.hpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp</label>
         <link refid="_render_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -156,15 +156,15 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>cpp/src/main.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/main.cpp</label>
         <link refid="main_8cpp"/>
       </node>
       <node id="3">
-        <label>cpp/src/rendering/Render.cpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.cpp</label>
         <link refid="_render_8cpp"/>
       </node>
       <node id="1">
-        <label>cpp/src/rendering/Render.hpp</label>
+        <label>C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp</label>
         <link refid="_render_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -234,6 +234,6 @@
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="cpp/src/rendering/Render.hpp"/>
+    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/rendering/Render.hpp"/>
   </compounddef>
 </doxygen>

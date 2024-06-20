@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Graph.hpp" line="46" column="17" bodyfile="cpp/src/objects/Graph.hpp" bodystart="46" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.hpp" line="46" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.hpp" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_graph_manager_1acf06c45f2ccfed463cdd4c1472d9ce99" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Graph.hpp" line="44" column="11" bodyfile="cpp/src/objects/Graph.hpp" bodystart="44" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.hpp" line="44" column="11" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.hpp" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_graph_manager_1a8688fd07332bd04e6590e7faa1f58fab" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Graph.hpp" line="42" column="9" bodyfile="cpp/src/objects/Graph.hpp" bodystart="42" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.hpp" line="42" column="9" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.hpp" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_graph_manager_1a5c3bf0a65058e7a2ded553a556434da1" prot="private" static="no" mutable="no">
         <type>std::vector&lt; bool &gt;</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Graph.hpp" line="45" column="17" bodyfile="cpp/src/objects/Graph.hpp" bodystart="45" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.hpp" line="45" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.hpp" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_graph_manager_1a32aa467ab85704bf79c0d738e179c009" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Graph.hpp" line="43" column="9" bodyfile="cpp/src/objects/Graph.hpp" bodystart="43" bodyend="-1"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.hpp" line="43" column="9" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.hpp" bodystart="43" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Graph.hpp" line="30" column="17" bodyfile="cpp/src/objects/Graph.cpp" bodystart="138" bodyend="161"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.hpp" line="30" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.cpp" bodystart="138" bodyend="161"/>
       </memberdef>
       <memberdef kind="function" id="class_graph_manager_1a4ba8ca24136d6a798b8236c178a85462" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="_graph_8hpp_1a4158a12566a53ab55345e02a783fe275" kindref="member">Graph</ref></type>
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Graph.hpp" line="24" column="11" bodyfile="cpp/src/objects/Graph.cpp" bodystart="29" bodyend="103"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.hpp" line="24" column="11" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.cpp" bodystart="29" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="class_graph_manager_1a75eb36c23b09537abc7bd9fd878f3f7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="_graph_8hpp_1a4158a12566a53ab55345e02a783fe275" kindref="member">Graph</ref></type>
@@ -148,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Graph.hpp" line="27" column="11" bodyfile="cpp/src/objects/Graph.cpp" bodystart="105" bodyend="136"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.hpp" line="27" column="11" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.cpp" bodystart="105" bodyend="136"/>
       </memberdef>
       <memberdef kind="function" id="class_graph_manager_1a136d62a3b1eb022744a11863422ee2bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; std::pair&lt; float, float &gt; &gt;</type>
@@ -163,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Graph.hpp" line="21" column="17" bodyfile="cpp/src/objects/Graph.cpp" bodystart="12" bodyend="27"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.hpp" line="21" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.cpp" bodystart="12" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="class_graph_manager_1aa7d7a22fedd54e79d4c58e4967e77777" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const std::vector&lt; std::pair&lt; float, float &gt; &gt; &amp;</type>
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Graph.hpp" line="36" column="23" bodyfile="cpp/src/objects/Graph.cpp" bodystart="167" bodyend="169"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.hpp" line="36" column="23" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.cpp" bodystart="167" bodyend="169"/>
       </memberdef>
       <memberdef kind="function" id="class_graph_manager_1a06716e32eee535a06888a5e3cabbf52b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const std::vector&lt; bool &gt; &amp;</type>
@@ -193,7 +193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Graph.hpp" line="33" column="23" bodyfile="cpp/src/objects/Graph.cpp" bodystart="163" bodyend="165"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.hpp" line="33" column="23" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.cpp" bodystart="163" bodyend="165"/>
       </memberdef>
       <memberdef kind="function" id="class_graph_manager_1ae8059a7d140ad6d3f34db88a9c54ed82" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; std::pair&lt; float, float &gt; &gt;</type>
@@ -208,7 +208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Graph.hpp" line="39" column="17" bodyfile="cpp/src/objects/Graph.cpp" bodystart="171" bodyend="179"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.hpp" line="39" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.cpp" bodystart="171" bodyend="179"/>
       </memberdef>
       <memberdef kind="function" id="class_graph_manager_1abc143406877d56e1d38503408098f98e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -235,7 +235,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="cpp/src/objects/Graph.hpp" line="18" column="5" bodyfile="cpp/src/objects/Graph.cpp" bodystart="9" bodyend="10"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.hpp" line="18" column="5" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.cpp" bodystart="9" bodyend="10"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -243,7 +243,7 @@
     <detaileddescription>
 <para>Manages the creation and manipulation of graphs. </para>
     </detaileddescription>
-    <location file="cpp/src/objects/Graph.hpp" line="15" column="1" bodyfile="cpp/src/objects/Graph.hpp" bodystart="15" bodyend="47"/>
+    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.hpp" line="15" column="1" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Graph.hpp" bodystart="15" bodyend="47"/>
     <listofallmembers>
       <member refid="class_graph_manager_1a75bfc6d8a9271dd5c54a9b97beb30f3e" prot="public" virt="non-virtual"><scope>GraphManager</scope><name>compute_shortest_path</name></member>
       <member refid="class_graph_manager_1abf032ecc1c4a887e30f51cbbf4583363" prot="private" virt="non-virtual"><scope>GraphManager</scope><name>coords</name></member>
