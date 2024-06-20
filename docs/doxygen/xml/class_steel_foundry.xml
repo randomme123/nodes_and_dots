@@ -25,7 +25,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="153" column="5" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="153" bodyend="154"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="149" column="5" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="149" bodyend="150"/>
       </memberdef>
       <memberdef kind="function" id="class_steel_foundry_1a96bc0a3a2364787172571ec383eef122" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="162" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="162" bodyend="162"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="157" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="157" bodyend="157"/>
       </memberdef>
       <memberdef kind="function" id="class_steel_foundry_1aa5a2d041293e635e48d82c3b3d231715" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="156" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="156" bodyend="161"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="152" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="152" bodyend="156"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -98,7 +98,7 @@
         <link refid="class_structure"/>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="151" column="1" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="151" bodyend="163"/>
+    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="147" column="1" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="147" bodyend="158"/>
     <listofallmembers>
       <member refid="class_base_structure_1aa4d90a6d6a9bd7b30344acf5770501ff" prot="public" virt="non-virtual"><scope>SteelFoundry</scope><name>BaseStructure</name></member>
       <member refid="class_base_structure_1a3c2544f6affd3bd824b235f4812a73c4" prot="protected" virt="non-virtual"><scope>SteelFoundry</scope><name>color</name></member>

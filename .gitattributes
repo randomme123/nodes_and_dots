@@ -10,3 +10,10 @@
 *.md text
 *.sh text
 *.ps1 text
+*.xml text
+*.xslt text
+*.js text
+
+*.svg text
+*.dot text
+*.html text

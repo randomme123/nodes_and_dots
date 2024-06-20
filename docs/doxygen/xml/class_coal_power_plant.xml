@@ -25,7 +25,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="125" column="5" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="125" bodyend="126"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="123" column="5" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="123" bodyend="124"/>
       </memberdef>
       <memberdef kind="function" id="class_coal_power_plant_1aef79f6004df0bbdaba6cb97a13d5d409" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="134" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="134" bodyend="134"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="131" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="131" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="class_coal_power_plant_1ad8b71472fec7c0cf62d33ada35a96c14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="128" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="128" bodyend="133"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="126" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="126" bodyend="130"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -98,7 +98,7 @@
         <link refid="class_structure"/>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="123" column="1" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="123" bodyend="135"/>
+    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="121" column="1" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="121" bodyend="132"/>
     <listofallmembers>
       <member refid="class_base_structure_1aa4d90a6d6a9bd7b30344acf5770501ff" prot="public" virt="non-virtual"><scope>CoalPowerPlant</scope><name>BaseStructure</name></member>
       <member refid="class_coal_power_plant_1a7c775f26febd784b21c7a3e5e19849a7" prot="public" virt="non-virtual"><scope>CoalPowerPlant</scope><name>CoalPowerPlant</name></member>

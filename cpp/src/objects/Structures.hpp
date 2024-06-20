@@ -98,7 +98,6 @@ public:
     void update() override {
         if (isTimeToUpdate()) {
             outputResources["coal"] += 100;  // Producing coal
-            printResources();
             setNextUpdateTime();
         }
     }
@@ -113,7 +112,6 @@ public:
     void update() override {
         if (isTimeToUpdate()) {
             outputResources["iron ore"] += 100;  // Producing iron ore
-            printResources();
             setNextUpdateTime();
         }
     }
@@ -127,7 +125,6 @@ public:
 
     void update() override {
         if (isTimeToUpdate() && processResources({{"coal", 100}}, {{"energy", 100}})) {
-            printResources();
             setNextUpdateTime();
         }
     }
@@ -141,7 +138,6 @@ public:
 
     void update() override {
         if (isTimeToUpdate() && processResources({{"iron ore", 100}}, {{"iron", 100}})) {
-            printResources();
             setNextUpdateTime();
         }
     }
@@ -155,7 +151,6 @@ public:
 
     void update() override {
         if (isTimeToUpdate() && processResources({{"coal", 100}, {"iron", 100}}, {{"steel", 100}})) {
-            printResources();
             setNextUpdateTime();
         }
     }
