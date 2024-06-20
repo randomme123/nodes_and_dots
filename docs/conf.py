@@ -1,27 +1,22 @@
 import os
 import sys
+import breathe
 
-# Add the path to the Python source directory
-sys.path.insert(0, os.path.abspath('../python'))
+# Add project root and docs root to sys.path
+sys.path.insert(0, os.path.abspath('..'))
+sys.path.insert(0, os.path.abspath('.'))
 
 # Project information
 project = 'dots_and_nodes'
-copyright = '2024, xonnel'
-author = 'xonnel'
-release = '0.01'
+author = 'Xonnel'
+release = '0.1'
 
-# General configuration
+# Sphinx extensions
 extensions = [
     'sphinx.ext.autodoc',
-    'breathe',  # Add Breathe extension
+    'sphinx.ext.napoleon',
+    'breathe',
 ]
-
-templates_path = ['_templates']
-exclude_patterns = []
-
-# Options for HTML output
-html_theme = 'alabaster'
-html_static_path = ['_static']
 
 # Breathe configuration
 breathe_projects = {
@@ -29,13 +24,10 @@ breathe_projects = {
 }
 breathe_default_project = "dots_and_nodes"
 
-# Autodoc default options
-autodoc_default_options = {
-    'members': True,
-    'undoc-members': True,
-    'private-members': True,
-    'special-members': True,
-    'inherited-members': True,
-    'show-inheritance': True,
-}
+# Paths
+templates_path = ['_templates']
+exclude_patterns = []
 
+# HTML output
+html_theme = 'sphinx_rtd_theme'
+html_static_path = ['_static']
