@@ -7,7 +7,7 @@ Welcome to dots_and_nodes's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   modules
+   _autosummary/index
 
 .. autosummary::
    :toctree: _autosummary
