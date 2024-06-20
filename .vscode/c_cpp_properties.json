@@ -9,6 +9,8 @@
                 "${workspaceFolder}/cpp/src/rendering",
                 "${workspaceFolder}/cpp/src/utils",
                 "${workspaceFolder}/cpp/src/objects",
+                "${workspaceFolder}/python",
+                "${workspaceFolder}/powershell",
                 "${vcpkgRoot}/x64-windows/include"
             ],
             "defines": [
