@@ -7,7 +7,7 @@ $startTime = Get-Date
 $endTime = Get-Date
 $buildTime = $endTime - $startTime
 
-Write-Host "Time taken for Build .exe: $($buildTime.TotalSeconds) seconds"
+Write-Host "Build .exe: $($buildTime.TotalSeconds) seconds"-ForegroundColor Cyan
 Write-Host ""
 
 Write-Host ">>> >>> Run Executable <<< <<<" -ForegroundColor Cyan
@@ -18,7 +18,7 @@ $startTime = Get-Date
 $endTime = Get-Date
 $runTime = $endTime - $startTime
 
-Write-Host "Time taken for Run .exe: $($runTime.TotalSeconds) seconds"
+Write-Host "Run .exe: $($runTime.TotalSeconds) seconds"-ForegroundColor Cyan
 Write-Host ""
 
 Write-Host ">>> >>> Deps <<< <<<" -ForegroundColor Cyan
@@ -29,7 +29,7 @@ $startTime = Get-Date
 $endTime = Get-Date
 $depsTime = $endTime - $startTime
 
-Write-Host "Time taken for Deps: $($depsTime.TotalSeconds) seconds"
+Write-Host "Deps: $($depsTime.TotalSeconds) seconds"-ForegroundColor Cyan
 Write-Host ""
 
 Write-Host ">>> >>> Clean Up <<< <<<" -ForegroundColor Cyan
@@ -40,7 +40,7 @@ $startTime = Get-Date
 $endTime = Get-Date
 $cleanTime = $endTime - $startTime
 
-Write-Host "Time taken for Clean Up: $($cleanTime.TotalSeconds) seconds"
+Write-Host "Clean Up: $($cleanTime.TotalSeconds) seconds"-ForegroundColor Cyan
 Write-Host ""
 
 Write-Host ">>> >>> Commit to GitHub <<< <<<" -ForegroundColor Cyan
@@ -51,7 +51,7 @@ $startTime = Get-Date
 $endTime = Get-Date
 $commitTime = $endTime - $startTime
 
-Write-Host "Time taken for Commit to GitHub: $($commitTime.TotalSeconds) seconds"
+Write-Host "Commit to GitHub: $($commitTime.TotalSeconds) seconds"-ForegroundColor Cyan
 Write-Host ""
 
 Write-Host ">>> >>> Program Completed <<< <<<" -ForegroundColor Green
