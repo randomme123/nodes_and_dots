@@ -20,9 +20,9 @@ Write-Host ""
 Write-Host "Clean Up Documentation."
 
 # Clean up the docs directory
-Remove-Item -Recurse -Force "C:\Users\desto\Scripts\projects\nodes_and_dots\docs\_build\doctrees"
+Remove-Item -Recurse -Force "C:\Users\desto\Scripts\projects\nodes_and_dots\docs\_build\html\.doctrees"
 Remove-Item -Recurse -Force "C:\Users\desto\Scripts\projects\nodes_and_dots\docs\_build\*.log"
-Remove-Item -Recurse -Force "C:\Users\desto\Scripts\projects\nodes_and_dots\docs\_autosummary"
+Remove-Item -Recurse -Force "C:\Users\desto\Scripts\projects\nodes_and_dots\docs\_build\html\_autosummary"
 
 Write-Host ""
 Write-Host "Clean Up."
