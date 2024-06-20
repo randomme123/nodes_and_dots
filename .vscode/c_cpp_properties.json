@@ -10,7 +10,7 @@
                 "${workspaceFolder}/cpp/src/utils",
                 "${workspaceFolder}/cpp/src/objects",
                 "${workspaceFolder}/python",
-                "${workspaceFolder}/powershell",
+                "${workspaceFolder}/shell",
                 "${vcpkgRoot}/x64-windows/include"
             ],
             "defines": [

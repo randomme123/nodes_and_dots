@@ -2,10 +2,10 @@
     "files.exclude": {
         "**/.git": true,
         "**/.gitignore": true,
+        "**/*.gitattributes": true,
         "**/node_modules": true,
         "**/dist": true,
         "**/*.log": true,
-        "**/*.gitattributes": false,
         "**/__pycache__": true,
         "**/__init__": true
     },
