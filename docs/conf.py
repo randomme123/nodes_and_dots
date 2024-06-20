@@ -14,6 +14,7 @@ release = '0.01'
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
+    'breathe',
     # Add any other Sphinx extensions here
 ]
 
@@ -36,3 +37,9 @@ autodoc_default_options = {
 
 # Autosummary settings
 autosummary_generate = True  # Automatically generate stub files
+
+# Breathe configuration
+breathe_projects = {
+    "dots_and_nodes": "doxygen/xml"
+}
+breathe_default_project = "dots_and_nodes"

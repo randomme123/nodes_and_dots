@@ -14,3 +14,5 @@ Welcome to dots_and_nodes's documentation!
    dir_structure
    autodoc
    test
+
+.. doxygenindex::
