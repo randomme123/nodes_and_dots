@@ -1,4 +1,3 @@
-# build exe
 Write-Host ""
 Write-Host "Build .exe."
 
@@ -20,12 +19,12 @@ Write-Host ""
 Write-Host "Clean Up Documentation."
 
 # Clean up the docs directory
-Remove-Item -Recurse -Force "C:\Users\desto\Scripts\projects\nodes_and_dots\docs\_build\html\.doctrees"
+Remove-Item -Recurse -Force "C:\Users\desto\Scripts\projects\nodes_and_dots\docs\_build\doctrees"
 Remove-Item -Recurse -Force "C:\Users\desto\Scripts\projects\nodes_and_dots\docs\_build\*.log"
-Remove-Item -Recurse -Force "C:\Users\desto\Scripts\projects\nodes_and_dots\docs\_build\html\_autosummary"
+Remove-Item -Recurse -Force "C:\Users\desto\Scripts\projects\nodes_and_dots\docs\_autosummary"
 
 Write-Host ""
-Write-Host "Clean Up."
+Write-Host "Clean Up Build Directory."
 
 # Clean up the build directory
 & "C:\Users\desto\Scripts\projects\nodes_and_dots\powershell\clean.ps1"
@@ -33,13 +32,13 @@ Write-Host "Clean Up."
 Write-Host ""
 Write-Host "Start SSH Service."
 
-# start ssh service
+# Start ssh service
 & "C:\Users\desto\Scripts\projects\nodes_and_dots\powershell\sshagent.ps1"
 
 Write-Host ""
-Write-Host "Commit to Github."
+Write-Host "Commit to GitHub."
 
-# Commit everything to github
+# Commit everything to GitHub
 & "C:\Users\desto\Scripts\projects\nodes_and_dots\powershell\commit.ps1"
 
 Write-Host ""
