@@ -7,8 +7,6 @@ Welcome to dots_and_nodes's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   _autosummary/index
-
 .. autosummary::
    :toctree: _autosummary
    :recursive:
