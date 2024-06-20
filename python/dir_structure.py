@@ -1,20 +1,6 @@
 import os
 
 def print_directory_structure(root_dir, indent=''):
-    """
-    Prints the directory structure of a given directory.
-
-    Args:
-        root_dir (str): The root directory whose structure is to be printed.
-        indent (str): A string used for indentation to visually represent the directory structure. Default is an empty string.
-
-    The function ignores any directories or files containing ".git" in their names.
-
-    Notes:
-        - This function prints the directory structure to the console.
-        - Hidden files and directories (starting with a dot) are not ignored unless they contain ".git".
-    """
-
     for item in os.listdir(root_dir):
         if ".git" in item:
             continue
