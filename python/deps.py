@@ -23,7 +23,7 @@ def write_dependencies(dependencies, output_file):
 
 if __name__ == "__main__":
     src_directory = 'C:\\Users\\desto\\Scripts\\projects\\nodes_and_dots\\cpp\\src'
-    output_file = 'dependencies.d'
+    output_file = 'deps.d'
     deps = find_includes(src_directory)
     write_dependencies(deps, output_file)
     print(f'Dependencies written to {output_file}')
