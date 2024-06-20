@@ -28,8 +28,8 @@ foreach ($dll in $dllFiles) {
     if (Test-Path $sourceDll) {
         Copy-Item -Path $sourceDll -Destination $destinationDll -Force
     } else {
-        Write-Host "Warning: $sourceDll not found."
+        Write-Host "Warning: $sourceDll not found." -ForegroundColor Red
     }
 }
 
-Write-Host "Build completed. DLLs copied to build directory."
+Write-Host "Build completed. DLLs copied to build directory." -ForegroundColor Cyan

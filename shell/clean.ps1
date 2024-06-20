@@ -21,7 +21,7 @@ function Test-DirectoryInUse {
 $maxAttempts = 10
 $attempt = 0
 while (Test-DirectoryInUse -path $buildDir -and $attempt -lt $maxAttempts) {
-    Write-Host "Directory is in use. Waiting..."
+    Write-Host "Directory is in use. Waiting..." -ForegroundColor Cyan
     Start-Sleep -Seconds 1
     $attempt++
 }
@@ -30,10 +30,10 @@ while (Test-DirectoryInUse -path $buildDir -and $attempt -lt $maxAttempts) {
 if (-not (Test-DirectoryInUse -path $buildDir)) {
     if (Test-Path $buildDir) {
         Remove-Item -Recurse -Force $buildDir
-        Write-Host "Build directory deleted."
+        Write-Host "Build directory deleted." -ForegroundColor Cyan
     } else {
-        Write-Host "Build directory not found."
+        Write-Host "Build directory not found." -ForegroundColor Red
     }
 } else {
-    Write-Host "Build directory is still in use after multiple attempts."
+    Write-Host "Build directory is still in use after multiple attempts." -ForegroundColor Red
 }

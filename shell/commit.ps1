@@ -4,29 +4,29 @@ $sshKeyPath = "C:\Users\desto\Documents\keys\github\github_ssh_key"
 # Check if the SSH agent service is running
 $service = Get-Service -Name ssh-agent
 if ($service.Status -eq 'Running') {
-    Write-Host "SSH agent is running."
+    Write-Host "SSH agent is running." -ForegroundColor Cyan
 } else {
-    Write-Host "SSH agent is not running. Starting it now..."
+    Write-Host "SSH agent is not running. Starting it now..." -ForegroundColor Cyan
     Start-Service -Name ssh-agent
-    Write-Host "SSH agent started."
+    Write-Host "SSH agent started." -ForegroundColor Cyan
 }
 
 # Check if the SSH key is added to the agent
 $keys = ssh-add -l
 if ($keys) {
-    Write-Host "SSH agent is loaded with keys:"
+    Write-Host "SSH agent is loaded with keys:" -ForegroundColor Cyan
     $keys
 } else {
-    Write-Host "No SSH keys added to the agent. Adding key now..."
+    Write-Host "No SSH keys added to the agent. Adding key now..." -ForegroundColor Cyan
     ssh-add $sshKeyPath
 
     # Verify if the key was added
     $keys = ssh-add -l
     if ($keys) {
-        Write-Host "SSH key added successfully."
+        Write-Host "SSH key added successfully." -ForegroundColor Cyan
         $keys
     } else {
-        Write-Host "Failed to add SSH key. Please check the key path and passphrase."
+        Write-Host "Failed to add SSH key. Please check the key path and passphrase." -ForegroundColor Red
     }
 }
 
@@ -46,7 +46,7 @@ git add -A
 if ((git diff --cached --exit-code) -ne 0) {
     git commit -m $commitMessage
     git push origin main
-    Write-Host "Code committed and pushed to GitHub."
+    Write-Host "Code committed and pushed to GitHub." -ForegroundColor Cyan
 } else {
-    Write-Host "No changes to commit."
+    Write-Host "No changes to commit." -ForegroundColor Cyan
 }
