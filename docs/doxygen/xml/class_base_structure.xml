@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="81" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="81" bodyend="91"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="81" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="81" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="class_base_structure_1ad25ec1037bf8af9ec521d441822f6a67" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -232,7 +232,7 @@
         <link refid="class_structure"/>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="46" column="1" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="46" bodyend="92"/>
+    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="46" column="1" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="46" bodyend="90"/>
     <listofallmembers>
       <member refid="class_base_structure_1aa4d90a6d6a9bd7b30344acf5770501ff" prot="public" virt="non-virtual"><scope>BaseStructure</scope><name>BaseStructure</name></member>
       <member refid="class_base_structure_1a3c2544f6affd3bd824b235f4812a73c4" prot="protected" virt="non-virtual"><scope>BaseStructure</scope><name>color</name></member>

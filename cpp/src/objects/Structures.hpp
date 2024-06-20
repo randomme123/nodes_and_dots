@@ -79,11 +79,9 @@ protected:
     }
 
     void printResources() const {
-        std::cout << "Input Resources: ";
         for (const auto& [resource, amount] : inputResources) {
             std::cout << resource << ": " << amount << " ";
         }
-        std::cout << "| Output Resources: ";
         for (const auto& [resource, amount] : outputResources) {
             std::cout << resource << ": " << amount << " ";
         }

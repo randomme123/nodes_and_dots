@@ -25,7 +25,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="112" column="5" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="112" bodyend="113"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="110" column="5" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="110" bodyend="111"/>
       </memberdef>
       <memberdef kind="function" id="class_iron_mine_1a6a5d4f920d44a9139cee7bb1356ffe6c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="122" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="122" bodyend="122"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="120" column="17" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="120" bodyend="120"/>
       </memberdef>
       <memberdef kind="function" id="class_iron_mine_1ae56d3a9a508f3e3a4d5ba8073195a999" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="115" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="115" bodyend="121"/>
+        <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="113" column="10" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="113" bodyend="119"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -98,7 +98,7 @@
         <link refid="class_structure"/>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="110" column="1" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="110" bodyend="123"/>
+    <location file="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" line="108" column="1" bodyfile="C:/Users/desto/Scripts/projects/nodes_and_dots/cpp/src/objects/Structures.hpp" bodystart="108" bodyend="121"/>
     <listofallmembers>
       <member refid="class_base_structure_1aa4d90a6d6a9bd7b30344acf5770501ff" prot="public" virt="non-virtual"><scope>IronMine</scope><name>BaseStructure</name></member>
       <member refid="class_base_structure_1a3c2544f6affd3bd824b235f4812a73c4" prot="protected" virt="non-virtual"><scope>IronMine</scope><name>color</name></member>

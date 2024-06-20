@@ -28,34 +28,35 @@ def build_docs():
     # Ensure the docs directory contains the conf.py file
     conf_path = os.path.join(docs_dir, 'conf.py')
     if not os.path.exists(conf_path):
-        raise FileNotFoundError(f"Configuration file not found at: {conf_path}")
+        raise FileNotFoundError(f"\nConfiguration file not found at:\n{conf_path}\n")
 
     # Ensure the docs directory contains the Doxyfile
     doxyfile_path = os.path.join(docs_dir, 'Doxyfile')
     if not os.path.exists(doxyfile_path):
-        raise FileNotFoundError(f"Doxyfile not found at: {doxyfile_path}")
+        raise FileNotFoundError(f"\nDoxyfile not found at:\n{doxyfile_path}\n")
 
     # Run Doxygen to generate XML documentation
     try:
         subprocess.run(['doxygen', doxyfile_path], check=True)
-        print("Doxygen documentation generated successfully.")
+        print("\nDoxygen documentation generated successfully\n.")
     except subprocess.CalledProcessError as e:
-        print(f"Failed to generate Doxygen documentation: {e}")
+        print(f"\nFailed to generate Doxygen documentation:\n{e}\n")
         return
 
     # Verify Doxygen output
     doxygen_xml_path = os.path.join(docs_dir, 'doxygen', 'xml', 'index.xml')
     if not os.path.exists(doxygen_xml_path):
-        print(f"Failed to find Doxygen XML output at: {doxygen_xml_path}")
+        print(f"\nFailed to find Doxygen XML output at:\n{doxygen_xml_path}\n")
         return
 
+    """
     # Run the sphinx-build command
     try:
         subprocess.run(['sphinx-build', '-b', 'html', docs_dir, build_dir], check=True)
-        print(f"Documentation built successfully. See {build_dir} for the output.")
+        print(f"\nDocumentation built successfully.\nSee {build_dir} for the output.\n")
     except subprocess.CalledProcessError as e:
-        print(f"Failed to build documentation: {e}")
-
+        print(f"\nFailed to build documentation:\n{e}\n")
+    """
 if __name__ == "__main__":
     build_docs()
 
