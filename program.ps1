@@ -1,6 +1,7 @@
 # Build exe
 Write-Host ""
-Write-Host ">>> >>> Build .exe <<< <<<"
+Write-Host ">>> >>> Build Executable <<< <<<"
+Write-Host ""
 $buildTime = Measure-Command {
     & "C:\Users\desto\Scripts\projects\nodes_and_dots\shell\Build.ps1"
 }
@@ -10,7 +11,8 @@ Write-Host ""
 
 # Run exe
 Write-Host ""
-Write-Host ">>> >>> Run .exe <<< <<<"
+Write-Host ">>> >>> Run Executable <<< <<<"
+Write-Host ""
 $runTime = Measure-Command {
     & "C:\Users\desto\Scripts\projects\nodes_and_dots\shell\Run.ps1"
 }
@@ -21,6 +23,7 @@ Write-Host ""
 # Dependencies
 Write-Host ""
 Write-Host ">>> >>> Deps <<< <<<"
+Write-Host ""
 $depsTime = Measure-Command {
     & "C:\Users\desto\Scripts\projects\nodes_and_dots\shell\Deps.ps1"
 }
@@ -31,6 +34,7 @@ Write-Host ""
 # Cleanup
 Write-Host ""
 Write-Host ">>> >>> Clean Up <<< <<<"
+Write-Host ""
 $cleanTime = Measure-Command {
     & "C:\Users\desto\Scripts\projects\nodes_and_dots\shell\Clean.ps1"
 }
@@ -41,6 +45,7 @@ Write-Host ""
 # Commit to github
 Write-Host ""
 Write-Host ">>> >>> Commit to GitHub <<< <<<"
+Write-Host ""
 $commitTime = Measure-Command {
     & "C:\Users\desto\Scripts\projects\nodes_and_dots\shell\Commit.ps1"
 }
